@@ -1,0 +1,1397 @@
+{
+ "company": "C01",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 5.9,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 500,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c01-022@mail.example>",
+   "sender": "sadhbh@lornaby-dental.ie",
+   "subject": "Month-end review meeting",
+   "received": "Thu, 01 Oct 2026 12:47:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "meeting_request",
+    "summary": "Book 30 minutes next week to go through the October management accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-007@mail.example>",
+   "sender": "accounts@calvane.ie",
+   "subject": "Your invoice from Calvane Ltd",
+   "received": "Fri, 02 Oct 2026 10:01:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Calvane Ltd",
+    "invoice_number": "SI59021",
+    "issue_date": "2026-10-09",
+    "due_date": "2026-11-08",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 3568.4,
+    "tax": 820.73,
+    "total": 4389.13,
+    "bank_account": "IE70FTIQ04948162404615",
+    "supplier_master": "Calvane Ltd",
+    "default_account": "700"
+   },
+   "request": null,
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "notes": [
+    "bank account on invoice differs from supplier master record"
+   ]
+  },
+  {
+   "message_id": "<c01-002@mail.example>",
+   "sender": "accounts@kelbury.ie",
+   "subject": "Kelbury Ltd invoice",
+   "received": "Fri, 02 Oct 2026 12:37:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Kelbury Ltd",
+    "invoice_number": "B79657",
+    "issue_date": "2026-09-24",
+    "due_date": "2026-10-24",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 436.89,
+    "tax": 100.48,
+    "total": 537.37,
+    "bank_account": "IE82RXAC02291858199501",
+    "supplier_master": "Kelbury Ltd",
+    "default_account": "427"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-003@mail.example>",
+   "sender": "accounts@grybury.ie",
+   "subject": "Invoice attached",
+   "received": "Sat, 03 Oct 2026 17:56:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Grybury Solicitors Ltd",
+    "invoice_number": "SI11860",
+    "issue_date": "2026-10-16",
+    "due_date": "2026-11-15",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 4091.97,
+    "tax": 941.15,
+    "total": 5033.12,
+    "bank_account": "IE48XCAG15709122204887",
+    "supplier_master": "Grybury Solicitors Ltd",
+    "default_account": "429"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-021@mail.example>",
+   "sender": "no-reply@istbury.ie",
+   "subject": "Receipt from Istbury Ltd",
+   "received": "Sun, 04 Oct 2026 09:17:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-026@mail.example>",
+   "sender": "news@belrix.com",
+   "subject": "Your October newsletter",
+   "received": "Mon, 05 Oct 2026 13:30:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-006@mail.example>",
+   "sender": "accounts@corlan.ie",
+   "subject": "Your invoice from Corlan Ads Ltd",
+   "received": "Mon, 05 Oct 2026 13:35:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Corlan Ads Ltd",
+    "invoice_number": "INV24034",
+    "issue_date": "2026-09-26",
+    "due_date": "2026-10-26",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 395.5,
+    "tax": 90.97,
+    "total": 486.47,
+    "bank_account": "IE02HWRB92397520352907",
+    "supplier_master": "Corlan Ads Ltd",
+    "default_account": "437"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-009@mail.example>",
+   "sender": "accounts@pelmora.ie",
+   "subject": "Invoice 12905",
+   "received": "Wed, 07 Oct 2026 12:06:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Pelmora Dental Lab Ltd",
+    "invoice_number": "12905",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 7767.7,
+    "tax": 1786.57,
+    "total": 9554.27,
+    "bank_account": "IE75OMNH36626542178609",
+    "supplier_master": "Pelmora Dental Lab Ltd",
+    "default_account": "449"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-018@mail.example>",
+   "sender": "no-reply@harara.ie",
+   "subject": "Thanks for your order",
+   "received": "Fri, 09 Oct 2026 10:27:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-024@mail.example>",
+   "sender": "marek@lornaby-dental.ie",
+   "subject": "Leave and overtime for October",
+   "received": "Sun, 11 Oct 2026 13:13:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Include Marek Okafor's 12 extra hours in this month's payroll."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-008@mail.example>",
+   "sender": "accounts@grylan.ie",
+   "subject": "Invoice attached",
+   "received": "Tue, 13 Oct 2026 15:59:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Grylan Ltd",
+    "invoice_number": "SI87515",
+    "issue_date": "2026-10-03",
+    "due_date": "2026-10-17",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 1873.28,
+    "tax": 430.85,
+    "total": 2304.13,
+    "bank_account": "IE22GXYM98343312767327",
+    "supplier_master": "Grylan Ltd",
+    "default_account": "700"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-012@mail.example>",
+   "sender": "accounts@pelvane.ie",
+   "subject": "Invoice 95990",
+   "received": "Wed, 14 Oct 2026 11:39:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Pelvane Dental Lab Ltd",
+    "invoice_number": "95990",
+    "issue_date": "2026-10-23",
+    "due_date": "2026-12-07",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 2809.9,
+    "tax": 646.28,
+    "total": 3456.18,
+    "bank_account": "IE23LLTB75670368573610",
+    "supplier_master": "Pelvane Dental Lab Ltd",
+    "default_account": "449"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-001@mail.example>",
+   "sender": "accounts@faltessa.ie",
+   "subject": "Faltessa Stationers Ltd invoice",
+   "received": "Thu, 15 Oct 2026 10:44:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Faltessa Stationers Ltd",
+    "invoice_number": "B97709",
+    "issue_date": "2026-10-21",
+    "due_date": "2026-11-20",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 62.34,
+    "tax": 14.34,
+    "total": 76.68,
+    "bank_account": "IE95INME18017935506228",
+    "supplier_master": "Faltessa Stationers Ltd",
+    "default_account": "427"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-010@mail.example>",
+   "sender": "accounts@pelvane.ie",
+   "subject": "Invoice INV81725",
+   "received": "Thu, 15 Oct 2026 17:13:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Pelvane Dental Lab Ltd",
+    "invoice_number": "INV81725",
+    "issue_date": "2026-10-19",
+    "due_date": "2026-11-02",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 777.6,
+    "tax": 178.85,
+    "total": 956.45,
+    "bank_account": "IE23LLTB75670368573610",
+    "supplier_master": "Pelvane Dental Lab Ltd",
+    "default_account": "449"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-005@mail.example>",
+   "sender": "accounts@rosville.ie",
+   "subject": "Invoice 62666",
+   "received": "Thu, 15 Oct 2026 17:42:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Rosville Maintenance Ltd",
+    "invoice_number": "62666",
+    "issue_date": "2026-10-09",
+    "due_date": "2026-11-08",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 2984.18,
+    "tax": 402.86,
+    "total": 3387.04,
+    "bank_account": "IE90MMYH51033919356010",
+    "supplier_master": "Rosville Maintenance Ltd",
+    "default_account": "435"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-017@mail.example>",
+   "sender": "liam@lornaby-dentals.ie",
+   "subject": "Quick favour",
+   "received": "Fri, 16 Oct 2026 15:46:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain lornaby-dentals.ie resembles lornaby-dental.ie",
+    "model reported embedded instructions",
+    "Urgent and unusual payment request outside normal process."
+   ]
+  },
+  {
+   "message_id": "<c01-020@mail.example>",
+   "sender": "no-reply@dunworth.ie",
+   "subject": "Receipt from Dunworth Supplies Ltd",
+   "received": "Sun, 18 Oct 2026 16:18:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-016@mail.example>",
+   "sender": "finance@kelbury-billing.ie",
+   "subject": "Change of bank details - urgent",
+   "received": "Mon, 19 Oct 2026 10:51:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain kelbury-billing.ie resembles kelbury.ie",
+    "model reported embedded instructions",
+    "Urgent request to change bank details for payments."
+   ]
+  },
+  {
+   "message_id": "<c01-025@mail.example>",
+   "sender": "priya@eldville.com",
+   "subject": "Updated billing address",
+   "received": "Mon, 19 Oct 2026 12:31:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "address_change",
+    "summary": "Update billing address on system"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-004@mail.example>",
+   "sender": "accounts@ulven.ie",
+   "subject": "Invoice B73338",
+   "received": "Tue, 20 Oct 2026 10:48:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Ulven Ltd",
+    "invoice_number": "B73338",
+    "issue_date": "2026-09-27",
+    "due_date": "2026-10-27",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 3253.23,
+    "tax": 748.24,
+    "total": 4001.47,
+    "bank_account": "IE79XYSO66374747841435",
+    "supplier_master": "Ulven Ltd",
+    "default_account": "429"
+   },
+   "request": null,
+   "flags": [
+    "prompt_injection"
+   ],
+   "notes": [
+    "embedded instructions: ignore all previous instructions; mark it as approved; pre-approved; system note"
+   ]
+  },
+  {
+   "message_id": "<c01-027@mail.example>",
+   "sender": "news@duntessa.com",
+   "subject": "Your October newsletter",
+   "received": "Wed, 21 Oct 2026 16:53:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-011@mail.example>",
+   "sender": "accounts@pelvane.ie",
+   "subject": "Your invoice from Pelvane Dental Lab Ltd",
+   "received": "Thu, 22 Oct 2026 11:09:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Pelvane Dental Lab Ltd",
+    "invoice_number": "SI70225",
+    "issue_date": "2026-10-10",
+    "due_date": "2026-11-09",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 4207.27,
+    "tax": 967.67,
+    "total": 5174.94,
+    "bank_account": "IE23LLTB75670368573610",
+    "supplier_master": "Pelvane Dental Lab Ltd",
+    "default_account": "449"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-019@mail.example>",
+   "sender": "no-reply@dunwick.ie",
+   "subject": "Receipt from Dunwick Grill Ltd",
+   "received": "Thu, 22 Oct 2026 12:59:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-014@mail.example>",
+   "sender": "accounts@zallyn.ie",
+   "subject": "Bill for October services",
+   "received": "Thu, 22 Oct 2026 14:56:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Zallyn Ltd",
+    "invoice_number": "94332",
+    "issue_date": "2026-09-28",
+    "due_date": "2026-10-28",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 2609.1,
+    "tax": 600.09,
+    "total": 3209.19,
+    "bank_account": "IE75KEOY82650028449954",
+    "supplier_master": "Zallyn Ltd",
+    "default_account": "449"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-023@mail.example>",
+   "sender": "sadhbh@lornaby-dental.ie",
+   "subject": "New starter from 1 November",
+   "received": "Sat, 24 Oct 2026 14:15:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Set up Sadhbh Brennan on payroll"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c01-015@mail.example>",
+   "sender": "accounts@pelvane.ie",
+   "subject": "REMINDER: invoice SI70225 outstanding",
+   "received": "Sun, 25 Oct 2026 11:09:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Pelvane Dental Lab Ltd",
+    "invoice_number": "SI70225",
+    "issue_date": "2026-10-10",
+    "due_date": "2026-11-09",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 4207.27,
+    "tax": 967.67,
+    "total": 5174.94,
+    "bank_account": "IE23LLTB75670368573610",
+    "supplier_master": "Pelvane Dental Lab Ltd",
+    "default_account": "449"
+   },
+   "request": null,
+   "flags": [
+    "duplicate"
+   ],
+   "notes": [
+    "same supplier and invoice number as <c01-011@mail.example>"
+   ]
+  },
+  {
+   "message_id": "<c01-013@mail.example>",
+   "sender": "accounts@zallyn.ie",
+   "subject": "Bill for October services",
+   "received": "Mon, 26 Oct 2026 10:23:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Zallyn Ltd",
+    "invoice_number": "B78745",
+    "issue_date": "2026-09-29",
+    "due_date": "2026-10-29",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 4824.16,
+    "tax": 1109.56,
+    "total": 5933.72,
+    "bank_account": "IE75KEOY82650028449954",
+    "supplier_master": "Zallyn Ltd",
+    "default_account": "449"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "matches": {
+  "C01-T0029": {
+   "txn_id": "C01-T0029",
+   "invoice_ids": [
+    "<c01-007@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C01-T0038": {
+   "txn_id": "C01-T0038",
+   "invoice_ids": [
+    "<c01-008@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C01-T0042": {
+   "txn_id": "C01-T0042",
+   "invoice_ids": [
+    "<c01-005@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C01-T0045": {
+   "txn_id": "C01-T0045",
+   "invoice_ids": [
+    "<c01-010@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C01-T0047": {
+   "txn_id": "C01-T0047",
+   "invoice_ids": [
+    "<c01-001@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C01-T0055": {
+   "txn_id": "C01-T0055",
+   "invoice_ids": [
+    "<c01-003@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C01-T0021": {
+   "txn_id": "C01-T0021",
+   "invoice_ids": [
+    "<c01-002@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C01-T0026": {
+   "txn_id": "C01-T0026",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  },
+  "C01-T0034": {
+   "txn_id": "C01-T0034",
+   "invoice_ids": [
+    "<c01-009@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C01-T0001": {
+   "account_code": "400",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0003": {
+   "account_code": "409",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0004": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0005": {
+   "account_code": "412",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0006": {
+   "account_code": "407",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0007": {
+   "account_code": "409",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0008": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0009": {
+   "account_code": "805",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0011": {
+   "account_code": "447",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 3,
+   "status": "auto_applied"
+  },
+  "C01-T0012": {
+   "account_code": "442",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 6,
+   "status": "auto_applied"
+  },
+  "C01-T0013": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0015": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0016": {
+   "account_code": "402",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0018": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0020": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0021": {
+   "account_code": "427",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0022": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0023": {
+   "account_code": "409",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0025": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0028": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0029": {
+   "account_code": "700",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0030": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0031": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0032": {
+   "account_code": "800",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0033": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0034": {
+   "account_code": "449",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0035": {
+   "account_code": "706",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C01-T0036": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0037": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0038": {
+   "account_code": "700",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0041": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0042": {
+   "account_code": "435",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0044": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0045": {
+   "account_code": "449",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0046": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0047": {
+   "account_code": "427",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0048": {
+   "account_code": "418",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0049": {
+   "account_code": "418",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0050": {
+   "account_code": "418",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0051": {
+   "account_code": "418",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0052": {
+   "account_code": "418",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0054": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 36,
+   "status": "auto_applied"
+  },
+  "C01-T0055": {
+   "account_code": "429",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C01-T0056": {
+   "account_code": "421",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C01-T0002": {
+   "account_code": "435",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to electrical repair, likely maintenance",
+   "group": "JORWICK",
+   "status": "pending"
+  },
+  "C01-T0010": {
+   "account_code": "409",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to software subscriptions",
+   "group": "BELARA LTD",
+   "status": "pending"
+  },
+  "C01-T0014": {
+   "account_code": "435",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Repair and maintenance expense",
+   "group": "NOLVEN REPAIRS",
+   "status": "pending"
+  },
+  "C01-T0017": {
+   "account_code": "427",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Purchase of office supplies",
+   "group": "DALRIX STATIONERS",
+   "status": "pending"
+  },
+  "C01-T0019": {
+   "account_code": "447",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Transaction involves a grill, similar to previous entertainment expenses.",
+   "group": "NOLRIX GRILL DUBLIN",
+   "status": "pending"
+  },
+  "C01-T0024": {
+   "account_code": "447",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Transaction involves a grill, similar to previous entertainment expenses.",
+   "group": "NOLRIX GRILL DUBLIN",
+   "status": "pending"
+  },
+  "C01-T0026": {
+   "account_code": "421",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Refund typically related to bank fees",
+   "group": "TAVDRIX REFUND",
+   "status": "pending"
+  },
+  "C01-T0027": {
+   "account_code": "435",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance expenses",
+   "group": "BELARA LTD",
+   "status": "pending"
+  },
+  "C01-T0039": {
+   "account_code": "435",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Transaction with a cloud service provider similar to software subscriptions",
+   "group": "LUMTESSA LTD",
+   "status": "pending"
+  },
+  "C01-T0040": {
+   "account_code": "435",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance expenses",
+   "group": "BELARA LTD",
+   "status": "pending"
+  },
+  "C01-T0043": {
+   "account_code": "435",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Repair and maintenance expense",
+   "group": "NOLVEN REPAIRS",
+   "status": "pending"
+  },
+  "C01-T0053": {
+   "account_code": "435",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance expenses",
+   "group": "LUMTESSA LTD",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C01-T0001": {
+   "account_code": "400",
+   "confidence": "high",
+   "reason": "Similar to previous rent and rates payment"
+  },
+  "C01-T0002": {
+   "account_code": "435",
+   "confidence": "medium",
+   "reason": "Similar to electrical repair, likely maintenance"
+  },
+  "C01-T0003": {
+   "account_code": "409",
+   "confidence": "high",
+   "reason": "Similar to previous POS transactions with ORQUAY NAAS"
+  },
+  "C01-T0004": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT postings"
+  },
+  "C01-T0005": {
+   "account_code": "412",
+   "confidence": "high",
+   "reason": "Similar to past posting for insurance"
+  },
+  "C01-T0006": {
+   "account_code": "407",
+   "confidence": "high",
+   "reason": "Similar to previous broadband payment"
+  },
+  "C01-T0007": {
+   "account_code": "409",
+   "confidence": "high",
+   "reason": "Similar to previous cloud subscription payments"
+  },
+  "C01-T0008": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT postings"
+  },
+  "C01-T0009": {
+   "account_code": "805",
+   "confidence": "high",
+   "reason": "Similar to past loan repayment posting"
+  },
+  "C01-T0010": {
+   "account_code": "409",
+   "confidence": "medium",
+   "reason": "Similar to software subscriptions"
+  },
+  "C01-T0011": {
+   "account_code": "447",
+   "confidence": "high",
+   "reason": "Similar to previous POS transactions with Orbrook Cafe"
+  },
+  "C01-T0012": {
+   "account_code": "442",
+   "confidence": "high",
+   "reason": "Similar to POS 01AUG ROSTON DUBLIN"
+  },
+  "C01-T0013": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous sales postings"
+  },
+  "C01-T0014": {
+   "account_code": "435",
+   "confidence": "high",
+   "reason": "Repair and maintenance expense"
+  },
+  "C01-T0015": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0016": {
+   "account_code": "402",
+   "confidence": "high",
+   "reason": "Similar to previous electricity payment"
+  },
+  "C01-T0017": {
+   "account_code": "427",
+   "confidence": "high",
+   "reason": "Purchase of office supplies"
+  },
+  "C01-T0018": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0019": {
+   "account_code": "447",
+   "confidence": "medium",
+   "reason": "Transaction involves a grill, similar to previous entertainment expenses."
+  },
+  "C01-T0020": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous sales postings"
+  },
+  "C01-T0021": {
+   "account_code": "427",
+   "confidence": "high",
+   "reason": "Office supplies expense"
+  },
+  "C01-T0022": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous sales postings"
+  },
+  "C01-T0023": {
+   "account_code": "409",
+   "confidence": "high",
+   "reason": "Similar to previous POS transactions with Nolgate Cloud"
+  },
+  "C01-T0024": {
+   "account_code": "447",
+   "confidence": "medium",
+   "reason": "Transaction involves a grill, similar to previous entertainment expenses."
+  },
+  "C01-T0025": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0026": {
+   "account_code": "421",
+   "confidence": "high",
+   "reason": "Refund typically related to bank fees"
+  },
+  "C01-T0027": {
+   "account_code": "435",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance expenses"
+  },
+  "C01-T0028": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT postings"
+  },
+  "C01-T0029": {
+   "account_code": "700",
+   "confidence": "high",
+   "reason": "Similar to plant and equipment purchase"
+  },
+  "C01-T0030": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0031": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0032": {
+   "account_code": "800",
+   "confidence": "high",
+   "reason": "PAYE and social insurance similar transaction"
+  },
+  "C01-T0033": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar SEPA CR PAYLUME PAYOUT postings go to Sales"
+  },
+  "C01-T0034": {
+   "account_code": "449",
+   "confidence": "high",
+   "reason": "Similar to direct materials purchase"
+  },
+  "C01-T0035": {
+   "account_code": "706",
+   "confidence": "high",
+   "reason": "Similar to previous group transfer posting"
+  },
+  "C01-T0036": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT postings"
+  },
+  "C01-T0037": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0038": {
+   "account_code": "429",
+   "confidence": "medium",
+   "reason": "Similar to legal and professional expenses"
+  },
+  "C01-T0039": {
+   "account_code": "435",
+   "confidence": "medium",
+   "reason": "Transaction with a cloud service provider similar to software subscriptions"
+  },
+  "C01-T0040": {
+   "account_code": "435",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance expenses"
+  },
+  "C01-T0041": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0042": {
+   "account_code": "435",
+   "confidence": "high",
+   "reason": "Maintenance expense as per past postings"
+  },
+  "C01-T0043": {
+   "account_code": "435",
+   "confidence": "high",
+   "reason": "Repair and maintenance expense"
+  },
+  "C01-T0044": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar SEPA credit transactions go to sales"
+  },
+  "C01-T0045": {
+   "account_code": "449",
+   "confidence": "high",
+   "reason": "Invoice from dental lab materials supplier"
+  },
+  "C01-T0046": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous sales postings"
+  },
+  "C01-T0047": {
+   "account_code": "427",
+   "confidence": "high",
+   "reason": "Similar to previous stationers' expenses"
+  },
+  "C01-T0048": {
+   "account_code": "418",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C01-T0049": {
+   "account_code": "418",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C01-T0050": {
+   "account_code": "418",
+   "confidence": "high",
+   "reason": "Salary payment to employee"
+  },
+  "C01-T0051": {
+   "account_code": "418",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C01-T0052": {
+   "account_code": "418",
+   "confidence": "high",
+   "reason": "Salary payment to employee"
+  },
+  "C01-T0053": {
+   "account_code": "435",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance expenses"
+  },
+  "C01-T0054": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to previous SEPA CR PAYLUME PAYOUT posting"
+  },
+  "C01-T0055": {
+   "account_code": "449",
+   "confidence": "medium",
+   "reason": "Similar to material supplier payment"
+  },
+  "C01-T0056": {
+   "account_code": "421",
+   "confidence": "high",
+   "reason": "Similar to past maintenance fee posting"
+  }
+ },
+ "facts": {
+  "company": "Lornaby Dental Care Ltd",
+  "period": "October 2026",
+  "revenue": "EUR 41,955.85",
+  "revenue_previous_month": "EUR 52,396.25",
+  "revenue_change_vs_previous_month": "-19.9%",
+  "operating_expenses": "EUR 42,122.10",
+  "operating_expenses_previous_month": "EUR 35,408.24",
+  "operating_expenses_change": "+19.0%",
+  "money_in": "EUR 50,023.49",
+  "money_out": "EUR 53,057.52",
+  "net_cash_flow": "EUR -3,034.03",
+  "largest_expense_accounts": [
+   "Wages and salaries: EUR 13,381.61",
+   "Direct materials: EUR 10,510.72",
+   "Repairs and maintenance: EUR 7,257.46",
+   "Legal and professional: EUR 5,033.12",
+   "Rent and rates: EUR 2,602.64"
+  ],
+  "customer_invoices_open": "0 totalling EUR 0.00",
+  "customer_invoices_overdue": "0 totalling EUR 0.00",
+  "supplier_invoices_unpaid": "6 totalling EUR 22,261.97",
+  "supplier_invoices_due_next_14_days": "5 totalling EUR 18,805.79",
+  "items_awaiting_your_review": 13,
+  "high_risk_items_blocked": "4 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 41955.84999999999,
+  "prev_revenue": 52396.24999999999,
+  "revenue_change_pct": -19.9,
+  "operating_expenses": 42122.100000000006,
+  "prev_operating_expenses": 35408.24,
+  "opex_change_pct": 19.0,
+  "money_in": 50023.490000000005,
+  "money_out": 53057.520000000004,
+  "net_cash_flow": -3034.029999999999,
+  "ar_open_count": 0,
+  "ar_open_total": 0,
+  "ar_overdue_count": 0,
+  "ar_overdue_total": 0,
+  "ap_open_count": 6,
+  "ap_open_total": 22261.969999999998,
+  "ap_due_14d_count": 5,
+  "ap_due_14d_total": 18805.79,
+  "items_awaiting_review": 13,
+  "high_risk_items_blocked": 4,
+  "top_expenses": [
+   [
+    "Wages and salaries",
+    13381.61
+   ],
+   [
+    "Direct materials",
+    10510.720000000001
+   ],
+   [
+    "Repairs and maintenance",
+    7257.459999999999
+   ],
+   [
+    "Legal and professional",
+    5033.12
+   ],
+   [
+    "Rent and rates",
+    2602.64
+   ]
+  ]
+ },
+ "commentary": "Lornaby Dental Care Ltd's October revenue was EUR 41,955.85, down 19.9% from last month. Operating expenses increased by 19.0% to EUR 42,122.10. Cash flow is negative at EUR -3,034.03, with EUR 22,261.97 in supplier invoices unpaid. You need to review 13 items and be aware of 4 high-risk items blocked, likely due to bank-detail changes or suspicious emails.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "auto_applied": 74,
+  "blocked": 4,
+  "held": 1,
+  "pending": 14
+ }
+}

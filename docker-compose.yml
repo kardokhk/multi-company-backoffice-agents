@@ -1,0 +1,17 @@
+# Approval web app plus a scheduled close. Secrets come from the environment or a secrets manager, never from this file.
+services:
+  web:
+    build: .
+    ports: ["8080:8080"]
+    environment:
+      BACKOFFICE_SECRET: ${BACKOFFICE_SECRET:?set a long random value}
+    volumes: ["./data:/data:rw"]
+  close:
+    build: .
+    profiles: ["jobs"]
+    environment:
+      BACKOFFICE_LLM_BASE_URL: ${BACKOFFICE_LLM_BASE_URL:-}
+      BACKOFFICE_LLM_API_KEY: ${BACKOFFICE_LLM_API_KEY:-}
+    volumes: ["./data:/data:rw"]
+    command: ["python", "-m", "backoffice.cli", "close", "--companies", "/data/companies/C04", "--llm", "openai",
+              "--model", "${BACKOFFICE_LLM_MODEL:-qwen2.5-7b-instruct}", "--var", "/data/var", "--cache-dir", "/data/var/llm_cache"]

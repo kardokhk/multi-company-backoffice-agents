@@ -1,0 +1,16 @@
+id: C02
+name: Quillmere Logistics Ltd
+sector: road freight and logistics
+country: GB
+currency: GBP
+email_domain: quillmere.co.uk
+stack:
+  bank_format: B3
+  ledger_format: LC
+  chart_style: num4
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 450
+  match_tolerance: 15.0

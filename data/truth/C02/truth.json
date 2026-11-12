@@ -1,0 +1,847 @@
+{
+ "company": "C02",
+ "split": "dev",
+ "transactions": [
+  {
+   "txn_id": "C02-T0001",
+   "account_code": "4270",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C02-T0002",
+   "account_code": "4335",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C02-T0003",
+   "account_code": "4421",
+   "category": "fuel"
+  },
+  {
+   "txn_id": "C02-T0004",
+   "account_code": "8063",
+   "category": "loan"
+  },
+  {
+   "txn_id": "C02-T0005",
+   "account_code": "4270",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C02-T0006",
+   "account_code": "4335",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C02-T0007",
+   "account_code": "4068",
+   "category": "telecoms"
+  },
+  {
+   "txn_id": "C02-T0008",
+   "account_code": "4212",
+   "category": "office"
+  },
+  {
+   "txn_id": "C02-T0009",
+   "account_code": "4212",
+   "category": "office"
+  },
+  {
+   "txn_id": "C02-T0010",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0011",
+   "account_code": "4421",
+   "category": "fuel"
+  },
+  {
+   "txn_id": "C02-T0012",
+   "account_code": "4091",
+   "category": "software"
+  },
+  {
+   "txn_id": "C02-T0013",
+   "account_code": "4005",
+   "category": "rent"
+  },
+  {
+   "txn_id": "C02-T0014",
+   "account_code": "4120",
+   "category": "insurance"
+  },
+  {
+   "txn_id": "C02-T0015",
+   "account_code": "4091",
+   "category": "software"
+  },
+  {
+   "txn_id": "C02-T0016",
+   "account_code": "4335",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C02-T0017",
+   "account_code": "4033",
+   "category": "utilities"
+  },
+  {
+   "txn_id": "C02-T0018",
+   "account_code": "4091",
+   "category": "software"
+  },
+  {
+   "txn_id": "C02-T0019",
+   "account_code": "4397",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C02-T0020",
+   "account_code": "7030",
+   "category": "intercompany"
+  },
+  {
+   "txn_id": "C02-T0021",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0022",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0023",
+   "account_code": "4212",
+   "category": "office"
+  },
+  {
+   "txn_id": "C02-T0024",
+   "account_code": "4364",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C02-T0025",
+   "account_code": "4335",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C02-T0026",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0027",
+   "account_code": "4397",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C02-T0028",
+   "account_code": "4212",
+   "category": "office"
+  },
+  {
+   "txn_id": "C02-T0029",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0030",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0031",
+   "account_code": "8005",
+   "category": "payroll_tax"
+  },
+  {
+   "txn_id": "C02-T0032",
+   "account_code": "4270",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C02-T0033",
+   "account_code": "7000",
+   "category": "equipment"
+  },
+  {
+   "txn_id": "C02-T0034",
+   "account_code": "4212",
+   "category": "office"
+  },
+  {
+   "txn_id": "C02-T0035",
+   "account_code": "4270",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C02-T0036",
+   "account_code": "4397",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C02-T0037",
+   "account_code": "4308",
+   "category": "marketing"
+  },
+  {
+   "txn_id": "C02-T0038",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0039",
+   "account_code": "4212",
+   "category": "office"
+  },
+  {
+   "txn_id": "C02-T0040",
+   "account_code": "2007",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C02-T0041",
+   "account_code": "4151",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C02-T0042",
+   "account_code": "4151",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C02-T0043",
+   "account_code": "4151",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C02-T0044",
+   "account_code": "4151",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C02-T0045",
+   "account_code": "4151",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C02-T0046",
+   "account_code": "4151",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C02-T0047",
+   "account_code": "4151",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C02-T0048",
+   "account_code": "4212",
+   "category": "office"
+  },
+  {
+   "txn_id": "C02-T0049",
+   "account_code": "4421",
+   "category": "fuel"
+  },
+  {
+   "txn_id": "C02-T0050",
+   "account_code": "4421",
+   "category": "fuel"
+  },
+  {
+   "txn_id": "C02-T0051",
+   "account_code": "4189",
+   "category": "bank_fees"
+  }
+ ],
+ "reconciliation": [
+  {
+   "invoices": [
+    "C02-AR-2497",
+    "C02-AR-2491"
+   ],
+   "case": "combined",
+   "expect": "auto",
+   "txn_id": "C02-T0010"
+  },
+  {
+   "invoices": [
+    "C02-AR-2477"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0030"
+  },
+  {
+   "invoices": [
+    "C02-AR-2486"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0040"
+  },
+  {
+   "invoices": [
+    "C02-AR-2513"
+   ],
+   "case": "short_paid_fee",
+   "expect": "auto",
+   "txn_id": "C02-T0038"
+  },
+  {
+   "invoices": [
+    "C02-AR-2494"
+   ],
+   "case": "typo_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0022"
+  },
+  {
+   "invoices": [
+    "C02-AR-2482"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0021"
+  },
+  {
+   "invoices": [
+    "C02-AR-2517"
+   ],
+   "case": "ambiguous_twins",
+   "expect": "review",
+   "txn_id": "C02-T0026"
+  },
+  {
+   "invoices": [],
+   "case": "unexplained",
+   "expect": "none",
+   "txn_id": "C02-T0029"
+  },
+  {
+   "invoices": [
+    "C02-AP-013"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C02-T0027"
+  },
+  {
+   "invoices": [
+    "C02-AP-002"
+   ],
+   "case": "typo_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0039"
+  },
+  {
+   "invoices": [
+    "C02-AP-012"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0036"
+  },
+  {
+   "invoices": [
+    "C02-AP-005"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0037"
+  },
+  {
+   "invoices": [
+    "C02-AP-008"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C02-T0019"
+  },
+  {
+   "invoices": [
+    "C02-AP-006"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C02-T0033"
+  }
+ ],
+ "emails": [
+  {
+   "message_id": "<c02-001@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-001",
+   "fields": {
+    "supplier": "Gryson Print Ltd",
+    "invoice_number": "INV41406",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "currency": "GBP",
+    "net": 106.5,
+    "tax": 21.3,
+    "total": 127.8,
+    "bank_account": "GB39BTLP15767898139932"
+   }
+  },
+  {
+   "message_id": "<c02-002@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-002",
+   "fields": {
+    "supplier": "Calville Print Ltd",
+    "invoice_number": "INV23996",
+    "issue_date": "2026-10-23",
+    "due_date": "2026-11-22",
+    "currency": "GBP",
+    "net": 151.7,
+    "tax": 30.34,
+    "total": 182.04,
+    "bank_account": "GB34TNOK42202238848860"
+   }
+  },
+  {
+   "message_id": "<c02-003@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-003",
+   "fields": {
+    "supplier": "Belton Llp Ltd",
+    "invoice_number": "INV54140",
+    "issue_date": "2026-10-27",
+    "due_date": "2026-11-10",
+    "currency": "GBP",
+    "net": 1939.48,
+    "tax": 387.9,
+    "total": 2327.38,
+    "bank_account": "GB68JTZF97425225703701"
+   }
+  },
+  {
+   "message_id": "<c02-004@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-004",
+   "fields": {
+    "supplier": "Bellio Electrical Ltd",
+    "invoice_number": "INV60103",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-11-27",
+    "currency": "GBP",
+    "net": 731.86,
+    "tax": 146.37,
+    "total": 878.23,
+    "bank_account": "GB15IVMW85631219384030"
+   }
+  },
+  {
+   "message_id": "<c02-005@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-005",
+   "fields": {
+    "supplier": "Nolton Ads Ltd",
+    "invoice_number": "10845",
+    "issue_date": "2026-10-09",
+    "due_date": "2026-11-08",
+    "currency": "GBP",
+    "net": 512.87,
+    "tax": 102.57,
+    "total": 615.44,
+    "bank_account": "GB03KRID77992558881791"
+   }
+  },
+  {
+   "message_id": "<c02-006@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-006",
+   "fields": {
+    "supplier": "Wynhurst Machinery Ltd",
+    "invoice_number": "14623",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "currency": "GBP",
+    "net": 1959.5,
+    "tax": 391.9,
+    "total": 2351.4,
+    "bank_account": "GB55RMYK77011165836479"
+   }
+  },
+  {
+   "message_id": "<c02-007@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-007",
+   "fields": {
+    "supplier": "Zalmere Truck Parts Ltd",
+    "invoice_number": "SI94816",
+    "issue_date": "2026-10-26",
+    "due_date": "2026-11-25",
+    "currency": "GBP",
+    "net": 6351.25,
+    "tax": 1270.25,
+    "total": 7621.5,
+    "bank_account": "GB17KORD45597001039869"
+   }
+  },
+  {
+   "message_id": "<c02-008@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-008",
+   "fields": {
+    "supplier": "Zalmere Truck Parts Ltd",
+    "invoice_number": "39866",
+    "issue_date": "2026-09-27",
+    "due_date": "2026-10-27",
+    "currency": "GBP",
+    "net": 4236.31,
+    "tax": 847.26,
+    "total": 5083.57,
+    "bank_account": "GB17KORD45597001039869"
+   }
+  },
+  {
+   "message_id": "<c02-009@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-009",
+   "fields": {
+    "supplier": "Tavlan Truck Parts Ltd",
+    "invoice_number": "B77782",
+    "issue_date": "2026-10-17",
+    "due_date": "2026-12-01",
+    "currency": "GBP",
+    "net": 1807.31,
+    "tax": 361.46,
+    "total": 2168.77,
+    "bank_account": "GB86WSSS90290959268441"
+   }
+  },
+  {
+   "message_id": "<c02-010@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "invoice_id": "C02-AP-010",
+   "fields": {
+    "supplier": "Tavlan Truck Parts Ltd",
+    "invoice_number": "B36988",
+    "issue_date": "2026-10-04",
+    "due_date": "2026-10-18",
+    "currency": "GBP",
+    "net": 5691.86,
+    "tax": 1138.37,
+    "total": 6830.23,
+    "bank_account": "GB52YKHO56788196683670"
+   }
+  },
+  {
+   "message_id": "<c02-011@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-011",
+   "fields": {
+    "supplier": "Tavlan Truck Parts Ltd",
+    "invoice_number": "SI31580",
+    "issue_date": "2026-10-24",
+    "due_date": "2026-11-07",
+    "currency": "GBP",
+    "net": 3861.68,
+    "tax": 772.34,
+    "total": 4634.02,
+    "bank_account": "GB86WSSS90290959268441"
+   }
+  },
+  {
+   "message_id": "<c02-012@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-012",
+   "fields": {
+    "supplier": "Marville Tyres Ltd",
+    "invoice_number": "SI30594",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-12-06",
+    "currency": "GBP",
+    "net": 1130.2,
+    "tax": 226.04,
+    "total": 1356.24,
+    "bank_account": "GB03ZOWI91879596104394"
+   }
+  },
+  {
+   "message_id": "<c02-013@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C02-AP-013",
+   "fields": {
+    "supplier": "Marville Tyres Ltd",
+    "invoice_number": "B83444",
+    "issue_date": "2026-09-20",
+    "due_date": "2026-10-20",
+    "currency": "GBP",
+    "net": 5487.12,
+    "tax": 1097.42,
+    "total": 6584.54,
+    "bank_account": "GB03ZOWI91879596104394"
+   }
+  },
+  {
+   "message_id": "<c02-014@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [
+    "duplicate"
+   ],
+   "invoice_id": "C02-AP-007",
+   "fields": {
+    "supplier": "Zalmere Truck Parts Ltd",
+    "invoice_number": "SI94816",
+    "issue_date": "2026-10-26",
+    "due_date": "2026-11-25",
+    "currency": "GBP",
+    "net": 6351.25,
+    "tax": 1270.25,
+    "total": 7621.5,
+    "bank_account": "GB17KORD45597001039869"
+   }
+  },
+  {
+   "message_id": "<c02-015@mail.example>",
+   "class": "payment_risk",
+   "flags": []
+  },
+  {
+   "message_id": "<c02-016@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c02-017@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c02-018@mail.example>",
+   "class": "remittance",
+   "flags": []
+  },
+  {
+   "message_id": "<c02-019@mail.example>",
+   "class": "remittance",
+   "flags": []
+  },
+  {
+   "message_id": "<c02-020@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "document_request"
+  },
+  {
+   "message_id": "<c02-021@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "payroll_change"
+  },
+  {
+   "message_id": "<c02-022@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "address_change"
+  },
+  {
+   "message_id": "<c02-023@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "contract_renewal"
+  },
+  {
+   "message_id": "<c02-024@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "payroll_change"
+  },
+  {
+   "message_id": "<c02-025@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c02-026@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c02-027@mail.example>",
+   "class": "other",
+   "flags": []
+  }
+ ],
+ "ap_invoices": [
+  {
+   "invoice_id": "C02-AP-001",
+   "number": "INV41406",
+   "total": 127.8
+  },
+  {
+   "invoice_id": "C02-AP-002",
+   "number": "INV23996",
+   "total": 182.04
+  },
+  {
+   "invoice_id": "C02-AP-003",
+   "number": "INV54140",
+   "total": 2327.38
+  },
+  {
+   "invoice_id": "C02-AP-004",
+   "number": "INV60103",
+   "total": 878.23
+  },
+  {
+   "invoice_id": "C02-AP-005",
+   "number": "10845",
+   "total": 615.44
+  },
+  {
+   "invoice_id": "C02-AP-006",
+   "number": "14623",
+   "total": 2351.4
+  },
+  {
+   "invoice_id": "C02-AP-007",
+   "number": "SI94816",
+   "total": 7621.5
+  },
+  {
+   "invoice_id": "C02-AP-008",
+   "number": "39866",
+   "total": 5083.57
+  },
+  {
+   "invoice_id": "C02-AP-009",
+   "number": "B77782",
+   "total": 2168.77
+  },
+  {
+   "invoice_id": "C02-AP-010",
+   "number": "B36988",
+   "total": 6830.23
+  },
+  {
+   "invoice_id": "C02-AP-011",
+   "number": "SI31580",
+   "total": 4634.02
+  },
+  {
+   "invoice_id": "C02-AP-012",
+   "number": "SI30594",
+   "total": 1356.24
+  },
+  {
+   "invoice_id": "C02-AP-013",
+   "number": "B83444",
+   "total": 6584.54
+  }
+ ],
+ "ar_invoices": [
+  {
+   "invoice_id": "C02-AR-2477",
+   "number": "QL-2477",
+   "total": 6733.38
+  },
+  {
+   "invoice_id": "C02-AR-2480",
+   "number": "QL-2480",
+   "total": 1061.99
+  },
+  {
+   "invoice_id": "C02-AR-2482",
+   "number": "QL-2482",
+   "total": 9014.81
+  },
+  {
+   "invoice_id": "C02-AR-2486",
+   "number": "QL-2486",
+   "total": 11201.45
+  },
+  {
+   "invoice_id": "C02-AR-2488",
+   "number": "QL-2488",
+   "total": 1655.86
+  },
+  {
+   "invoice_id": "C02-AR-2491",
+   "number": "QL-2491",
+   "total": 4340.22
+  },
+  {
+   "invoice_id": "C02-AR-2494",
+   "number": "QL-2494",
+   "total": 5232.41
+  },
+  {
+   "invoice_id": "C02-AR-2497",
+   "number": "QL-2497",
+   "total": 5657.26
+  },
+  {
+   "invoice_id": "C02-AR-2499",
+   "number": "QL-2499",
+   "total": 4705.36
+  },
+  {
+   "invoice_id": "C02-AR-2500",
+   "number": "QL-2500",
+   "total": 8899.42
+  },
+  {
+   "invoice_id": "C02-AR-2503",
+   "number": "QL-2503",
+   "total": 3460.93
+  },
+  {
+   "invoice_id": "C02-AR-2506",
+   "number": "QL-2506",
+   "total": 12341.84
+  },
+  {
+   "invoice_id": "C02-AR-2509",
+   "number": "QL-2509",
+   "total": 12262.44
+  },
+  {
+   "invoice_id": "C02-AR-2512",
+   "number": "QL-2512",
+   "total": 8191.04
+  },
+  {
+   "invoice_id": "C02-AR-2513",
+   "number": "QL-2513",
+   "total": 997.39
+  },
+  {
+   "invoice_id": "C02-AR-2516",
+   "number": "QL-2516",
+   "total": 4827.52
+  },
+  {
+   "invoice_id": "C02-AR-2517",
+   "number": "QL-2517",
+   "total": 2534.78
+  },
+  {
+   "invoice_id": "C02-AR-2518",
+   "number": "QL-2518",
+   "total": 2534.78
+  }
+ ]
+}

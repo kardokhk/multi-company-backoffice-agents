@@ -1,0 +1,16 @@
+id: C01
+name: Lornaby Dental Care Ltd
+sector: dental clinic
+country: IE
+currency: EUR
+email_domain: lornaby-dental.ie
+stack:
+  bank_format: B1
+  ledger_format: LA
+  chart_style: num3
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 500
+  match_tolerance: 15.0

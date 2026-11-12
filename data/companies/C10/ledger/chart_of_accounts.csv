@@ -1,0 +1,21 @@
+Code,Name,Type
+200,Fee income,Income
+400,Premises rent,Expense
+405,Light and heat,Expense
+411,Phone and broadband,Expense
+416,IT and software,Expense
+419,Insurance,Expense
+424,Payroll,Expense
+800,PAYE and social insurance,Liability
+426,Bank fees,Expense
+431,Office supplies,Expense
+437,Accountancy and legal,Expense
+442,Repairs and maintenance,Expense
+448,Advertising,Expense
+450,Travel and subsistence,Expense
+456,Staff welfare,Expense
+700,Equipment,Asset
+802,VAT payable,Liability
+702,Due to/from group companies,Asset
+458,Direct materials,Expense
+805,Bank loan,Liability

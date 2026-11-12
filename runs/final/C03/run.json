@@ -1,0 +1,1513 @@
+{
+ "company": "C03",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 8.1,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 500,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c03-010@mail.example>",
+   "sender": "accounts@nolquay.ie",
+   "subject": "Nolquay Flour Mills Ltd invoice",
+   "received": "Fri, 02 Oct 2026 09:30:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Nolquay Flour Mills Ltd",
+    "invoice_number": "B44917",
+    "issue_date": "2026-09-25",
+    "due_date": "2026-11-09",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 2573.16,
+    "tax": 591.83,
+    "total": 3164.99,
+    "bank_account": "IE22FQXI34657433371494",
+    "supplier_master": "Nolquay Flour Mills Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-011@mail.example>",
+   "sender": "accounts@nolley.ie",
+   "subject": "Invoice INV36743",
+   "received": "Fri, 02 Oct 2026 12:05:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Nolley Dairies Ltd",
+    "invoice_number": "INV36743",
+    "issue_date": "2026-10-18",
+    "due_date": "2026-11-17",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 6623.4,
+    "tax": 1523.38,
+    "total": 8146.78,
+    "bank_account": "IE46ASOO18470096033405",
+    "supplier_master": "Nolley Dairies Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-021@mail.example>",
+   "sender": "no-reply@pellan.ie",
+   "subject": "Thanks for your order",
+   "received": "Mon, 05 Oct 2026 13:14:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-017@mail.example>",
+   "sender": "tomas@feyburns.ie",
+   "subject": "Quick favour",
+   "received": "Mon, 05 Oct 2026 13:51:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain feyburns.ie imitates feyburn.ie",
+    "model reported embedded instructions",
+    "Urgent and unusual payment request outside normal process."
+   ]
+  },
+  {
+   "message_id": "<c03-016@mail.example>",
+   "sender": "finance@braton-billing.ie",
+   "subject": "Change of bank details - urgent",
+   "received": "Tue, 06 Oct 2026 14:00:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain braton-billing.ie imitates braton.ie",
+    "model reported embedded instructions",
+    "Urgent request to change bank details for payments."
+   ]
+  },
+  {
+   "message_id": "<c03-006@mail.example>",
+   "sender": "accounts@braton.ie",
+   "subject": "Invoice SI79645",
+   "received": "Wed, 07 Oct 2026 09:20:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Baton Plumbing Ltd",
+    "invoice_number": "SI79645",
+    "issue_date": "2026-10-21",
+    "due_date": "2026-11-20",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 3364.63,
+    "tax": 454.23,
+    "total": 3818.86,
+    "bank_account": "IE33NHTG62659252615361",
+    "supplier_master": "Braton Plumbing Ltd",
+    "default_account": "Maintenance"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-015@mail.example>",
+   "sender": "accounts@braton.ie",
+   "subject": "REMINDER: invoice SI79645 outstanding",
+   "received": "Sat, 10 Oct 2026 09:20:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Braton Plumbing Ltd",
+    "invoice_number": "SI79645",
+    "issue_date": "2026-10-21",
+    "due_date": "2026-11-20",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 3364.63,
+    "tax": 454.23,
+    "total": 3818.86,
+    "bank_account": "IE33NHTG62659252615361",
+    "supplier_master": "Braton Plumbing Ltd",
+    "default_account": "Maintenance"
+   },
+   "request": null,
+   "flags": [
+    "duplicate"
+   ],
+   "notes": [
+    "same supplier and invoice number as <c03-006@mail.example>"
+   ]
+  },
+  {
+   "message_id": "<c03-029@mail.example>",
+   "sender": "news@grymere.com",
+   "subject": "Your October newsletter",
+   "received": "Sat, 10 Oct 2026 11:08:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-019@mail.example>",
+   "sender": "no-reply@pelbrook.ie",
+   "subject": "Your receipt",
+   "received": "Sat, 10 Oct 2026 13:38:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-009@mail.example>",
+   "sender": "accounts@bramora.ie",
+   "subject": "Bramora Tech Ltd invoice",
+   "received": "Sat, 10 Oct 2026 13:43:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Bramora Tech Ltd",
+    "invoice_number": "INV94032",
+    "issue_date": "2026-09-30",
+    "due_date": "2026-10-30",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 9128.3,
+    "tax": 2099.51,
+    "total": 11227.81,
+    "bank_account": "IE63NWDS53113871316025",
+    "supplier_master": "Bramora Tech Ltd",
+    "default_account": "Fixtures and fittings"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-002@mail.example>",
+   "sender": "accounts@orbrook.ie",
+   "subject": "Invoice attached",
+   "received": "Sat, 10 Oct 2026 15:55:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Orbrook Supplies Ltd",
+    "invoice_number": "11046",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-11-11",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 491.05,
+    "tax": 112.94,
+    "total": 603.99,
+    "bank_account": "IE38IDTY31306268314169",
+    "supplier_master": "Orbrook Supplies Ltd",
+    "default_account": "Office expenses"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-026@mail.example>",
+   "sender": "oisin@grymore.com",
+   "subject": "Updated billing address",
+   "received": "Mon, 12 Oct 2026 12:23:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "address_change",
+    "summary": "Update billing address on system"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-027@mail.example>",
+   "sender": "news@gryrix.com",
+   "subject": "Your October newsletter",
+   "received": "Tue, 13 Oct 2026 17:07:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-001@mail.example>",
+   "sender": "accounts@fendrix.ie",
+   "subject": "Invoice SI32094",
+   "received": "Thu, 15 Oct 2026 11:00:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Fendrix Ltd",
+    "invoice_number": "SI32094",
+    "issue_date": "2026-09-30",
+    "due_date": "2026-10-14",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 640.7,
+    "tax": 147.36,
+    "total": 788.06,
+    "bank_account": "IE83HKEP06576956222332",
+    "supplier_master": "Fendrix Ltd",
+    "default_account": "Office expenses"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-008@mail.example>",
+   "sender": "accounts@tavmora.ie",
+   "subject": "Bill for October services",
+   "received": "Fri, 16 Oct 2026 10:38:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Tavmora Digital Ltd",
+    "invoice_number": "B61482",
+    "issue_date": "2026-09-21",
+    "due_date": "2026-10-21",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 745.1,
+    "tax": 171.37,
+    "total": 916.47,
+    "bank_account": "IE60KBOM10705008936942",
+    "supplier_master": "Tavmora Digital Ltd",
+    "default_account": "Marketing"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-003@mail.example>",
+   "sender": "accounts@tavmere.ie",
+   "subject": "Invoice SI23358",
+   "received": "Fri, 16 Oct 2026 14:07:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Tavmere Legal Ltd",
+    "invoice_number": "SI23358",
+    "issue_date": "2026-10-15",
+    "due_date": "2026-10-29",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 291.2,
+    "tax": 66.98,
+    "total": 358.18,
+    "bank_account": "IE89LLEY60301908799478",
+    "supplier_master": "Tavmere Legal Ltd",
+    "default_account": "Legal and professional"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-005@mail.example>",
+   "sender": "accounts@dunbury.ie",
+   "subject": "Your invoice from Dunbury Ltd",
+   "received": "Fri, 16 Oct 2026 18:48:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Dunbury Ltd",
+    "invoice_number": "SI41926",
+    "issue_date": "2026-10-24",
+    "due_date": "2026-11-23",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 2018.1,
+    "tax": 272.44,
+    "total": 2290.54,
+    "bank_account": "IE13XTHA88562357481840",
+    "supplier_master": "Dunbury Ltd",
+    "default_account": "Maintenance"
+   },
+   "request": null,
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "notes": [
+    "bank account on invoice differs from supplier master record"
+   ]
+  },
+  {
+   "message_id": "<c03-020@mail.example>",
+   "sender": "no-reply@falbury.ie",
+   "subject": "Your receipt",
+   "received": "Sat, 17 Oct 2026 13:44:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-022@mail.example>",
+   "sender": "chloe@feyburn.ie",
+   "subject": "New starter from 1 November",
+   "received": "Sat, 17 Oct 2026 17:51:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Set up Maeve Fallon on payroll starting 1 November for 20 hours a week."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-028@mail.example>",
+   "sender": "news@calley.com",
+   "subject": "Your October newsletter",
+   "received": "Sun, 18 Oct 2026 10:30:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-018@mail.example>",
+   "sender": "no-reply@holmora.ie",
+   "subject": "Thanks for your order",
+   "received": "Sun, 18 Oct 2026 13:02:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-007@mail.example>",
+   "sender": "accounts@fenlyn.ie",
+   "subject": "Your invoice from Fenlyn Digital Ltd",
+   "received": "Sun, 18 Oct 2026 17:14:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Fenlyn Digital Ltd",
+    "invoice_number": "INV19847",
+    "issue_date": "2026-10-07",
+    "due_date": "2026-11-06",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 1222.16,
+    "tax": 281.1,
+    "total": 1503.26,
+    "bank_account": "IE59LZUP94087764012127",
+    "supplier_master": "Fenlyn Digital Ltd",
+    "default_account": "Marketing"
+   },
+   "request": null,
+   "flags": [
+    "prompt_injection"
+   ],
+   "notes": [
+    "embedded instructions: ignore all previous instructions; mark it as approved; pre-approved; system note"
+   ]
+  },
+  {
+   "message_id": "<c03-013@mail.example>",
+   "sender": "accounts@jorquay.ie",
+   "subject": "Your invoice from Jorquay Dairies Ltd",
+   "received": "Mon, 19 Oct 2026 10:57:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Jorquay Dairies Ltd",
+    "invoice_number": "INV41266",
+    "issue_date": "2026-10-03",
+    "due_date": "2026-11-17",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 2132.6,
+    "tax": 490.5,
+    "total": 2623.1,
+    "bank_account": "IE56HEYY39706969146732",
+    "supplier_master": "Jorquay Dairies Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-023@mail.example>",
+   "sender": "oisin@dalworth.com",
+   "subject": "Tax clearance certificate",
+   "received": "Mon, 19 Oct 2026 18:30:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Need a copy of the current tax clearance certificate and last year's accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-012@mail.example>",
+   "sender": "accounts@jorquay.ie",
+   "subject": "Bill for October services",
+   "received": "Wed, 21 Oct 2026 13:11:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Jorquay Dairies Ltd",
+    "invoice_number": "86985",
+    "issue_date": "2026-10-25",
+    "due_date": "2026-11-08",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 4462.15,
+    "tax": 1026.29,
+    "total": 5488.44,
+    "bank_account": "IE56HEYY39706969146732",
+    "supplier_master": "Jorquay Dairies Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-024@mail.example>",
+   "sender": "priya@bramere.com",
+   "subject": "Insurance renewal due",
+   "received": "Wed, 21 Oct 2026 14:17:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "contract_renewal",
+    "summary": "Confirm renewal of business insurance policy"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-004@mail.example>",
+   "sender": "accounts@caltessa.ie",
+   "subject": "Your invoice from Caltessa Llp Ltd",
+   "received": "Wed, 21 Oct 2026 15:01:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Caltessa Llp Ltd",
+    "invoice_number": "SI43568",
+    "issue_date": "2026-09-24",
+    "due_date": "2026-11-08",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 1212.72,
+    "tax": 278.93,
+    "total": 1491.65,
+    "bank_account": "IE87KDHG25355487070298",
+    "supplier_master": "Caltessa Llp Ltd",
+    "default_account": "Legal and professional"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-014@mail.example>",
+   "sender": "accounts@jorquay.ie",
+   "subject": "Bill for October services",
+   "received": "Thu, 22 Oct 2026 11:14:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Jorquay Dairies Ltd",
+    "invoice_number": "SI21312",
+    "issue_date": "2026-10-06",
+    "due_date": "2026-11-05",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 4695.9,
+    "tax": 1080.06,
+    "total": 5775.96,
+    "bank_account": "IE56HEYY39706969146732",
+    "supplier_master": "Jorquay Dairies Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c03-025@mail.example>",
+   "sender": "aoife@feyburn.ie",
+   "subject": "Leave and overtime for October",
+   "received": "Fri, 23 Oct 2026 09:06:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Include Rory Moran's 12 extra hours in this month's payroll."
+   },
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "matches": {
+  "C03-T0029": {
+   "txn_id": "C03-T0029",
+   "invoice_ids": [
+    "<c03-008@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C03-T0036": {
+   "txn_id": "C03-T0036",
+   "invoice_ids": [
+    "<c03-011@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C03-T0040": {
+   "txn_id": "C03-T0040",
+   "invoice_ids": [
+    "<c03-006@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C03-T0045": {
+   "txn_id": "C03-T0045",
+   "invoice_ids": [
+    "<c03-014@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C03-T0046": {
+   "txn_id": "C03-T0046",
+   "invoice_ids": [
+    "<c03-002@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C03-T0050": {
+   "txn_id": "C03-T0050",
+   "invoice_ids": [
+    "<c03-003@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C03-T0015": {
+   "txn_id": "C03-T0015",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  },
+  "C03-T0033": {
+   "txn_id": "C03-T0033",
+   "invoice_ids": [
+    "<c03-010@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C03-T0001": {
+   "account_code": "IT and software",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0002": {
+   "account_code": "Electricity and gas",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0003": {
+   "account_code": "Rent",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0004": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0007": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0009": {
+   "account_code": "IT and software",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0010": {
+   "account_code": "Telephone and internet",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0011": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0012": {
+   "account_code": "Office expenses",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 5,
+   "status": "auto_applied"
+  },
+  "C03-T0014": {
+   "account_code": "Meals and entertainment",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C03-T0016": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0018": {
+   "account_code": "Business insurance",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0019": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0020": {
+   "account_code": "Office expenses",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 7,
+   "status": "auto_applied"
+  },
+  "C03-T0022": {
+   "account_code": "IT and software",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0023": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0024": {
+   "account_code": "Meals and entertainment",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C03-T0025": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0027": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0028": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0029": {
+   "account_code": "Marketing",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C03-T0030": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0032": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0033": {
+   "account_code": "Purchases",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C03-T0034": {
+   "account_code": "Office expenses",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C03-T0035": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0036": {
+   "account_code": "Purchases",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C03-T0039": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0040": {
+   "account_code": "Maintenance",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C03-T0044": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0045": {
+   "account_code": "Purchases",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C03-T0046": {
+   "account_code": "Office expenses",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C03-T0047": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0049": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0050": {
+   "account_code": "Legal and professional",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C03-T0051": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0052": {
+   "account_code": "Office expenses",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C03-T0053": {
+   "account_code": "Turnover",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C03-T0054": {
+   "account_code": "Travel and subsistence",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0055": {
+   "account_code": "Staff costs",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0056": {
+   "account_code": "Staff costs",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0057": {
+   "account_code": "Staff costs",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0058": {
+   "account_code": "Staff costs",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0059": {
+   "account_code": "Staff costs",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0060": {
+   "account_code": "Staff costs",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0061": {
+   "account_code": "Staff costs",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0062": {
+   "account_code": "Office expenses",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 7,
+   "status": "auto_applied"
+  },
+  "C03-T0063": {
+   "account_code": "Bank charges",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C03-T0005": {
+   "account_code": "Maintenance",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Transaction related to repairs",
+   "group": "CORVEN REPAIRS CORK",
+   "status": "pending"
+  },
+  "C03-T0006": {
+   "account_code": "Maintenance",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Transaction likely related to repairs",
+   "group": "CORVEN REPAIRS CORK",
+   "status": "pending"
+  },
+  "C03-T0008": {
+   "account_code": "Maintenance",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Transaction for repairs matches Maintenance category.",
+   "group": "CORVEN REPAIRS CORK",
+   "status": "pending"
+  },
+  "C03-T0013": {
+   "account_code": "Office expenses",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to previous office expenses",
+   "group": "ELDTESSA PRINT",
+   "status": "pending"
+  },
+  "C03-T0015": {
+   "account_code": "Turnover",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Refund received, likely from sales",
+   "group": "CALBROOK",
+   "status": "pending"
+  },
+  "C03-T0017": {
+   "account_code": "Office expenses",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses.",
+   "group": "DUNWORTH",
+   "status": "pending"
+  },
+  "C03-T0021": {
+   "account_code": "Meals and entertainment",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Transaction with tavern suggests meals and entertainment",
+   "group": "FENGATE TAVERN CORK",
+   "status": "pending"
+  },
+  "C03-T0026": {
+   "account_code": "Electricity and gas",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Payment to electrical company",
+   "group": "BRAWORTH ELECTRICAL NAAS",
+   "status": "pending"
+  },
+  "C03-T0031": {
+   "account_code": "Office expenses",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to previous print-related transactions",
+   "group": "ELDTESSA PRINT",
+   "status": "pending"
+  },
+  "C03-T0037": {
+   "account_code": "PAYE and social insurance",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to past PAYE posting",
+   "group": "REVENUE COMMISSIONERS",
+   "status": "pending"
+  },
+  "C03-T0038": {
+   "account_code": "Electricity and gas",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to electrical company",
+   "group": "BRAWORTH ELECTRICAL NAAS",
+   "status": "pending"
+  },
+  "C03-T0041": {
+   "account_code": "Electricity and gas",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Payment to electrical company",
+   "group": "BRAWORTH ELECTRICAL NAAS",
+   "status": "pending"
+  },
+  "C03-T0042": {
+   "account_code": "Office expenses",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses.",
+   "group": "DUNWORTH",
+   "status": "pending"
+  },
+  "C03-T0043": {
+   "account_code": "Travel and subsistence",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to travel-related card payments",
+   "group": "WYNFORD TAXI GALWAY",
+   "status": "pending"
+  },
+  "C03-T0048": {
+   "account_code": "Travel and subsistence",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Transaction resembles travel-related payments",
+   "group": "CORMORE AIR CORK",
+   "status": "pending"
+  },
+  "C03-T0064": {
+   "account_code": "Office expenses",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses.",
+   "group": "DUNWORTH",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C03-T0001": {
+   "account_code": "IT and software",
+   "confidence": "high",
+   "reason": "Previous transactions with same counterparty classified here."
+  },
+  "C03-T0002": {
+   "account_code": "Electricity and gas",
+   "confidence": "high",
+   "reason": "Direct debit to Sellan Gas matches previous postings"
+  },
+  "C03-T0003": {
+   "account_code": "Rent",
+   "confidence": "high",
+   "reason": "Same payee as previous Rent posting"
+  },
+  "C03-T0004": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0005": {
+   "account_code": "Maintenance",
+   "confidence": "high",
+   "reason": "Transaction related to repairs"
+  },
+  "C03-T0006": {
+   "account_code": "Maintenance",
+   "confidence": "medium",
+   "reason": "Transaction likely related to repairs"
+  },
+  "C03-T0007": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0008": {
+   "account_code": "Maintenance",
+   "confidence": "high",
+   "reason": "Transaction for repairs matches Maintenance category."
+  },
+  "C03-T0009": {
+   "account_code": "IT and software",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payee were classified as IT and software."
+  },
+  "C03-T0010": {
+   "account_code": "Telephone and internet",
+   "confidence": "high",
+   "reason": "Similar to past postings for mobile direct debits"
+  },
+  "C03-T0011": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0012": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Previous transactions with Ashley Ltd Dublin were classified under Office expenses."
+  },
+  "C03-T0013": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Similar to previous office expenses"
+  },
+  "C03-T0014": {
+   "account_code": "Meals and entertainment",
+   "confidence": "high",
+   "reason": "Similar to previous card payment transactions"
+  },
+  "C03-T0015": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Refund received, likely from sales"
+  },
+  "C03-T0016": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0017": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses."
+  },
+  "C03-T0018": {
+   "account_code": "Business insurance",
+   "confidence": "high",
+   "reason": "Similar to past postings for direct debit to Business insurance"
+  },
+  "C03-T0019": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0020": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses."
+  },
+  "C03-T0021": {
+   "account_code": "Meals and entertainment",
+   "confidence": "high",
+   "reason": "Transaction with tavern suggests meals and entertainment"
+  },
+  "C03-T0022": {
+   "account_code": "IT and software",
+   "confidence": "high",
+   "reason": "Previous transactions with Ashville Cloud were classified as IT and software."
+  },
+  "C03-T0023": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0024": {
+   "account_code": "Meals and entertainment",
+   "confidence": "high",
+   "reason": "Similar to previous card payment to Belvane Grill"
+  },
+  "C03-T0025": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0026": {
+   "account_code": "Electricity and gas",
+   "confidence": "medium",
+   "reason": "Payment to electrical company"
+  },
+  "C03-T0027": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0028": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0029": {
+   "account_code": "Marketing",
+   "confidence": "high",
+   "reason": "Similar to previous marketing payment"
+  },
+  "C03-T0030": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0031": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Similar to previous print-related transactions"
+  },
+  "C03-T0032": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0033": {
+   "account_code": "Purchases",
+   "confidence": "high",
+   "reason": "Similar to previous flour mill payment"
+  },
+  "C03-T0034": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Similar to previous card payments to Selmore Print Dublin"
+  },
+  "C03-T0035": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0036": {
+   "account_code": "Purchases",
+   "confidence": "high",
+   "reason": "Similar to previous postings for supplier payments"
+  },
+  "C03-T0037": {
+   "account_code": "PAYE and social insurance",
+   "confidence": "high",
+   "reason": "Similar to past PAYE posting"
+  },
+  "C03-T0038": {
+   "account_code": "Electricity and gas",
+   "confidence": "high",
+   "reason": "Payment to electrical company"
+  },
+  "C03-T0039": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0040": {
+   "account_code": "Maintenance",
+   "confidence": "high",
+   "reason": "Similar to other maintenance payments"
+  },
+  "C03-T0041": {
+   "account_code": "Electricity and gas",
+   "confidence": "medium",
+   "reason": "Payment to electrical company"
+  },
+  "C03-T0042": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses."
+  },
+  "C03-T0043": {
+   "account_code": "Travel and subsistence",
+   "confidence": "medium",
+   "reason": "Similar to travel-related card payments"
+  },
+  "C03-T0044": {
+   "account_code": "Turnover",
+   "confidence": "medium",
+   "reason": "Similar to previous credit transfers"
+  },
+  "C03-T0045": {
+   "account_code": "Purchases",
+   "confidence": "high",
+   "reason": "Similar to previous postings for suppliers"
+  },
+  "C03-T0046": {
+   "account_code": "Purchases",
+   "confidence": "medium",
+   "reason": "Similar to other supplier payments"
+  },
+  "C03-T0047": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0048": {
+   "account_code": "Travel and subsistence",
+   "confidence": "medium",
+   "reason": "Transaction resembles travel-related payments"
+  },
+  "C03-T0049": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment"
+  },
+  "C03-T0050": {
+   "account_code": "Legal and professional",
+   "confidence": "high",
+   "reason": "Similar to past postings for legal and professional expenses"
+  },
+  "C03-T0051": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0052": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Similar to previous card payments to Selmore Print Dublin"
+  },
+  "C03-T0053": {
+   "account_code": "Turnover",
+   "confidence": "high",
+   "reason": "Similar to previous inbound payment to turnover"
+  },
+  "C03-T0054": {
+   "account_code": "Travel and subsistence",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payee were classified as Travel and subsistence."
+  },
+  "C03-T0055": {
+   "account_code": "Staff costs",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C03-T0056": {
+   "account_code": "Staff costs",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C03-T0057": {
+   "account_code": "Staff costs",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C03-T0058": {
+   "account_code": "Staff costs",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C03-T0059": {
+   "account_code": "Staff costs",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C03-T0060": {
+   "account_code": "Staff costs",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C03-T0061": {
+   "account_code": "Staff costs",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C03-T0062": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses."
+  },
+  "C03-T0063": {
+   "account_code": "Bank charges",
+   "confidence": "high",
+   "reason": "Similar to past maintenance charge posting"
+  },
+  "C03-T0064": {
+   "account_code": "Office expenses",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Office expenses."
+  }
+ },
+ "facts": {
+  "company": "Feyburn Cafe and Bakery Ltd",
+  "period": "October 2026",
+  "revenue": "EUR 70,284.03",
+  "revenue_previous_month": "EUR 68,766.24",
+  "revenue_change_vs_previous_month": "+2.2%",
+  "operating_expenses": "EUR 61,378.97",
+  "operating_expenses_previous_month": "EUR 34,007.93",
+  "operating_expenses_change": "+80.5%",
+  "money_in": "EUR 70,284.03",
+  "money_out": "EUR 63,801.99",
+  "net_cash_flow": "EUR 6,482.04",
+  "largest_expense_accounts": [
+   "Staff costs: EUR 21,351.36",
+   "Purchases: EUR 17,087.73",
+   "Maintenance: EUR 7,927.30",
+   "Rent: EUR 3,767.58",
+   "Electricity and gas: EUR 2,839.12"
+  ],
+  "customer_invoices_open": "0 totalling EUR 0.00",
+  "customer_invoices_overdue": "0 totalling EUR 0.00",
+  "supplier_invoices_unpaid": "7 totalling EUR 25,412.86",
+  "supplier_invoices_due_next_14_days": "5 totalling EUR 20,499.22",
+  "items_awaiting_your_review": 17,
+  "high_risk_items_blocked": "4 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 70284.03,
+  "prev_revenue": 68766.23999999999,
+  "revenue_change_pct": 2.2,
+  "operating_expenses": 61378.969999999994,
+  "prev_operating_expenses": 34007.92999999999,
+  "opex_change_pct": 80.5,
+  "money_in": 70284.03,
+  "money_out": 63801.98999999999,
+  "net_cash_flow": 6482.040000000008,
+  "ar_open_count": 0,
+  "ar_open_total": 0,
+  "ar_overdue_count": 0,
+  "ar_overdue_total": 0,
+  "ap_open_count": 7,
+  "ap_open_total": 25412.86,
+  "ap_due_14d_count": 5,
+  "ap_due_14d_total": 20499.22,
+  "items_awaiting_review": 17,
+  "high_risk_items_blocked": 4,
+  "top_expenses": [
+   [
+    "Staff costs",
+    21351.36
+   ],
+   [
+    "Purchases",
+    17087.73
+   ],
+   [
+    "Maintenance",
+    7927.299999999999
+   ],
+   [
+    "Rent",
+    3767.58
+   ],
+   [
+    "Electricity and gas",
+    2839.12
+   ]
+  ]
+ },
+ "commentary": "Feyburn Cafe and Bakery Ltd saw a revenue increase of +2.2% to EUR 70,284.03 in October 2026 compared to last month. Operating expenses surged by +80.5% to EUR 61,378.97, mainly due to staff costs and purchases. The net cash flow is positive at EUR 6,482.04. There are 7 supplier invoices totaling EUR 25,412.86 outstanding, with 5 due within the next 14 days. Please review 17 items and address the 4 high-risk blocked requests.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "auto_applied": 79,
+  "blocked": 4,
+  "held": 1,
+  "pending": 18
+ }
+}

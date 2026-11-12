@@ -1,0 +1,20 @@
+Category,Label,Group
+REV-SALE1,Sales,income
+EXP-RENT4,Rent,expense
+EXP-UTIL8,Electricity and gas,expense
+EXP-TELE5,Telecoms,expense
+EXP-SOFT2,Computer software,expense
+EXP-INSU5,Business insurance,expense
+EXP-PAYR5,Staff costs,expense
+BS-PAYR2,Payroll taxes,liability
+EXP-BANK4,Bank and card fees,expense
+EXP-OFFI5,Office expenses,expense
+EXP-PROF2,Legal and professional,expense
+EXP-REPA7,Repairs and maintenance,expense
+EXP-MARK6,Advertising,expense
+EXP-TRAV8,Travel and subsistence,expense
+EXP-MEAL4,Meals and entertainment,expense
+BS-EQUI4,Computer equipment,asset
+BS-VAT6,VAT control,liability
+BS-INTE8,Due to/from group companies,asset
+EXP-COGS4,Stock purchases,expense

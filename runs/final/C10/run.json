@@ -1,0 +1,1347 @@
+{
+ "company": "C10",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 20.8,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 550,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c10-001@mail.example>",
+   "sender": "accounts@corford.com",
+   "subject": "Bill for October services",
+   "received": "Fri, 02 Oct 2026 16:07:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Corford LLC",
+    "invoice_number": "14519",
+    "issue_date": "2026-09-25",
+    "due_date": "2026-10-09",
+    "payment_terms_days": null,
+    "currency": "USD",
+    "net": 404.18,
+    "tax": 29.3,
+    "total": 433.48,
+    "bank_account": "USACCT8100597160RTN065575655",
+    "supplier_master": "Corford LLC",
+    "default_account": "431"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-014@mail.example>",
+   "sender": "accounts@vervane.com",
+   "subject": "Bill for October services",
+   "received": "Sat, 03 Oct 2026 15:45:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Vervane Sportswear LLC",
+    "invoice_number": "SI22913",
+    "issue_date": "2026-09-30",
+    "due_date": "2026-10-14",
+    "payment_terms_days": 14,
+    "currency": "USD",
+    "net": 2976.81,
+    "tax": 215.82,
+    "total": 3192.63,
+    "bank_account": "USACCT6305595559RTN042743143",
+    "supplier_master": "Vervane Sportswear LLC",
+    "default_account": "458"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-010@mail.example>",
+   "sender": "accounts@cordrix.com",
+   "subject": "Invoice attached",
+   "received": "Mon, 05 Oct 2026 17:38:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Cordrix Sportswear LLC",
+    "invoice_number": "88924",
+    "issue_date": "2026-09-29",
+    "due_date": "2026-11-13",
+    "payment_terms_days": 45,
+    "currency": "USD",
+    "net": 6905.91,
+    "tax": 500.68,
+    "total": 7406.59,
+    "bank_account": "USACCT2586580672RTN051985973",
+    "supplier_master": "Cordrix Sportswear LLC",
+    "default_account": "458"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-017@mail.example>",
+   "sender": "no-reply@eldmore.com",
+   "subject": "Receipt from Eldmore Grill LLC",
+   "received": "Tue, 06 Oct 2026 15:11:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-006@mail.example>",
+   "sender": "accounts@wynford.com",
+   "subject": "Your invoice from Wynford Tech LLC",
+   "received": "Sat, 10 Oct 2026 15:45:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Wynford Tech LLC",
+    "invoice_number": "19145",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-11-11",
+    "payment_terms_days": 14,
+    "currency": "USD",
+    "net": 820.64,
+    "tax": 59.5,
+    "total": 880.14,
+    "bank_account": "USACCT7662223318RTN064740745",
+    "supplier_master": "Wynford Tech LLC",
+    "default_account": "700"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-007@mail.example>",
+   "sender": "accounts@ormore.com",
+   "subject": "Invoice attached",
+   "received": "Sat, 10 Oct 2026 16:35:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Ormore Systems LLC",
+    "invoice_number": "SI17391",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-07",
+    "payment_terms_days": 14,
+    "currency": "USD",
+    "net": 12292.4,
+    "tax": 891.2,
+    "total": 13183.6,
+    "bank_account": "USACCT2946204929RTN084217009",
+    "supplier_master": "Ormore Systems LLC",
+    "default_account": "700"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-005@mail.example>",
+   "sender": "accounts@ulven.com",
+   "subject": "Your invoice from Ulven Ads LLC",
+   "received": "Sat, 10 Oct 2026 17:43:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Ulven Ads LLC",
+    "invoice_number": "B52958",
+    "issue_date": "2026-10-09",
+    "due_date": "2026-10-23",
+    "payment_terms_days": 14,
+    "currency": "USD",
+    "net": 1569.59,
+    "tax": 113.8,
+    "total": 1683.39,
+    "bank_account": "USACCT3733899603RTN078697953",
+    "supplier_master": "Ulven Ads LLC",
+    "default_account": "448"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-009@mail.example>",
+   "sender": "accounts@bravane.com",
+   "subject": "Your invoice from Bravane LLC",
+   "received": "Sat, 10 Oct 2026 17:46:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Bravane LLC",
+    "invoice_number": "INV52568",
+    "issue_date": "2026-10-18",
+    "due_date": "2026-11-30",
+    "payment_terms_days": 45,
+    "currency": "USD",
+    "net": 6111.14,
+    "tax": 443.06,
+    "total": 6554.2,
+    "bank_account": "USACCT8917427494RTN053561659",
+    "supplier_master": "Bravane LLC",
+    "default_account": "458"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-023@mail.example>",
+   "sender": "news@quinbury.com",
+   "subject": "Your October newsletter",
+   "received": "Mon, 12 Oct 2026 09:18:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-018@mail.example>",
+   "sender": "marek@noltessa.com",
+   "subject": "Updated billing address",
+   "received": "Wed, 14 Oct 2026 17:21:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "address_change",
+    "summary": "Update billing address on Pellacor Fitness Studio LLC's system."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-019@mail.example>",
+   "sender": "kofi@jorton.com",
+   "subject": "Tax clearance certificate",
+   "received": "Thu, 15 Oct 2026 12:21:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Request for tax clearance certificate and last year's accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-012@mail.example>",
+   "sender": "accounts@cordrix.com",
+   "subject": "Invoice SI16957",
+   "received": "Sat, 17 Oct 2026 12:54:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "CORDRIX SPORTSWEAR LLC",
+    "invoice_number": "SI16957",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-12-12",
+    "payment_terms_days": 45,
+    "currency": "USD",
+    "net": 4510.04,
+    "tax": 326.98,
+    "total": 4837.02,
+    "bank_account": "USACCT2586580672RTN051985973",
+    "supplier_master": "Cordrix Sportswear LLC",
+    "default_account": "458"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-008@mail.example>",
+   "sender": "accounts@bravane.com",
+   "subject": "Your invoice from Bravane LLC",
+   "received": "Sat, 17 Oct 2026 17:17:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Bravane LLC",
+    "invoice_number": "INV69647",
+    "issue_date": "2026-10-07",
+    "due_date": "2026-11-06",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "net": 4755.98,
+    "tax": 344.81,
+    "total": 5100.79,
+    "bank_account": "USACCT8917427494RTN053561659",
+    "supplier_master": "Bravane LLC",
+    "default_account": "458"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-011@mail.example>",
+   "sender": "accounts@cordrix.com",
+   "subject": "Invoice B95793",
+   "received": "Sun, 18 Oct 2026 15:51:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Cordrix Sportswear LLC",
+    "invoice_number": "B95793",
+    "issue_date": "2026-10-05",
+    "due_date": "2026-11-04",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "net": 2838.58,
+    "tax": 205.8,
+    "total": 3044.38,
+    "bank_account": "USACCT2155238698RTN098111167",
+    "supplier_master": "Cordrix Sportswear LLC",
+    "default_account": "458"
+   },
+   "request": null,
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "notes": [
+    "bank account on invoice differs from supplier master record"
+   ]
+  },
+  {
+   "message_id": "<c10-021@mail.example>",
+   "sender": "sadhbh@pellacor-fitness.com",
+   "subject": "New starter from 1 November",
+   "received": "Sun, 18 Oct 2026 16:08:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Set up Tomas Lindqvist on payroll for 20 hours a week starting 1 November."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-004@mail.example>",
+   "sender": "accounts@nolmere.com",
+   "subject": "Bill for October services",
+   "received": "Sun, 18 Oct 2026 18:54:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Nolmere LLC",
+    "invoice_number": "66167",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-11-11",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "net": 2138.15,
+    "tax": 155.02,
+    "total": 2293.17,
+    "bank_account": "USACCT9723017089RTN088003037",
+    "supplier_master": "Nolmere LLC",
+    "default_account": "442"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-020@mail.example>",
+   "sender": "sofia@pellacor-fitness.com",
+   "subject": "Month-end review meeting",
+   "received": "Tue, 20 Oct 2026 18:51:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "meeting_request",
+    "summary": "Book 30 minutes next week to go through the October management accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-013@mail.example>",
+   "sender": "accounts@vervane.com",
+   "subject": "Vervane Sportswear LLC invoice",
+   "received": "Wed, 21 Oct 2026 11:29:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Vervane Sportswear LLC",
+    "invoice_number": "SI62908",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-10-26",
+    "payment_terms_days": null,
+    "currency": "USD",
+    "net": 6722.3,
+    "tax": 487.37,
+    "total": 7209.67,
+    "bank_account": "USACCT6305595559RTN042743143",
+    "supplier_master": "Vervane Sportswear LLC",
+    "default_account": "458"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-024@mail.example>",
+   "sender": "news@pelrix.com",
+   "subject": "Your October newsletter",
+   "received": "Wed, 21 Oct 2026 16:08:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain pelrix.com imitates kelrix.com"
+   ]
+  },
+  {
+   "message_id": "<c10-003@mail.example>",
+   "sender": "accounts@kelrix.com",
+   "subject": "Your invoice from Kelrix LLC",
+   "received": "Thu, 22 Oct 2026 10:44:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Kelrix LLC",
+    "invoice_number": "SI25487",
+    "issue_date": "2026-10-24",
+    "due_date": "2026-11-23",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "net": 1325.18,
+    "tax": 96.08,
+    "total": 1421.26,
+    "bank_account": "USACCT9726658974RTN048333807",
+    "supplier_master": "Kelrix LLC",
+    "default_account": "442"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c10-015@mail.example>",
+   "sender": "finance@ulville-billing.com",
+   "subject": "Change of bank details - urgent",
+   "received": "Fri, 23 Oct 2026 14:50:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain ulville-billing.com imitates ulville.com",
+    "model reported embedded instructions",
+    "Urgent request to change bank details for payments."
+   ]
+  },
+  {
+   "message_id": "<c10-016@mail.example>",
+   "sender": "no-reply@dunford.com",
+   "subject": "Your receipt",
+   "received": "Sat, 24 Oct 2026 10:29:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain dunford.com imitates wynford.com"
+   ]
+  },
+  {
+   "message_id": "<c10-022@mail.example>",
+   "sender": "news@dunville.com",
+   "subject": "Your October newsletter",
+   "received": "Sat, 24 Oct 2026 18:29:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain dunville.com imitates ulville.com"
+   ]
+  },
+  {
+   "message_id": "<c10-002@mail.example>",
+   "sender": "accounts@ulville.com",
+   "subject": "Invoice B37724",
+   "received": "Sun, 25 Oct 2026 09:01:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Ulville LLC",
+    "invoice_number": "B37724",
+    "issue_date": "2026-10-14",
+    "due_date": "2026-11-13",
+    "payment_terms_days": 30,
+    "currency": "USD",
+    "net": 1308.6,
+    "tax": 94.87,
+    "total": 1403.47,
+    "bank_account": "USACCT1507605389RTN015457644",
+    "supplier_master": "Ulville LLC",
+    "default_account": "437"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "matches": {
+  "C10-T0014": {
+   "txn_id": "C10-T0014",
+   "invoice_ids": [
+    "<c10-010@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C10-T0015": {
+   "txn_id": "C10-T0015",
+   "invoice_ids": [
+    "<c10-011@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C10-T0031": {
+   "txn_id": "C10-T0031",
+   "invoice_ids": [
+    "<c10-014@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C10-T0034": {
+   "txn_id": "C10-T0034",
+   "invoice_ids": [
+    "<c10-009@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C10-T0011": {
+   "txn_id": "C10-T0011",
+   "invoice_ids": [
+    "<c10-007@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C10-T0027": {
+   "txn_id": "C10-T0027",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  },
+  "C10-T0045": {
+   "txn_id": "C10-T0045",
+   "invoice_ids": [
+    "<c10-002@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C10-T0050": {
+   "txn_id": "C10-T0050",
+   "invoice_ids": [
+    "<c10-008@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C10-T0001": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0002": {
+   "account_code": "419",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0003": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0004": {
+   "account_code": "400",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0006": {
+   "account_code": "456",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0007": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0008": {
+   "account_code": "411",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0009": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0010": {
+   "account_code": "405",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0011": {
+   "account_code": "700",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C10-T0012": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0013": {
+   "account_code": "805",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0014": {
+   "account_code": "458",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C10-T0015": {
+   "account_code": "458",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C10-T0017": {
+   "account_code": "416",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0018": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0019": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0020": {
+   "account_code": "416",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0021": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0022": {
+   "account_code": "416",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0023": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0024": {
+   "account_code": "800",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0025": {
+   "account_code": "431",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C10-T0028": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0030": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0031": {
+   "account_code": "458",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C10-T0032": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0033": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0034": {
+   "account_code": "458",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C10-T0035": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0037": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0038": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0039": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0040": {
+   "account_code": "702",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C10-T0041": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0043": {
+   "account_code": "431",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C10-T0044": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0045": {
+   "account_code": "437",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C10-T0046": {
+   "account_code": "442",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 7,
+   "status": "auto_applied"
+  },
+  "C10-T0049": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0050": {
+   "account_code": "458",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C10-T0051": {
+   "account_code": "424",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0052": {
+   "account_code": "424",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0053": {
+   "account_code": "424",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0054": {
+   "account_code": "424",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0055": {
+   "account_code": "200",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 37,
+   "status": "auto_applied"
+  },
+  "C10-T0056": {
+   "account_code": "426",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C10-T0005": {
+   "account_code": "416",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to software payment",
+   "group": "DALWICK AUSTIN TX",
+   "status": "pending"
+  },
+  "C10-T0016": {
+   "account_code": "431",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Expense related to office supplies",
+   "group": "ELDMORE GRILL AUSTIN TX",
+   "status": "pending"
+  },
+  "C10-T0026": {
+   "account_code": "431",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to office supplies transactions",
+   "group": "LUMWICK KITCHEN AUSTIN TX",
+   "status": "pending"
+  },
+  "C10-T0027": {
+   "account_code": "200",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Refund credited to fee income",
+   "group": "LUMDOR REFUND",
+   "status": "pending"
+  },
+  "C10-T0029": {
+   "account_code": "450",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expense similar vendor name",
+   "group": "HOLMORE TRAVEL",
+   "status": "pending"
+  },
+  "C10-T0036": {
+   "account_code": "431",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to Lumgate Supplies payment",
+   "group": "TAVGATE LTD SALEM OR",
+   "status": "pending"
+  },
+  "C10-T0042": {
+   "account_code": "431",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to office supplies expenses",
+   "group": "ELDMORE GRILL AUSTIN TX",
+   "status": "pending"
+  },
+  "C10-T0047": {
+   "account_code": "450",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expense similar vendor name",
+   "group": "GRYLAN TRAVEL",
+   "status": "pending"
+  },
+  "C10-T0048": {
+   "account_code": "442",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance transactions",
+   "group": "WYNVEN PLUMBING",
+   "status": "pending"
+  },
+  "C10-T0057": {
+   "account_code": "431",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Transaction likely related to office supplies",
+   "group": "GRYQUAY OFFICE",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C10-T0001": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0002": {
+   "account_code": "419",
+   "confidence": "high",
+   "reason": "Similar to previous insurance payment"
+  },
+  "C10-T0003": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0004": {
+   "account_code": "400",
+   "confidence": "high",
+   "reason": "Similar to premises rent payment"
+  },
+  "C10-T0005": {
+   "account_code": "416",
+   "confidence": "medium",
+   "reason": "Similar to software payment"
+  },
+  "C10-T0006": {
+   "account_code": "456",
+   "confidence": "high",
+   "reason": "Similar to previous POS DEBIT Marton transaction"
+  },
+  "C10-T0007": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0008": {
+   "account_code": "411",
+   "confidence": "high",
+   "reason": "Similar to past telecom expenses"
+  },
+  "C10-T0009": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0010": {
+   "account_code": "405",
+   "confidence": "high",
+   "reason": "Similar to light and heat payment"
+  },
+  "C10-T0011": {
+   "account_code": "416",
+   "confidence": "medium",
+   "reason": "IT and software expenses are common for fitness studios."
+  },
+  "C10-T0012": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to fee income deposits"
+  },
+  "C10-T0013": {
+   "account_code": "805",
+   "confidence": "high",
+   "reason": "Similar to past loan repayment posting"
+  },
+  "C10-T0014": {
+   "account_code": "458",
+   "confidence": "high",
+   "reason": "Payment to supplier for inventory"
+  },
+  "C10-T0015": {
+   "account_code": "458",
+   "confidence": "high",
+   "reason": "Payment to supplier for materials"
+  },
+  "C10-T0016": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Expense related to office supplies"
+  },
+  "C10-T0017": {
+   "account_code": "416",
+   "confidence": "high",
+   "reason": "Similar to previous IT and software expenses"
+  },
+  "C10-T0018": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to fee income deposits"
+  },
+  "C10-T0019": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0020": {
+   "account_code": "416",
+   "confidence": "high",
+   "reason": "Similar to past POS DEBIT PELQUAY transactions"
+  },
+  "C10-T0021": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to fee income deposits"
+  },
+  "C10-T0022": {
+   "account_code": "416",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees"
+  },
+  "C10-T0023": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0024": {
+   "account_code": "800",
+   "confidence": "high",
+   "reason": "Payment to IRS for tax"
+  },
+  "C10-T0025": {
+   "account_code": "431",
+   "confidence": "high",
+   "reason": "Similar to office supplies purchases"
+  },
+  "C10-T0026": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Similar to office supplies transactions"
+  },
+  "C10-T0027": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Refund credited to fee income"
+  },
+  "C10-T0028": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0029": {
+   "account_code": "450",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expense similar vendor name"
+  },
+  "C10-T0030": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0031": {
+   "account_code": "458",
+   "confidence": "high",
+   "reason": "Payment to supplier for materials"
+  },
+  "C10-T0032": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0033": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to fee income deposits"
+  },
+  "C10-T0034": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Similar to office supplies payment"
+  },
+  "C10-T0035": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0036": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Similar to Lumgate Supplies payment"
+  },
+  "C10-T0037": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0038": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0039": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0040": {
+   "account_code": "702",
+   "confidence": "high",
+   "reason": "Similar to previous group transfer postings"
+  },
+  "C10-T0041": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0042": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Similar to office supplies expenses"
+  },
+  "C10-T0043": {
+   "account_code": "431",
+   "confidence": "high",
+   "reason": "Similar to office supplies purchases"
+  },
+  "C10-T0044": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar ACH credit transactions credited fee income"
+  },
+  "C10-T0045": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Payment to supplier, similar to office supplies"
+  },
+  "C10-T0046": {
+   "account_code": "442",
+   "confidence": "high",
+   "reason": "Similar to previous POS DEBIT transactions for repairs and maintenance"
+  },
+  "C10-T0047": {
+   "account_code": "450",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expense similar vendor name"
+  },
+  "C10-T0048": {
+   "account_code": "442",
+   "confidence": "medium",
+   "reason": "Similar to repairs and maintenance transactions"
+  },
+  "C10-T0049": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to fee income deposits"
+  },
+  "C10-T0050": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Similar to office supplies payment"
+  },
+  "C10-T0051": {
+   "account_code": "424",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C10-T0052": {
+   "account_code": "424",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C10-T0053": {
+   "account_code": "424",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C10-T0054": {
+   "account_code": "424",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C10-T0055": {
+   "account_code": "200",
+   "confidence": "high",
+   "reason": "Similar to fee income deposits"
+  },
+  "C10-T0056": {
+   "account_code": "426",
+   "confidence": "high",
+   "reason": "Monthly service fee matches bank fee pattern"
+  },
+  "C10-T0057": {
+   "account_code": "431",
+   "confidence": "medium",
+   "reason": "Transaction likely related to office supplies"
+  }
+ },
+ "facts": {
+  "company": "Pellacor Fitness Studio LLC",
+  "period": "October 2026",
+  "revenue": "USD 33,753.90",
+  "revenue_previous_month": "USD 29,613.70",
+  "revenue_change_vs_previous_month": "+14.0%",
+  "operating_expenses": "USD 50,272.55",
+  "operating_expenses_previous_month": "USD 29,804.75",
+  "operating_expenses_change": "+68.7%",
+  "money_in": "USD 33,753.90",
+  "money_out": "USD 73,428.75",
+  "net_cash_flow": "USD -39,674.85",
+  "largest_expense_accounts": [
+   "Direct materials: USD 25,298.59",
+   "Payroll: USD 13,771.31",
+   "Repairs and maintenance: USD 3,779.93",
+   "Premises rent: USD 1,872.08",
+   "Accountancy and legal: USD 1,403.47"
+  ],
+  "customer_invoices_open": "0 totalling USD 0.00",
+  "customer_invoices_overdue": "0 totalling USD 0.00",
+  "supplier_invoices_unpaid": "7 totalling USD 18,758.13",
+  "supplier_invoices_due_next_14_days": "5 totalling USD 12,499.85",
+  "items_awaiting_your_review": 11,
+  "high_risk_items_blocked": "5 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 33753.899999999994,
+  "prev_revenue": 29613.699999999997,
+  "revenue_change_pct": 14.0,
+  "operating_expenses": 50272.55,
+  "prev_operating_expenses": 29804.75,
+  "opex_change_pct": 68.7,
+  "money_in": 33753.899999999994,
+  "money_out": 73428.75,
+  "net_cash_flow": -39674.850000000006,
+  "ar_open_count": 0,
+  "ar_open_total": 0,
+  "ar_overdue_count": 0,
+  "ar_overdue_total": 0,
+  "ap_open_count": 7,
+  "ap_open_total": 18758.13,
+  "ap_due_14d_count": 5,
+  "ap_due_14d_total": 12499.85,
+  "items_awaiting_review": 11,
+  "high_risk_items_blocked": 5,
+  "top_expenses": [
+   [
+    "Direct materials",
+    25298.590000000004
+   ],
+   [
+    "Payroll",
+    13771.310000000001
+   ],
+   [
+    "Repairs and maintenance",
+    3779.9300000000003
+   ],
+   [
+    "Premises rent",
+    1872.08
+   ],
+   [
+    "Accountancy and legal",
+    1403.47
+   ]
+  ]
+ },
+ "commentary": "Pellacor Fitness Studio LLC saw a 14.0% increase in revenue to USD 33,753.90 in October 2026 compared to last month. However, operating expenses surged by 68.7% to USD 50,272.55, primarily due to direct materials and payroll. Cash flow is negative at USD -39,674.85, with outstanding supplier invoices totaling USD 18,758.13. You need to review 11 items and address 5 high-risk requests or suspicious emails.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "auto_applied": 73,
+  "blocked": 5,
+  "pending": 12
+ }
+}

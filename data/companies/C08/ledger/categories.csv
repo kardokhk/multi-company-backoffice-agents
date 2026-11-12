@@ -1,0 +1,21 @@
+Category,Label,Group
+REV-SALE1,Turnover,income
+EXP-RENT7,Premises rent,expense
+EXP-UTIL2,Utilities,expense
+EXP-TELE9,Telephone and internet,expense
+EXP-SOFT8,IT and software,expense
+EXP-INSU4,Business insurance,expense
+EXP-PAYR3,Staff costs,expense
+BS-PAYR9,PAYE and social insurance,liability
+EXP-BANK2,Bank fees,expense
+EXP-OFFI6,Office expenses,expense
+EXP-PROF6,Accountancy and legal,expense
+EXP-REPA4,Maintenance,expense
+EXP-MARK8,Advertising and marketing,expense
+EXP-TRAV3,Travel,expense
+EXP-MEAL9,Staff welfare,expense
+BS-EQUI4,Plant and equipment,asset
+BS-VAT2,VAT control,liability
+BS-INTE3,Due to/from group companies,asset
+EXP-COGS7,Direct materials,expense
+BS-LOAN3,Loan repayments,liability

@@ -1,0 +1,16 @@
+id: C07
+name: Calderny Veterinary Clinic Ltd
+sector: veterinary clinic
+country: IE
+currency: EUR
+email_domain: calderny.ie
+stack:
+  bank_format: B1
+  ledger_format: LC
+  chart_style: num4
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 500
+  match_tolerance: 15.0

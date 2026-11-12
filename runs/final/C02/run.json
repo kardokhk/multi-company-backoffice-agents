@@ -1,0 +1,1365 @@
+{
+ "company": "C02",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 8.1,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 450,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c02-020@mail.example>",
+   "sender": "maeve@belven.com",
+   "subject": "Tax clearance certificate",
+   "received": "Thu, 01 Oct 2026 10:28:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Request for a copy of the current tax clearance certificate and last year's accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-025@mail.example>",
+   "sender": "news@corford.com",
+   "subject": "Your October newsletter",
+   "received": "Fri, 02 Oct 2026 14:07:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-023@mail.example>",
+   "sender": "priya@noldrix.com",
+   "subject": "Insurance renewal due",
+   "received": "Fri, 02 Oct 2026 14:21:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "contract_renewal",
+    "summary": "Confirm renewal of business insurance policy"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-027@mail.example>",
+   "sender": "news@nolmora.com",
+   "subject": "Webinar: closing the books faster",
+   "received": "Fri, 02 Oct 2026 15:10:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-026@mail.example>",
+   "sender": "news@orlan.com",
+   "subject": "Your October newsletter",
+   "received": "Fri, 02 Oct 2026 17:05:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-003@mail.example>",
+   "sender": "accounts@belton.co.uk",
+   "subject": "Invoice attached",
+   "received": "Sat, 03 Oct 2026 12:31:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Belton Llp Ltd",
+    "invoice_number": "INV54140",
+    "issue_date": "2026-10-27",
+    "due_date": "2026-11-10",
+    "payment_terms_days": 14,
+    "currency": "GBP",
+    "net": 1939.48,
+    "tax": 387.9,
+    "total": 2327.38,
+    "bank_account": "GB68JTZF97425225703701",
+    "supplier_master": "Belton Llp Ltd",
+    "default_account": "4247"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-016@mail.example>",
+   "sender": "no-reply@verworth.co.uk",
+   "subject": "Receipt from Verworth Fuel Ltd",
+   "received": "Sun, 04 Oct 2026 11:29:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-012@mail.example>",
+   "sender": "accounts@marville.co.uk",
+   "subject": "Bill for October services",
+   "received": "Tue, 06 Oct 2026 14:43:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Marville Tyres Ltd",
+    "invoice_number": "SI30594",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-12-06",
+    "payment_terms_days": 45,
+    "currency": "GBP",
+    "net": 1130.2,
+    "tax": 226.04,
+    "total": 1356.24,
+    "bank_account": "GB03ZOWI91879596104394",
+    "supplier_master": "Marville Tyres Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-013@mail.example>",
+   "sender": "accounts@marville.co.uk",
+   "subject": "Your invoice from Marville Tyres Ltd",
+   "received": "Tue, 06 Oct 2026 16:02:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Marville Tyres Ltd",
+    "invoice_number": "B83444",
+    "issue_date": "2026-09-20",
+    "due_date": "2026-10-20",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 5487.12,
+    "tax": 1097.42,
+    "total": 6584.54,
+    "bank_account": "GB03ZOWI91879596104394",
+    "supplier_master": "Marville Tyres Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-006@mail.example>",
+   "sender": "accounts@wynhurst.co.uk",
+   "subject": "Invoice attached",
+   "received": "Thu, 08 Oct 2026 18:53:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Wynhurst Machinery Ltd",
+    "invoice_number": "14623",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 1959.5,
+    "tax": 391.9,
+    "total": 2351.4,
+    "bank_account": "GB55RMYK77011165836479",
+    "supplier_master": "Wynhurst Machinery Ltd",
+    "default_account": "7000"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-017@mail.example>",
+   "sender": "no-reply@tavbury.co.uk",
+   "subject": "Your receipt",
+   "received": "Fri, 09 Oct 2026 18:24:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-015@mail.example>",
+   "sender": "finance@zalmere-billing.co.uk",
+   "subject": "Change of bank details - urgent",
+   "received": "Sun, 11 Oct 2026 09:26:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain zalmere-billing.co.uk imitates zalmere.co.uk",
+    "model reported embedded instructions",
+    "Urgent request to change bank details for payments."
+   ]
+  },
+  {
+   "message_id": "<c02-018@mail.example>",
+   "sender": "payables@marlan.com",
+   "subject": "Remittance advice - QL-2518",
+   "received": "Mon, 12 Oct 2026 09:54:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-022@mail.example>",
+   "sender": "oisin@ulgate.com",
+   "subject": "Updated billing address",
+   "received": "Mon, 12 Oct 2026 10:14:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "address_change",
+    "summary": "Update billing address on their system"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-008@mail.example>",
+   "sender": "accounts@zalmere.co.uk",
+   "subject": "Your invoice from Zalmere Truck Parts Ltd",
+   "received": "Tue, 13 Oct 2026 17:30:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Zalmere Truck Parts Ltd",
+    "invoice_number": "39866",
+    "issue_date": "2026-09-27",
+    "due_date": "2026-10-27",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 4236.31,
+    "tax": 847.26,
+    "total": 5083.57,
+    "bank_account": "GB17KORD45597001039869",
+    "supplier_master": "Zalmere Truck Parts Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-004@mail.example>",
+   "sender": "accounts@bellio.co.uk",
+   "subject": "Your invoice from Bellio Electrical Ltd",
+   "received": "Wed, 14 Oct 2026 12:02:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Bellio Electrical Ltd",
+    "invoice_number": "INV60103",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-11-27",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 731.86,
+    "tax": 146.37,
+    "total": 878.23,
+    "bank_account": "GB15IVMW85631219384030",
+    "supplier_master": "Bellio Electrical Ltd",
+    "default_account": "4270"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-007@mail.example>",
+   "sender": "accounts@zalmere.co.uk",
+   "subject": "Bill for October services",
+   "received": "Sat, 17 Oct 2026 13:18:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Zalmere Truck Parts Ltd",
+    "invoice_number": "SI94816",
+    "issue_date": "2026-10-26",
+    "due_date": "2026-11-25",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 6351.25,
+    "tax": 1270.25,
+    "total": 7621.5,
+    "bank_account": "GB17KORD45597001039869",
+    "supplier_master": "Zalmere Truck Parts Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-024@mail.example>",
+   "sender": "rory@quillmere.co.uk",
+   "subject": "New starter from 1 November",
+   "received": "Mon, 19 Oct 2026 14:45:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Set up Tomas Mensah on payroll as a part-time assistant starting from 1 November, 20 hours a week."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-009@mail.example>",
+   "sender": "accounts@tavlan.co.uk",
+   "subject": "Your invoice from Tavlan Truck Parts Ltd",
+   "received": "Mon, 19 Oct 2026 18:49:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Tavlan Truck Parts Ltd",
+    "invoice_number": "B77782",
+    "issue_date": "2026-10-17",
+    "due_date": "2026-12-01",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 1807.31,
+    "tax": 361.46,
+    "total": 2168.77,
+    "bank_account": "GB86WSSS90290959268441",
+    "supplier_master": "Tavlan Truck Parts Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-014@mail.example>",
+   "sender": "accounts@zalmere.co.uk",
+   "subject": "REMINDER: invoice SI94816 outstanding",
+   "received": "Tue, 20 Oct 2026 13:18:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Zalmere Truck Parts Ltd",
+    "invoice_number": "SI94816",
+    "issue_date": "2026-10-26",
+    "due_date": "2026-11-25",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 6351.25,
+    "tax": 1270.25,
+    "total": 7621.5,
+    "bank_account": "GB17KORD45597001039869",
+    "supplier_master": "Zalmere Truck Parts Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [
+    "duplicate"
+   ],
+   "notes": [
+    "same supplier and invoice number as <c02-007@mail.example>"
+   ]
+  },
+  {
+   "message_id": "<c02-011@mail.example>",
+   "sender": "accounts@tavlan.co.uk",
+   "subject": "Bill for October services",
+   "received": "Wed, 21 Oct 2026 13:38:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Tavlan Truck Parts Ltd",
+    "invoice_number": "SI31580",
+    "issue_date": "2026-10-24",
+    "due_date": "2026-11-07",
+    "payment_terms_days": 14,
+    "currency": "GBP",
+    "net": 3861.68,
+    "tax": 772.34,
+    "total": 4634.02,
+    "bank_account": "GB86WSSS90290959268441",
+    "supplier_master": "Tavlan Truck Parts Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-005@mail.example>",
+   "sender": "accounts@nolton.co.uk",
+   "subject": "Your invoice from Nolton Ads Ltd",
+   "received": "Wed, 21 Oct 2026 17:52:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Nolton Ads Ltd",
+    "invoice_number": "10845",
+    "issue_date": "2026-10-09",
+    "due_date": "2026-11-08",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 512.87,
+    "tax": 102.57,
+    "total": 615.44,
+    "bank_account": "GB03KRID77992558881791",
+    "supplier_master": "Nolton Ads Ltd",
+    "default_account": "4308"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-002@mail.example>",
+   "sender": "accounts@calville.co.uk",
+   "subject": "Bill for October services",
+   "received": "Wed, 21 Oct 2026 19:00:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Calville Print Ltd",
+    "invoice_number": "INV23996",
+    "issue_date": "2026-10-23",
+    "due_date": "2026-11-22",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 151.7,
+    "tax": 30.34,
+    "total": 182.04,
+    "bank_account": "GB34TNOK42202238848860",
+    "supplier_master": "Calville Print Ltd",
+    "default_account": "4212"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-010@mail.example>",
+   "sender": "accounts@tavlan.co.uk",
+   "subject": "Tavlan Truck Parts Ltd invoice",
+   "received": "Sun, 25 Oct 2026 10:54:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Tavlan Truck Parts Ltd",
+    "invoice_number": "B36988",
+    "issue_date": "2026-10-04",
+    "due_date": "2026-10-18",
+    "payment_terms_days": 14,
+    "currency": "GBP",
+    "net": 5691.86,
+    "tax": 1138.37,
+    "total": 6830.23,
+    "bank_account": "GB52YKHO56788196683670",
+    "supplier_master": "Tavlan Truck Parts Ltd",
+    "default_account": "4397"
+   },
+   "request": null,
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "notes": [
+    "bank account on invoice differs from supplier master record"
+   ]
+  },
+  {
+   "message_id": "<c02-001@mail.example>",
+   "sender": "accounts@gryson.co.uk",
+   "subject": "Gryson Print Ltd invoice",
+   "received": "Sun, 25 Oct 2026 13:16:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Gryson Print Ltd",
+    "invoice_number": "INV41406",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 106.5,
+    "tax": 21.3,
+    "total": 127.8,
+    "bank_account": "GB39BTLP15767898139932",
+    "supplier_master": "Gryson Print Ltd",
+    "default_account": "4212"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-021@mail.example>",
+   "sender": "chloe@quillmere.co.uk",
+   "subject": "Leave and overtime for October",
+   "received": "Sun, 25 Oct 2026 18:14:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Include Chloe Mensah's 12 extra hours in this month's payroll."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c02-019@mail.example>",
+   "sender": "payables@tavmere.com",
+   "subject": "Remittance advice - QL-2500",
+   "received": "Mon, 26 Oct 2026 13:36:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "matches": {
+  "C02-T0010": {
+   "txn_id": "C02-T0010",
+   "invoice_ids": [
+    "QL-2491",
+    "QL-2497"
+   ],
+   "status": "auto",
+   "rule": "combined_payment",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0021": {
+   "txn_id": "C02-T0021",
+   "invoice_ids": [
+    "QL-2482"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0030": {
+   "txn_id": "C02-T0030",
+   "invoice_ids": [
+    "QL-2477"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0033": {
+   "txn_id": "C02-T0033",
+   "invoice_ids": [
+    "<c02-006@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0036": {
+   "txn_id": "C02-T0036",
+   "invoice_ids": [
+    "<c02-012@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0037": {
+   "txn_id": "C02-T0037",
+   "invoice_ids": [
+    "<c02-005@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0038": {
+   "txn_id": "C02-T0038",
+   "invoice_ids": [
+    "QL-2513"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 12.00, post to bank charges",
+   "difference": 12.0
+  },
+  "C02-T0040": {
+   "txn_id": "C02-T0040",
+   "invoice_ids": [
+    "QL-2486"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0022": {
+   "txn_id": "C02-T0022",
+   "invoice_ids": [
+    "QL-2494"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C02-T0039": {
+   "txn_id": "C02-T0039",
+   "invoice_ids": [
+    "<c02-002@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C02-T0019": {
+   "txn_id": "C02-T0019",
+   "invoice_ids": [
+    "<c02-008@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0026": {
+   "txn_id": "C02-T0026",
+   "invoice_ids": [
+    "QL-2517",
+    "QL-2518"
+   ],
+   "status": "review",
+   "rule": "ambiguous_amount",
+   "note": "2 open invoices for 2534.78",
+   "difference": 0.0
+  },
+  "C02-T0027": {
+   "txn_id": "C02-T0027",
+   "invoice_ids": [
+    "<c02-013@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C02-T0029": {
+   "txn_id": "C02-T0029",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C02-T0001": {
+   "account_code": "4270",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0004": {
+   "account_code": "8063",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0006": {
+   "account_code": "4335",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0007": {
+   "account_code": "4068",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0008": {
+   "account_code": "4212",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 3,
+   "status": "auto_applied"
+  },
+  "C02-T0009": {
+   "account_code": "4212",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 3,
+   "status": "auto_applied"
+  },
+  "C02-T0010": {
+   "account_code": "2007",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0011": {
+   "account_code": "4421",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0012": {
+   "account_code": "4091",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0013": {
+   "account_code": "4005",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0014": {
+   "account_code": "4120",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0015": {
+   "account_code": "4091",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0017": {
+   "account_code": "4033",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0018": {
+   "account_code": "4091",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0019": {
+   "account_code": "4397",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0021": {
+   "account_code": "2007",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0022": {
+   "account_code": "2007",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0025": {
+   "account_code": "4335",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0027": {
+   "account_code": "4397",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0028": {
+   "account_code": "4212",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0030": {
+   "account_code": "2007",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0032": {
+   "account_code": "4270",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0033": {
+   "account_code": "7000",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0034": {
+   "account_code": "4212",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0036": {
+   "account_code": "4397",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0037": {
+   "account_code": "4308",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0038": {
+   "account_code": "2007",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0039": {
+   "account_code": "4212",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0040": {
+   "account_code": "2007",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C02-T0041": {
+   "account_code": "4151",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0042": {
+   "account_code": "4151",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0043": {
+   "account_code": "4151",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0044": {
+   "account_code": "4151",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0045": {
+   "account_code": "4151",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0046": {
+   "account_code": "4151",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0047": {
+   "account_code": "4151",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0051": {
+   "account_code": "4189",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C02-T0002": {
+   "account_code": "4335",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to hotel payments for travel expenses",
+   "group": "JORLEY AIR",
+   "status": "pending"
+  },
+  "C02-T0003": {
+   "account_code": "4421",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to fuel and motor payments",
+   "group": "DALGATE SERVICE STN",
+   "status": "pending"
+  },
+  "C02-T0005": {
+   "account_code": "4270",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment for maintenance matches repairs and maintenance category.",
+   "group": "LUMLYN MAINTENANCE",
+   "status": "pending"
+  },
+  "C02-T0016": {
+   "account_code": "4270",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Payment to a service station, similar to previous repairs.",
+   "group": "QUINVILLE RAIL",
+   "status": "pending"
+  },
+  "C02-T0020": {
+   "account_code": "7030",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Group transfer between companies",
+   "group": "GROUP TRANSFER",
+   "status": "pending"
+  },
+  "C02-T0023": {
+   "account_code": "4212",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Previous transactions with cafes match this payment.",
+   "group": "BELGATE",
+   "status": "pending"
+  },
+  "C02-T0024": {
+   "account_code": "4364",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to entertainment expenses",
+   "group": "BELMERE TAVERN",
+   "status": "pending"
+  },
+  "C02-T0026": {
+   "account_code": "2007",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to previous receipts",
+   "group": "MARLAN",
+   "status": "pending"
+  },
+  "C02-T0029": {
+   "account_code": "2007",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Refund received, likely business income",
+   "group": "GALBURY",
+   "status": "pending"
+  },
+  "C02-T0031": {
+   "account_code": "8005",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to HMRC for payroll taxes",
+   "group": "HMRC",
+   "status": "pending"
+  },
+  "C02-T0035": {
+   "account_code": "4270",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment for maintenance matches repairs and maintenance expense.",
+   "group": "LUMLYN MAINTENANCE",
+   "status": "pending"
+  },
+  "C02-T0048": {
+   "account_code": "4364",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Payment to restaurant, similar to entertainment expenses",
+   "group": "TAVMORA",
+   "status": "pending"
+  },
+  "C02-T0049": {
+   "account_code": "4421",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Fuel and motor expenses",
+   "group": "VERWORTH FUEL",
+   "status": "pending"
+  },
+  "C02-T0050": {
+   "account_code": "4270",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to previous fuel payments",
+   "group": "ISTVILLE LTD",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C02-T0001": {
+   "account_code": "4270",
+   "confidence": "high",
+   "reason": "Previous electrical payment to Dunville Electrical"
+  },
+  "C02-T0002": {
+   "account_code": "4335",
+   "confidence": "medium",
+   "reason": "Similar to hotel payments for travel expenses"
+  },
+  "C02-T0003": {
+   "account_code": "4421",
+   "confidence": "high",
+   "reason": "Similar to fuel and motor payments"
+  },
+  "C02-T0004": {
+   "account_code": "8063",
+   "confidence": "high",
+   "reason": "Similar to past loan repayment postings"
+  },
+  "C02-T0005": {
+   "account_code": "4270",
+   "confidence": "high",
+   "reason": "Payment for maintenance matches repairs and maintenance category."
+  },
+  "C02-T0006": {
+   "account_code": "4335",
+   "confidence": "high",
+   "reason": "Similar to previous travel expenses"
+  },
+  "C02-T0007": {
+   "account_code": "4091",
+   "confidence": "high",
+   "reason": "Similar to previous IT expenses"
+  },
+  "C02-T0008": {
+   "account_code": "4212",
+   "confidence": "high",
+   "reason": "Similar to previous supplier payments"
+  },
+  "C02-T0009": {
+   "account_code": "4212",
+   "confidence": "high",
+   "reason": "Similar to previous supplier payments"
+  },
+  "C02-T0010": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Receipt from customer matches turnover pattern"
+  },
+  "C02-T0011": {
+   "account_code": "4421",
+   "confidence": "high",
+   "reason": "Similar to fuel and motor payments"
+  },
+  "C02-T0012": {
+   "account_code": "4091",
+   "confidence": "high",
+   "reason": "Previous transactions with similar description"
+  },
+  "C02-T0013": {
+   "account_code": "4005",
+   "confidence": "high",
+   "reason": "Payment to premises rent counterparty"
+  },
+  "C02-T0014": {
+   "account_code": "4120",
+   "confidence": "high",
+   "reason": "Similar to previous insurance payment"
+  },
+  "C02-T0015": {
+   "account_code": "4091",
+   "confidence": "high",
+   "reason": "Previous transactions with Ulwick match direct debits for computer software."
+  },
+  "C02-T0016": {
+   "account_code": "4270",
+   "confidence": "medium",
+   "reason": "Payment to a service station, similar to previous repairs."
+  },
+  "C02-T0017": {
+   "account_code": "4033",
+   "confidence": "high",
+   "reason": "Similar to previous energy payment"
+  },
+  "C02-T0018": {
+   "account_code": "4091",
+   "confidence": "high",
+   "reason": "Similar to previous software expense"
+  },
+  "C02-T0019": {
+   "account_code": "4397",
+   "confidence": "high",
+   "reason": "Payment to truck parts supplier"
+  },
+  "C02-T0020": {
+   "account_code": "7030",
+   "confidence": "medium",
+   "reason": "Group transfer between companies"
+  },
+  "C02-T0021": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Receipt of money matches income"
+  },
+  "C02-T0022": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Similar to previous receipts"
+  },
+  "C02-T0023": {
+   "account_code": "4212",
+   "confidence": "medium",
+   "reason": "Previous transactions with cafes match this payment."
+  },
+  "C02-T0024": {
+   "account_code": "4364",
+   "confidence": "high",
+   "reason": "Similar to entertainment expenses"
+  },
+  "C02-T0025": {
+   "account_code": "4335",
+   "confidence": "high",
+   "reason": "Similar to previous travel expenses"
+  },
+  "C02-T0026": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Similar to previous receipts"
+  },
+  "C02-T0027": {
+   "account_code": "4397",
+   "confidence": "high",
+   "reason": "Payment to truck parts supplier"
+  },
+  "C02-T0028": {
+   "account_code": "4212",
+   "confidence": "high",
+   "reason": "Similar to previous office expenses"
+  },
+  "C02-T0029": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Refund received, likely business income"
+  },
+  "C02-T0030": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Payment received, similar to previous income transactions"
+  },
+  "C02-T0031": {
+   "account_code": "8005",
+   "confidence": "high",
+   "reason": "Payment to HMRC for payroll taxes"
+  },
+  "C02-T0032": {
+   "account_code": "4270",
+   "confidence": "high",
+   "reason": "Previous electrical payment to Dunville Electrical"
+  },
+  "C02-T0033": {
+   "account_code": "7000",
+   "confidence": "high",
+   "reason": "Payment to machinery supplier"
+  },
+  "C02-T0034": {
+   "account_code": "4212",
+   "confidence": "high",
+   "reason": "Similar to previous print expenses"
+  },
+  "C02-T0035": {
+   "account_code": "4270",
+   "confidence": "high",
+   "reason": "Payment for maintenance matches repairs and maintenance expense."
+  },
+  "C02-T0036": {
+   "account_code": "4397",
+   "confidence": "high",
+   "reason": "Payment to truck parts supplier"
+  },
+  "C02-T0037": {
+   "account_code": "4308",
+   "confidence": "high",
+   "reason": "Similar to past postings for advertising and marketing expenses"
+  },
+  "C02-T0038": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Similar to previous receipts"
+  },
+  "C02-T0039": {
+   "account_code": "4212",
+   "confidence": "high",
+   "reason": "Payment to supplier for materials"
+  },
+  "C02-T0040": {
+   "account_code": "2007",
+   "confidence": "high",
+   "reason": "Receipt from customer matches turnover pattern"
+  },
+  "C02-T0041": {
+   "account_code": "4151",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C02-T0042": {
+   "account_code": "4151",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C02-T0043": {
+   "account_code": "4151",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C02-T0044": {
+   "account_code": "4151",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C02-T0045": {
+   "account_code": "4151",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C02-T0046": {
+   "account_code": "4151",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C02-T0047": {
+   "account_code": "4151",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C02-T0048": {
+   "account_code": "4364",
+   "confidence": "medium",
+   "reason": "Payment to restaurant, similar to entertainment expenses"
+  },
+  "C02-T0049": {
+   "account_code": "4421",
+   "confidence": "high",
+   "reason": "Fuel and motor expenses"
+  },
+  "C02-T0050": {
+   "account_code": "4270",
+   "confidence": "high",
+   "reason": "Similar to previous fuel payments"
+  },
+  "C02-T0051": {
+   "account_code": "4189",
+   "confidence": "high",
+   "reason": "Similar to previous service charge postings"
+  }
+ },
+ "facts": {
+  "company": "Quillmere Logistics Ltd",
+  "period": "October 2026",
+  "revenue": "GBP 46,049.21",
+  "revenue_previous_month": "GBP 34,168.23",
+  "revenue_change_vs_previous_month": "+34.8%",
+  "operating_expenses": "GBP 49,448.41",
+  "operating_expenses_previous_month": "GBP 36,569.14",
+  "operating_expenses_change": "+35.2%",
+  "money_in": "GBP 46,049.21",
+  "money_out": "GBP 60,163.26",
+  "net_cash_flow": "GBP -14,114.05",
+  "largest_expense_accounts": [
+   "Payroll: GBP 21,877.61",
+   "Direct materials: GBP 13,024.35",
+   "Repairs and maintenance: GBP 5,108.41",
+   "Travel: GBP 1,739.60",
+   "Office expenses: GBP 1,535.39"
+  ],
+  "customer_invoices_open": "11 totalling GBP 62,475.96",
+  "customer_invoices_overdue": "2 totalling GBP 2,717.85",
+  "supplier_invoices_unpaid": "7 totalling GBP 24,587.93",
+  "supplier_invoices_due_next_14_days": "4 totalling GBP 13,919.43",
+  "items_awaiting_your_review": 16,
+  "high_risk_items_blocked": "2 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 46049.20999999999,
+  "prev_revenue": 34168.229999999996,
+  "revenue_change_pct": 34.8,
+  "operating_expenses": 49448.409999999996,
+  "prev_operating_expenses": 36569.14,
+  "opex_change_pct": 35.2,
+  "money_in": 46049.20999999999,
+  "money_out": 60163.26000000002,
+  "net_cash_flow": -14114.050000000025,
+  "ar_open_count": 11,
+  "ar_open_total": 62475.95999999999,
+  "ar_overdue_count": 2,
+  "ar_overdue_total": 2717.85,
+  "ap_open_count": 7,
+  "ap_open_total": 24587.93,
+  "ap_due_14d_count": 4,
+  "ap_due_14d_total": 13919.43,
+  "items_awaiting_review": 16,
+  "high_risk_items_blocked": 2,
+  "top_expenses": [
+   [
+    "Payroll",
+    21877.61
+   ],
+   [
+    "Direct materials",
+    13024.35
+   ],
+   [
+    "Repairs and maintenance",
+    5108.41
+   ],
+   [
+    "Travel",
+    1739.6
+   ],
+   [
+    "Office expenses",
+    1535.3899999999999
+   ]
+  ]
+ },
+ "commentary": "Quillmere Logistics Ltd saw a significant increase in revenue by 34.8% to GBP 46,049.21 in October 2026 compared to last month. However, operating expenses also rose sharply by 35.2% to GBP 49,448.41, leading to a net cash outflow of GBP -14,114.05. There are 11 customer invoices totaling GBP 62,475.96 still open, with 2 overdue by GBP 2,717.85. Supplier invoices outstanding total GBP 24,587.93, with 4 due within the next 14 days. Please review 16 items and address the 2 high-risk items blocked, such as bank-detail change requests or suspicious emails.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "auto_applied": 73,
+  "blocked": 2,
+  "held": 1,
+  "pending": 17
+ }
+}

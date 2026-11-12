@@ -1,0 +1,16 @@
+id: C08
+name: Nessory Property Management Ltd
+sector: property management
+country: IE
+currency: EUR
+email_domain: nessory.ie
+stack:
+  bank_format: B4
+  ledger_format: LD
+  chart_style: alnum
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 500
+  match_tolerance: 15.0

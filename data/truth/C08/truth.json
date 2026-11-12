@@ -1,0 +1,866 @@
+{
+ "company": "C08",
+ "split": "test",
+ "transactions": [
+  {
+   "txn_id": "C08-T0001",
+   "account_code": "EXP-TELE9",
+   "category": "telecoms"
+  },
+  {
+   "txn_id": "C08-T0002",
+   "account_code": "BS-INTE3",
+   "category": "intercompany"
+  },
+  {
+   "txn_id": "C08-T0003",
+   "account_code": "BS-LOAN3",
+   "category": "loan"
+  },
+  {
+   "txn_id": "C08-T0004",
+   "account_code": "EXP-SOFT8",
+   "category": "software"
+  },
+  {
+   "txn_id": "C08-T0005",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0006",
+   "account_code": "EXP-MEAL9",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C08-T0007",
+   "account_code": "EXP-TRAV3",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C08-T0008",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0009",
+   "account_code": "EXP-REPA4",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C08-T0010",
+   "account_code": "EXP-REPA4",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C08-T0011",
+   "account_code": "EXP-SOFT8",
+   "category": "software"
+  },
+  {
+   "txn_id": "C08-T0012",
+   "account_code": "EXP-RENT7",
+   "category": "rent"
+  },
+  {
+   "txn_id": "C08-T0013",
+   "account_code": "EXP-INSU4",
+   "category": "insurance"
+  },
+  {
+   "txn_id": "C08-T0014",
+   "account_code": "EXP-UTIL2",
+   "category": "utilities"
+  },
+  {
+   "txn_id": "C08-T0015",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0016",
+   "account_code": "EXP-SOFT8",
+   "category": "software"
+  },
+  {
+   "txn_id": "C08-T0017",
+   "account_code": "EXP-MEAL9",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C08-T0018",
+   "account_code": "EXP-REPA4",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C08-T0019",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0020",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0021",
+   "account_code": "REV-SALE1",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C08-T0022",
+   "account_code": "REV-SALE1",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C08-T0023",
+   "account_code": "EXP-TRAV3",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C08-T0024",
+   "account_code": "REV-SALE1",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C08-T0025",
+   "account_code": "EXP-PROF6",
+   "category": "professional"
+  },
+  {
+   "txn_id": "C08-T0026",
+   "account_code": "BS-PAYR9",
+   "category": "payroll_tax"
+  },
+  {
+   "txn_id": "C08-T0027",
+   "account_code": "REV-SALE1",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C08-T0028",
+   "account_code": "EXP-TRAV3",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C08-T0029",
+   "account_code": "REV-SALE1",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C08-T0030",
+   "account_code": "EXP-COGS7",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C08-T0031",
+   "account_code": "EXP-MARK8",
+   "category": "marketing"
+  },
+  {
+   "txn_id": "C08-T0032",
+   "account_code": "REV-SALE1",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C08-T0033",
+   "account_code": "EXP-PROF6",
+   "category": "professional"
+  },
+  {
+   "txn_id": "C08-T0034",
+   "account_code": "EXP-COGS7",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C08-T0035",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0036",
+   "account_code": "EXP-COGS7",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C08-T0037",
+   "account_code": "EXP-COGS7",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C08-T0038",
+   "account_code": "REV-SALE1",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C08-T0039",
+   "account_code": "EXP-PAYR3",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C08-T0040",
+   "account_code": "EXP-PAYR3",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C08-T0041",
+   "account_code": "EXP-PAYR3",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C08-T0042",
+   "account_code": "EXP-PAYR3",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C08-T0043",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0044",
+   "account_code": "EXP-OFFI6",
+   "category": "office"
+  },
+  {
+   "txn_id": "C08-T0045",
+   "account_code": "EXP-BANK2",
+   "category": "bank_fees"
+  },
+  {
+   "txn_id": "C08-T0046",
+   "account_code": "EXP-TRAV3",
+   "category": "travel"
+  }
+ ],
+ "reconciliation": [
+  {
+   "invoices": [
+    "C08-AR-3673"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0029"
+  },
+  {
+   "invoices": [
+    "C08-AR-3654"
+   ],
+   "case": "typo_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0027"
+  },
+  {
+   "invoices": [
+    "C08-AR-3669"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0024"
+  },
+  {
+   "invoices": [
+    "C08-AR-3660"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0038"
+  },
+  {
+   "invoices": [
+    "C08-AR-3664"
+   ],
+   "case": "short_paid_fee",
+   "expect": "auto",
+   "txn_id": "C08-T0022"
+  },
+  {
+   "invoices": [
+    "C08-AR-3674"
+   ],
+   "case": "ambiguous_twins",
+   "expect": "review",
+   "txn_id": "C08-T0032"
+  },
+  {
+   "invoices": [],
+   "case": "unexplained",
+   "expect": "none",
+   "txn_id": "C08-T0021"
+  },
+  {
+   "invoices": [
+    "C08-AP-001"
+   ],
+   "case": "typo_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0035"
+  },
+  {
+   "invoices": [
+    "C08-AP-004"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0010"
+  },
+  {
+   "invoices": [
+    "C08-AP-003"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0033"
+  },
+  {
+   "invoices": [
+    "C08-AP-002"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C08-T0025"
+  },
+  {
+   "invoices": [
+    "C08-AP-009"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0030"
+  },
+  {
+   "invoices": [
+    "C08-AP-010"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0037"
+  },
+  {
+   "invoices": [
+    "C08-AP-006"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C08-T0031"
+  },
+  {
+   "invoices": [
+    "C08-AP-008"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0036"
+  },
+  {
+   "invoices": [
+    "C08-AP-015"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C08-T0034"
+  }
+ ],
+ "emails": [
+  {
+   "message_id": "<c08-001@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-001",
+   "fields": {
+    "supplier": "Marrix Stationers Ltd",
+    "invoice_number": "INV45042",
+    "issue_date": "2026-10-13",
+    "due_date": "2026-10-27",
+    "currency": "EUR",
+    "net": 272.77,
+    "tax": 62.74,
+    "total": 335.51,
+    "bank_account": "IE11BMKH47400600986326"
+   }
+  },
+  {
+   "message_id": "<c08-002@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-002",
+   "fields": {
+    "supplier": "Harven Solicitors Ltd",
+    "invoice_number": "65375",
+    "issue_date": "2026-09-24",
+    "due_date": "2026-11-08",
+    "currency": "EUR",
+    "net": 1491.42,
+    "tax": 343.03,
+    "total": 1834.45,
+    "bank_account": "IE84JLKY07633004583185"
+   }
+  },
+  {
+   "message_id": "<c08-003@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-003",
+   "fields": {
+    "supplier": "Eldson Llp Ltd",
+    "invoice_number": "B66454",
+    "issue_date": "2026-09-29",
+    "due_date": "2026-11-13",
+    "currency": "EUR",
+    "net": 3162.55,
+    "tax": 727.39,
+    "total": 3889.94,
+    "bank_account": "IE39VGIE07014286341615"
+   }
+  },
+  {
+   "message_id": "<c08-004@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-004",
+   "fields": {
+    "supplier": "Calbury Repairs Ltd",
+    "invoice_number": "24683",
+    "issue_date": "2026-09-28",
+    "due_date": "2026-10-28",
+    "currency": "EUR",
+    "net": 1243.75,
+    "tax": 167.91,
+    "total": 1411.66,
+    "bank_account": "IE34JOSN42816789875226"
+   }
+  },
+  {
+   "message_id": "<c08-005@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-005",
+   "fields": {
+    "supplier": "Quinworth Ltd",
+    "invoice_number": "B29161",
+    "issue_date": "2026-10-19",
+    "due_date": "2026-11-18",
+    "currency": "EUR",
+    "net": 132.48,
+    "tax": 30.47,
+    "total": 162.95,
+    "bank_account": "IE07MKWJ36180936403724"
+   }
+  },
+  {
+   "message_id": "<c08-006@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-006",
+   "fields": {
+    "supplier": "Ormere Promotions Ltd",
+    "invoice_number": "87875",
+    "issue_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "currency": "EUR",
+    "net": 2319.1,
+    "tax": 533.39,
+    "total": 2852.49,
+    "bank_account": "IE54OUYR01380854098437"
+   }
+  },
+  {
+   "message_id": "<c08-007@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-007",
+   "fields": {
+    "supplier": "Selvane Machinery Ltd",
+    "invoice_number": "46512",
+    "issue_date": "2026-09-28",
+    "due_date": "2026-10-28",
+    "currency": "EUR",
+    "net": 1684.18,
+    "tax": 387.36,
+    "total": 2071.54,
+    "bank_account": "IE05WCEB78082017397086"
+   }
+  },
+  {
+   "message_id": "<c08-008@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-008",
+   "fields": {
+    "supplier": "Wynbury Cleaning Ltd",
+    "invoice_number": "B89566",
+    "issue_date": "2026-10-19",
+    "due_date": "2026-11-02",
+    "currency": "EUR",
+    "net": 8349.33,
+    "tax": 1920.35,
+    "total": 10269.68,
+    "bank_account": "IE65QRKN74238484647600"
+   }
+  },
+  {
+   "message_id": "<c08-009@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-009",
+   "fields": {
+    "supplier": "Wynbury Cleaning Ltd",
+    "invoice_number": "SI80353",
+    "issue_date": "2026-10-14",
+    "due_date": "2026-11-28",
+    "currency": "EUR",
+    "net": 9420.32,
+    "tax": 2166.67,
+    "total": 11586.99,
+    "bank_account": "IE65QRKN74238484647600"
+   }
+  },
+  {
+   "message_id": "<c08-010@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-010",
+   "fields": {
+    "supplier": "Wynbury Cleaning Ltd",
+    "invoice_number": "INV19270",
+    "issue_date": "2026-10-20",
+    "due_date": "2026-11-19",
+    "currency": "EUR",
+    "net": 3433.33,
+    "tax": 789.67,
+    "total": 4223.0,
+    "bank_account": "IE65QRKN74238484647600"
+   }
+  },
+  {
+   "message_id": "<c08-011@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-011",
+   "fields": {
+    "supplier": "Grylio Facilities Ltd",
+    "invoice_number": "SI75288",
+    "issue_date": "2026-10-23",
+    "due_date": "2026-12-07",
+    "currency": "EUR",
+    "net": 990.4,
+    "tax": 227.79,
+    "total": 1218.19,
+    "bank_account": "IE62SWER37249356761280"
+   }
+  },
+  {
+   "message_id": "<c08-012@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-012",
+   "fields": {
+    "supplier": "Grylio Facilities Ltd",
+    "invoice_number": "INV51513",
+    "issue_date": "2026-09-24",
+    "due_date": "2026-10-24",
+    "currency": "EUR",
+    "net": 8680.28,
+    "tax": 1996.46,
+    "total": 10676.74,
+    "bank_account": "IE62SWER37249356761280"
+   }
+  },
+  {
+   "message_id": "<c08-013@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-013",
+   "fields": {
+    "supplier": "Grylio Facilities Ltd",
+    "invoice_number": "INV84343",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-11-05",
+    "currency": "EUR",
+    "net": 3590.58,
+    "tax": 825.83,
+    "total": 4416.41,
+    "bank_account": "IE62SWER37249356761280"
+   }
+  },
+  {
+   "message_id": "<c08-014@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C08-AP-014",
+   "fields": {
+    "supplier": "Falquay Ltd",
+    "invoice_number": "82787",
+    "issue_date": "2026-10-18",
+    "due_date": "2026-11-17",
+    "currency": "EUR",
+    "net": 2171.07,
+    "tax": 499.35,
+    "total": 2670.42,
+    "bank_account": "IE83AJOS12808024233697"
+   }
+  },
+  {
+   "message_id": "<c08-015@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "invoice_id": "C08-AP-015",
+   "fields": {
+    "supplier": "Falquay Ltd",
+    "invoice_number": "B69580",
+    "issue_date": "2026-10-18",
+    "due_date": "2026-11-17",
+    "currency": "EUR",
+    "net": 204.75,
+    "tax": 47.09,
+    "total": 251.84,
+    "bank_account": "IE72TMYP99626625621105"
+   }
+  },
+  {
+   "message_id": "<c08-016@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [
+    "duplicate"
+   ],
+   "invoice_id": "C08-AP-005",
+   "fields": {
+    "supplier": "Quinworth Ltd",
+    "invoice_number": "B29161",
+    "issue_date": "2026-10-19",
+    "due_date": "2026-11-18",
+    "currency": "EUR",
+    "net": 132.48,
+    "tax": 30.47,
+    "total": 162.95,
+    "bank_account": "IE07MKWJ36180936403724"
+   }
+  },
+  {
+   "message_id": "<c08-017@mail.example>",
+   "class": "payment_risk",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-018@mail.example>",
+   "class": "payment_risk",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-019@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-020@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-021@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-022@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-023@mail.example>",
+   "class": "remittance",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-024@mail.example>",
+   "class": "remittance",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-025@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "address_change"
+  },
+  {
+   "message_id": "<c08-026@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "payroll_change"
+  },
+  {
+   "message_id": "<c08-027@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "payroll_change"
+  },
+  {
+   "message_id": "<c08-028@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "meeting_request"
+  },
+  {
+   "message_id": "<c08-029@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "document_request"
+  },
+  {
+   "message_id": "<c08-030@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-031@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c08-032@mail.example>",
+   "class": "other",
+   "flags": []
+  }
+ ],
+ "ap_invoices": [
+  {
+   "invoice_id": "C08-AP-001",
+   "number": "INV45042",
+   "total": 335.51
+  },
+  {
+   "invoice_id": "C08-AP-002",
+   "number": "65375",
+   "total": 1834.45
+  },
+  {
+   "invoice_id": "C08-AP-003",
+   "number": "B66454",
+   "total": 3889.94
+  },
+  {
+   "invoice_id": "C08-AP-004",
+   "number": "24683",
+   "total": 1411.66
+  },
+  {
+   "invoice_id": "C08-AP-005",
+   "number": "B29161",
+   "total": 162.95
+  },
+  {
+   "invoice_id": "C08-AP-006",
+   "number": "87875",
+   "total": 2852.49
+  },
+  {
+   "invoice_id": "C08-AP-007",
+   "number": "46512",
+   "total": 2071.54
+  },
+  {
+   "invoice_id": "C08-AP-008",
+   "number": "B89566",
+   "total": 10269.68
+  },
+  {
+   "invoice_id": "C08-AP-009",
+   "number": "SI80353",
+   "total": 11586.99
+  },
+  {
+   "invoice_id": "C08-AP-010",
+   "number": "INV19270",
+   "total": 4223.0
+  },
+  {
+   "invoice_id": "C08-AP-011",
+   "number": "SI75288",
+   "total": 1218.19
+  },
+  {
+   "invoice_id": "C08-AP-012",
+   "number": "INV51513",
+   "total": 10676.74
+  },
+  {
+   "invoice_id": "C08-AP-013",
+   "number": "INV84343",
+   "total": 4416.41
+  },
+  {
+   "invoice_id": "C08-AP-014",
+   "number": "82787",
+   "total": 2670.42
+  },
+  {
+   "invoice_id": "C08-AP-015",
+   "number": "B69580",
+   "total": 251.84
+  }
+ ],
+ "ar_invoices": [
+  {
+   "invoice_id": "C08-AR-3654",
+   "number": "NP-3654",
+   "total": 11834.17
+  },
+  {
+   "invoice_id": "C08-AR-3660",
+   "number": "NP-3660",
+   "total": 5994.5
+  },
+  {
+   "invoice_id": "C08-AR-3662",
+   "number": "NP-3662",
+   "total": 4096.99
+  },
+  {
+   "invoice_id": "C08-AR-3664",
+   "number": "NP-3664",
+   "total": 4859.47
+  },
+  {
+   "invoice_id": "C08-AR-3666",
+   "number": "NP-3666",
+   "total": 6625.27
+  },
+  {
+   "invoice_id": "C08-AR-3668",
+   "number": "NP-3668",
+   "total": 12192.67
+  },
+  {
+   "invoice_id": "C08-AR-3669",
+   "number": "NP-3669",
+   "total": 5593.33
+  },
+  {
+   "invoice_id": "C08-AR-3670",
+   "number": "NP-3670",
+   "total": 1599.49
+  },
+  {
+   "invoice_id": "C08-AR-3672",
+   "number": "NP-3672",
+   "total": 3724.94
+  },
+  {
+   "invoice_id": "C08-AR-3673",
+   "number": "NP-3673",
+   "total": 11782.17
+  },
+  {
+   "invoice_id": "C08-AR-3674",
+   "number": "NP-3674",
+   "total": 1997.99
+  },
+  {
+   "invoice_id": "C08-AR-3675",
+   "number": "NP-3675",
+   "total": 1997.99
+  }
+ ]
+}

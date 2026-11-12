@@ -1,0 +1,1229 @@
+{
+ "split": "dev",
+ "runs": "runs/final",
+ "companies": [
+  "C01",
+  "C02",
+  "C03"
+ ],
+ "metrics": {
+  "admin_request_type_accuracy": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 14,
+   "den": 14,
+   "companies": 3
+  },
+  "cat_auto_error": {
+   "est": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "num": 0,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_auto_precision": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 129,
+   "den": 129,
+   "companies": 3
+  },
+  "cat_model_only_accuracy": {
+   "est": 0.9005847953216374,
+   "lo": 0.890625,
+   "hi": 0.9215686274509803,
+   "num": 154,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_model_only_accuracy_known_counterparty": {
+   "est": 0.9834710743801653,
+   "lo": 0.9705882352941176,
+   "hi": 1.0,
+   "num": 119,
+   "den": 121,
+   "companies": 3
+  },
+  "cat_model_only_accuracy_new_counterparty": {
+   "est": 0.7,
+   "lo": 0.6111111111111112,
+   "hi": 0.8235294117647058,
+   "num": 35,
+   "den": 50,
+   "companies": 3
+  },
+  "cat_review_decisions": {
+   "est": 0.1695906432748538,
+   "lo": 0.125,
+   "hi": 0.2549019607843137,
+   "num": 29,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_review_lines": {
+   "est": 0.24561403508771928,
+   "lo": 0.21428571428571427,
+   "hi": 0.27450980392156865,
+   "num": 42,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_rules_only_accuracy": {
+   "est": 0.695906432748538,
+   "lo": 0.6470588235294118,
+   "hi": 0.7321428571428571,
+   "num": 119,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_rules_only_coverage": {
+   "est": 0.695906432748538,
+   "lo": 0.6470588235294118,
+   "hi": 0.7321428571428571,
+   "num": 119,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_straight_through": {
+   "est": 0.7543859649122807,
+   "lo": 0.7254901960784313,
+   "hi": 0.7857142857142857,
+   "num": 129,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_system_accuracy": {
+   "est": 0.9239766081871345,
+   "lo": 0.90625,
+   "hi": 0.9411764705882353,
+   "num": 158,
+   "den": 171,
+   "companies": 3
+  },
+  "cat_system_accuracy_known_counterparty": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 121,
+   "den": 121,
+   "companies": 3
+  },
+  "cat_system_accuracy_new_counterparty": {
+   "est": 0.74,
+   "lo": 0.6666666666666666,
+   "hi": 0.8235294117647058,
+   "num": 37,
+   "den": 50,
+   "companies": 3
+  },
+  "duplicate_false_rate": {
+   "est": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "num": 0,
+   "den": 41,
+   "companies": 3
+  },
+  "duplicate_recall": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 3,
+   "den": 3,
+   "companies": 3
+  },
+  "email_class_accuracy": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 83,
+   "den": 83,
+   "companies": 3
+  },
+  "email_recall_admin_request": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 14,
+   "den": 14,
+   "companies": 3
+  },
+  "email_recall_other": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 8,
+   "den": 8,
+   "companies": 3
+  },
+  "email_recall_payment_risk": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 5,
+   "den": 5,
+   "companies": 3
+  },
+  "email_recall_receipt": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 10,
+   "den": 10,
+   "companies": 3
+  },
+  "email_recall_remittance": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 2,
+   "den": 2,
+   "companies": 1
+  },
+  "email_recall_supplier_invoice": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "false_block_rate": {
+   "est": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "num": 0,
+   "den": 73,
+   "companies": 3
+  },
+  "field_bank_account": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_currency": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_due_date": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_invoice_number": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_issue_date": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_net": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_supplier": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_tax": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "field_total": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "invoice_all_fields_correct": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 44,
+   "den": 44,
+   "companies": 3
+  },
+  "invoice_silent_error": {
+   "est": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "num": 0,
+   "den": 44,
+   "companies": 3
+  },
+  "invoice_straight_through": {
+   "est": 0.8181818181818182,
+   "lo": 0.8,
+   "hi": 0.8571428571428571,
+   "num": 36,
+   "den": 44,
+   "companies": 3
+  },
+  "match_auto_precision": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 27,
+   "den": 27,
+   "companies": 3
+  },
+  "match_case_ambiguous_twins": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 1,
+   "den": 1,
+   "companies": 1
+  },
+  "match_case_amount_only": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 5,
+   "den": 5,
+   "companies": 3
+  },
+  "match_case_combined": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 1,
+   "den": 1,
+   "companies": 1
+  },
+  "match_case_exact_ref": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 18,
+   "den": 18,
+   "companies": 3
+  },
+  "match_case_short_paid_fee": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 1,
+   "den": 1,
+   "companies": 1
+  },
+  "match_case_typo_ref": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 2,
+   "den": 2,
+   "companies": 1
+  },
+  "match_case_unexplained": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 3,
+   "den": 3,
+   "companies": 3
+  },
+  "match_correct_auto": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 27,
+   "den": 27,
+   "companies": 3
+  },
+  "match_flagged_for_review": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 4,
+   "den": 4,
+   "companies": 3
+  },
+  "risk_recall": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 10,
+   "den": 10,
+   "companies": 3
+  },
+  "risk_recall_bank_details_mismatch": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 3,
+   "den": 3,
+   "companies": 3
+  },
+  "risk_recall_payment_request": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 5,
+   "den": 5,
+   "companies": 3
+  },
+  "risk_recall_prompt_injection": {
+   "est": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "num": 2,
+   "den": 2,
+   "companies": 2
+  }
+ },
+ "per_company": {
+  "admin_request_type_accuracy": {
+   "C01": [
+    4,
+    4
+   ],
+   "C02": [
+    5,
+    5
+   ],
+   "C03": [
+    5,
+    5
+   ]
+  },
+  "cat_auto_error": {
+   "C01": [
+    0,
+    56
+   ],
+   "C02": [
+    0,
+    51
+   ],
+   "C03": [
+    0,
+    64
+   ]
+  },
+  "cat_auto_precision": {
+   "C01": [
+    44,
+    44
+   ],
+   "C02": [
+    37,
+    37
+   ],
+   "C03": [
+    48,
+    48
+   ]
+  },
+  "cat_model_only_accuracy": {
+   "C01": [
+    50,
+    56
+   ],
+   "C02": [
+    47,
+    51
+   ],
+   "C03": [
+    57,
+    64
+   ]
+  },
+  "cat_model_only_accuracy_known_counterparty": {
+   "C01": [
+    40,
+    41
+   ],
+   "C02": [
+    33,
+    34
+   ],
+   "C03": [
+    46,
+    46
+   ]
+  },
+  "cat_model_only_accuracy_new_counterparty": {
+   "C01": [
+    10,
+    15
+   ],
+   "C02": [
+    14,
+    17
+   ],
+   "C03": [
+    11,
+    18
+   ]
+  },
+  "cat_review_decisions": {
+   "C01": [
+    7,
+    56
+   ],
+   "C02": [
+    13,
+    51
+   ],
+   "C03": [
+    9,
+    64
+   ]
+  },
+  "cat_review_lines": {
+   "C01": [
+    12,
+    56
+   ],
+   "C02": [
+    14,
+    51
+   ],
+   "C03": [
+    16,
+    64
+   ]
+  },
+  "cat_rules_only_accuracy": {
+   "C01": [
+    41,
+    56
+   ],
+   "C02": [
+    33,
+    51
+   ],
+   "C03": [
+    45,
+    64
+   ]
+  },
+  "cat_rules_only_coverage": {
+   "C01": [
+    41,
+    56
+   ],
+   "C02": [
+    33,
+    51
+   ],
+   "C03": [
+    45,
+    64
+   ]
+  },
+  "cat_straight_through": {
+   "C01": [
+    44,
+    56
+   ],
+   "C02": [
+    37,
+    51
+   ],
+   "C03": [
+    48,
+    64
+   ]
+  },
+  "cat_system_accuracy": {
+   "C01": [
+    52,
+    56
+   ],
+   "C02": [
+    48,
+    51
+   ],
+   "C03": [
+    58,
+    64
+   ]
+  },
+  "cat_system_accuracy_known_counterparty": {
+   "C01": [
+    41,
+    41
+   ],
+   "C02": [
+    34,
+    34
+   ],
+   "C03": [
+    46,
+    46
+   ]
+  },
+  "cat_system_accuracy_new_counterparty": {
+   "C01": [
+    11,
+    15
+   ],
+   "C02": [
+    14,
+    17
+   ],
+   "C03": [
+    12,
+    18
+   ]
+  },
+  "duplicate_false_rate": {
+   "C01": [
+    0,
+    14
+   ],
+   "C02": [
+    0,
+    13
+   ],
+   "C03": [
+    0,
+    14
+   ]
+  },
+  "duplicate_recall": {
+   "C01": [
+    1,
+    1
+   ],
+   "C02": [
+    1,
+    1
+   ],
+   "C03": [
+    1,
+    1
+   ]
+  },
+  "email_class_accuracy": {
+   "C01": [
+    27,
+    27
+   ],
+   "C02": [
+    27,
+    27
+   ],
+   "C03": [
+    29,
+    29
+   ]
+  },
+  "email_recall_admin_request": {
+   "C01": [
+    4,
+    4
+   ],
+   "C02": [
+    5,
+    5
+   ],
+   "C03": [
+    5,
+    5
+   ]
+  },
+  "email_recall_other": {
+   "C01": [
+    2,
+    2
+   ],
+   "C02": [
+    3,
+    3
+   ],
+   "C03": [
+    3,
+    3
+   ]
+  },
+  "email_recall_payment_risk": {
+   "C01": [
+    2,
+    2
+   ],
+   "C02": [
+    1,
+    1
+   ],
+   "C03": [
+    2,
+    2
+   ]
+  },
+  "email_recall_receipt": {
+   "C01": [
+    4,
+    4
+   ],
+   "C02": [
+    2,
+    2
+   ],
+   "C03": [
+    4,
+    4
+   ]
+  },
+  "email_recall_remittance": {
+   "C02": [
+    2,
+    2
+   ]
+  },
+  "email_recall_supplier_invoice": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "false_block_rate": {
+   "C01": [
+    0,
+    23
+   ],
+   "C02": [
+    0,
+    25
+   ],
+   "C03": [
+    0,
+    25
+   ]
+  },
+  "field_bank_account": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_currency": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_due_date": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_invoice_number": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_issue_date": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_net": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_supplier": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_tax": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "field_total": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "invoice_all_fields_correct": {
+   "C01": [
+    15,
+    15
+   ],
+   "C02": [
+    14,
+    14
+   ],
+   "C03": [
+    15,
+    15
+   ]
+  },
+  "invoice_silent_error": {
+   "C01": [
+    0,
+    15
+   ],
+   "C02": [
+    0,
+    14
+   ],
+   "C03": [
+    0,
+    15
+   ]
+  },
+  "invoice_straight_through": {
+   "C01": [
+    12,
+    15
+   ],
+   "C02": [
+    12,
+    14
+   ],
+   "C03": [
+    12,
+    15
+   ]
+  },
+  "match_auto_precision": {
+   "C01": [
+    8,
+    8
+   ],
+   "C02": [
+    12,
+    12
+   ],
+   "C03": [
+    7,
+    7
+   ]
+  },
+  "match_case_ambiguous_twins": {
+   "C02": [
+    1,
+    1
+   ]
+  },
+  "match_case_amount_only": {
+   "C01": [
+    2,
+    2
+   ],
+   "C02": [
+    2,
+    2
+   ],
+   "C03": [
+    1,
+    1
+   ]
+  },
+  "match_case_combined": {
+   "C02": [
+    1,
+    1
+   ]
+  },
+  "match_case_exact_ref": {
+   "C01": [
+    6,
+    6
+   ],
+   "C02": [
+    6,
+    6
+   ],
+   "C03": [
+    6,
+    6
+   ]
+  },
+  "match_case_short_paid_fee": {
+   "C02": [
+    1,
+    1
+   ]
+  },
+  "match_case_typo_ref": {
+   "C02": [
+    2,
+    2
+   ]
+  },
+  "match_case_unexplained": {
+   "C01": [
+    1,
+    1
+   ],
+   "C02": [
+    1,
+    1
+   ],
+   "C03": [
+    1,
+    1
+   ]
+  },
+  "match_correct_auto": {
+   "C01": [
+    8,
+    8
+   ],
+   "C02": [
+    12,
+    12
+   ],
+   "C03": [
+    7,
+    7
+   ]
+  },
+  "match_flagged_for_review": {
+   "C01": [
+    1,
+    1
+   ],
+   "C02": [
+    2,
+    2
+   ],
+   "C03": [
+    1,
+    1
+   ]
+  },
+  "risk_recall": {
+   "C01": [
+    4,
+    4
+   ],
+   "C02": [
+    2,
+    2
+   ],
+   "C03": [
+    4,
+    4
+   ]
+  },
+  "risk_recall_bank_details_mismatch": {
+   "C01": [
+    1,
+    1
+   ],
+   "C02": [
+    1,
+    1
+   ],
+   "C03": [
+    1,
+    1
+   ]
+  },
+  "risk_recall_payment_request": {
+   "C01": [
+    2,
+    2
+   ],
+   "C02": [
+    1,
+    1
+   ],
+   "C03": [
+    2,
+    2
+   ]
+  },
+  "risk_recall_prompt_injection": {
+   "C01": [
+    1,
+    1
+   ],
+   "C03": [
+    1,
+    1
+   ]
+  }
+ },
+ "differences": {
+  "system_minus_rules_only_accuracy": {
+   "est": 0.22807017543859642,
+   "lo": 0.1964285714285715,
+   "hi": 0.2941176470588235
+  },
+  "system_minus_model_only_accuracy": {
+   "est": 0.023391812865497075,
+   "lo": 0.015625,
+   "hi": 0.0357142857142857
+  }
+ },
+ "policy_sweep": {
+  "high|100": {
+   "model_items": 42,
+   "auto": 4,
+   "auto_wrong": 3,
+   "auto_share": 0.09523809523809523,
+   "error_among_auto": 0.75
+  },
+  "high|250": {
+   "model_items": 42,
+   "auto": 10,
+   "auto_wrong": 4,
+   "auto_share": 0.23809523809523808,
+   "error_among_auto": 0.4
+  },
+  "high|500": {
+   "model_items": 42,
+   "auto": 17,
+   "auto_wrong": 6,
+   "auto_share": 0.40476190476190477,
+   "error_among_auto": 0.35294117647058826
+  },
+  "high|1000": {
+   "model_items": 42,
+   "auto": 17,
+   "auto_wrong": 6,
+   "auto_share": 0.40476190476190477,
+   "error_among_auto": 0.35294117647058826
+  },
+  "high|1e+09": {
+   "model_items": 42,
+   "auto": 24,
+   "auto_wrong": 6,
+   "auto_share": 0.5714285714285714,
+   "error_among_auto": 0.25
+  },
+  "high+medium|100": {
+   "model_items": 42,
+   "auto": 5,
+   "auto_wrong": 4,
+   "auto_share": 0.11904761904761904,
+   "error_among_auto": 0.8
+  },
+  "high+medium|250": {
+   "model_items": 42,
+   "auto": 14,
+   "auto_wrong": 6,
+   "auto_share": 0.3333333333333333,
+   "error_among_auto": 0.42857142857142855
+  },
+  "high+medium|500": {
+   "model_items": 42,
+   "auto": 27,
+   "auto_wrong": 11,
+   "auto_share": 0.6428571428571429,
+   "error_among_auto": 0.4074074074074074
+  },
+  "high+medium|1000": {
+   "model_items": 42,
+   "auto": 33,
+   "auto_wrong": 13,
+   "auto_share": 0.7857142857142857,
+   "error_among_auto": 0.3939393939393939
+  },
+  "high+medium|1e+09": {
+   "model_items": 42,
+   "auto": 42,
+   "auto_wrong": 13,
+   "auto_share": 1.0,
+   "error_among_auto": 0.30952380952380953
+  }
+ },
+ "email_confusion": {
+  "admin_request->admin_request": 14,
+  "other->other": 8,
+  "payment_risk->payment_risk": 5,
+  "receipt->receipt": 10,
+  "remittance->remittance": 2,
+  "supplier_invoice->supplier_invoice": 44
+ },
+ "report_figures": {
+  "C01": {
+   "revenue_truth": 42449.53,
+   "revenue_report": 41955.85,
+   "opex_truth": 42615.78,
+   "opex_report": 42122.1,
+   "revenue_abs_pct_error": 1.16,
+   "opex_abs_pct_error": 1.16
+  },
+  "C02": {
+   "revenue_truth": 46049.21,
+   "revenue_report": 46049.21,
+   "opex_truth": 49448.41,
+   "opex_report": 49448.41,
+   "revenue_abs_pct_error": 0.0,
+   "opex_abs_pct_error": 0.0
+  },
+  "C03": {
+   "revenue_truth": 70284.03,
+   "revenue_report": 70284.03,
+   "opex_truth": 61378.97,
+   "opex_report": 61378.97,
+   "revenue_abs_pct_error": 0.0,
+   "opex_abs_pct_error": 0.0
+  }
+ },
+ "commentary_check": {
+  "C01": {
+   "unsupported_first_draft": 0,
+   "retried": false,
+   "sentences_dropped": 0,
+   "unsupported_final": 0
+  },
+  "C02": {
+   "unsupported_first_draft": 0,
+   "retried": false,
+   "sentences_dropped": 0,
+   "unsupported_final": 0
+  },
+  "C03": {
+   "unsupported_first_draft": 0,
+   "retried": false,
+   "sentences_dropped": 0,
+   "unsupported_final": 0
+  }
+ },
+ "seconds_per_company": {
+  "C01": 21.1,
+  "C02": 8.1,
+  "C03": 8.1
+ },
+ "errors": {
+  "categorisation": [
+   "C01 C01-T0010 'POS 05OCT BELARA LTD' -219.26 want=427 got=409 src=model conf=medium status=pending",
+   "C01 C01-T0026 'SEPA CR TAVDRIX REFUND' +493.68 want=200 got=421 src=model conf=high status=pending",
+   "C01 C01-T0027 'POS 13OCT BELARA LTD' -470.95 want=427 got=435 src=model conf=medium status=pending",
+   "C01 C01-T0040 'POS 25OCT BELARA LTD' -443.66 want=427 got=435 src=model conf=medium status=pending",
+   "C02 C02-T0016 'CARD PAYMENT TO QUINVILLE RAIL ON 12-10-2026' -331.79 want=4335 got=4270 src=model conf=medium status=pending",
+   "C02 C02-T0048 'CARD PAYMENT TO TAVMORA ON 30-10-2026' -65.74 want=4212 got=4364 src=model conf=medium status=pending",
+   "C02 C02-T0050 'CARD PAYMENT TO ISTVILLE LTD ON 31-10-2026' -100.90 want=4421 got=4270 src=model conf=high status=pending",
+   "C03 C03-T0017 'CARD PAYMENT DUNWORTH' -56.84 want=Meals and entertainment got=Office expenses src=model conf=high status=pending",
+   "C03 C03-T0026 'CARD PAYMENT BRAWORTH ELECTRICAL NAAS' -694.92 want=Maintenance got=Electricity and gas src=model conf=medium status=pending",
+   "C03 C03-T0038 'CARD PAYMENT BRAWORTH ELECTRICAL NAAS' -405.52 want=Maintenance got=Electricity and gas src=model conf=high status=pending",
+   "C03 C03-T0041 'CARD PAYMENT BRAWORTH ELECTRICAL NAAS' -869.40 want=Maintenance got=Electricity and gas src=model conf=medium status=pending",
+   "C03 C03-T0042 'CARD PAYMENT DUNWORTH' -75.30 want=Meals and entertainment got=Office expenses src=model conf=high status=pending",
+   "C03 C03-T0064 'CARD PAYMENT DUNWORTH' -68.38 want=Meals and entertainment got=Office expenses src=model conf=high status=pending"
+  ]
+ }
+}

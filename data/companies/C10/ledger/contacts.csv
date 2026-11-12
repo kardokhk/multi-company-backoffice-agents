@@ -1,0 +1,11 @@
+ContactName,EmailAddress,BankAccount,DefaultAccount,IsSupplier
+Corford LLC,accounts@corford.com,US-ACCT-8100597160-RTN-065575655,431,TRUE
+Ulville LLC,accounts@ulville.com,US-ACCT-1507605389-RTN-015457644,437,TRUE
+Kelrix LLC,accounts@kelrix.com,US-ACCT-9726658974-RTN-048333807,442,TRUE
+Nolmere LLC,accounts@nolmere.com,US-ACCT-9723017089-RTN-088003037,442,TRUE
+Ulven Ads LLC,accounts@ulven.com,US-ACCT-3733899603-RTN-078697953,448,TRUE
+Wynford Tech LLC,accounts@wynford.com,US-ACCT-7662223318-RTN-064740745,700,TRUE
+Ormore Systems LLC,accounts@ormore.com,US-ACCT-2946204929-RTN-084217009,700,TRUE
+Bravane LLC,accounts@bravane.com,US-ACCT-8917427494-RTN-053561659,458,TRUE
+Cordrix Sportswear LLC,accounts@cordrix.com,US-ACCT-2586580672-RTN-051985973,458,TRUE
+Vervane Sportswear LLC,accounts@vervane.com,US-ACCT-6305595559-RTN-042743143,458,TRUE

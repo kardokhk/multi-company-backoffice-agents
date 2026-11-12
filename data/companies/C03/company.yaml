@@ -1,0 +1,16 @@
+id: C03
+name: Feyburn Cafe and Bakery Ltd
+sector: cafe and bakery
+country: IE
+currency: EUR
+email_domain: feyburn.ie
+stack:
+  bank_format: B2
+  ledger_format: LB
+  chart_style: names
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 500
+  match_tolerance: 15.0

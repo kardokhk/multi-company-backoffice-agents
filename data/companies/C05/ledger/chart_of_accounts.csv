@@ -1,0 +1,22 @@
+Code,Name,Type
+200,Turnover,Income
+400,Premises rent,Expense
+403,Utilities,Expense
+408,Telecoms,Expense
+413,IT and software,Expense
+419,Insurance,Expense
+424,Wages and salaries,Expense
+800,Payroll liabilities,Liability
+427,Bank fees,Expense
+432,Stationery and printing,Expense
+434,Accountancy and legal,Expense
+436,Repairs and maintenance,Expense
+438,Marketing,Expense
+440,Travel,Expense
+445,Entertainment,Expense
+700,Equipment,Asset
+803,VAT control,Liability
+706,Intercompany account,Asset
+448,Purchases,Expense
+453,Motor expenses,Expense
+806,Bank loan,Liability

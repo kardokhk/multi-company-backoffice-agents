@@ -1,0 +1,16 @@
+id: C06
+name: Ostrella Home Goods Inc
+sector: online home goods retailer
+country: US
+currency: USD
+email_domain: ostrella-home.com
+stack:
+  bank_format: B5
+  ledger_format: LB
+  chart_style: names
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 550
+  match_tolerance: 15.0

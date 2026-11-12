@@ -1,0 +1,21 @@
+Code,Name,Type
+200,Sales,Income
+400,Rent and rates,Expense
+402,Electricity and gas,Expense
+407,Phone and broadband,Expense
+409,Software subscriptions,Expense
+412,Business insurance,Expense
+418,Wages and salaries,Expense
+800,PAYE and social insurance,Liability
+421,Bank fees,Expense
+427,Office supplies,Expense
+429,Legal and professional,Expense
+435,Repairs and maintenance,Expense
+437,Advertising,Expense
+442,Travel and subsistence,Expense
+447,Entertainment,Expense
+700,Plant and equipment,Asset
+802,VAT payable,Liability
+706,Due to/from group companies,Asset
+449,Direct materials,Expense
+805,Loan repayments,Liability

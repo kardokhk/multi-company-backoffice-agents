@@ -1,0 +1,694 @@
+{
+ "company": "C06",
+ "split": "test",
+ "transactions": [
+  {
+   "txn_id": "C06-T0001",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0002",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0003",
+   "account_code": "Telecoms",
+   "category": "telecoms"
+  },
+  {
+   "txn_id": "C06-T0004",
+   "account_code": "Entertainment",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C06-T0005",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0006",
+   "account_code": "Electricity and gas",
+   "category": "utilities"
+  },
+  {
+   "txn_id": "C06-T0007",
+   "account_code": "Software subscriptions",
+   "category": "software"
+  },
+  {
+   "txn_id": "C06-T0008",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0009",
+   "account_code": "Software subscriptions",
+   "category": "software"
+  },
+  {
+   "txn_id": "C06-T0010",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0011",
+   "account_code": "Insurance",
+   "category": "insurance"
+  },
+  {
+   "txn_id": "C06-T0012",
+   "account_code": "Software subscriptions",
+   "category": "software"
+  },
+  {
+   "txn_id": "C06-T0013",
+   "account_code": "Office supplies",
+   "category": "office"
+  },
+  {
+   "txn_id": "C06-T0014",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0015",
+   "account_code": "Entertainment",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C06-T0016",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0017",
+   "account_code": "Premises rent",
+   "category": "rent"
+  },
+  {
+   "txn_id": "C06-T0018",
+   "account_code": "Office supplies",
+   "category": "office"
+  },
+  {
+   "txn_id": "C06-T0019",
+   "account_code": "Maintenance",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C06-T0020",
+   "account_code": "Entertainment",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C06-T0021",
+   "account_code": "Maintenance",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C06-T0022",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0023",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0024",
+   "account_code": "Office supplies",
+   "category": "office"
+  },
+  {
+   "txn_id": "C06-T0025",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0026",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0027",
+   "account_code": "Entertainment",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C06-T0028",
+   "account_code": "Travel",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C06-T0029",
+   "account_code": "Maintenance",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C06-T0030",
+   "account_code": "Entertainment",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C06-T0031",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0032",
+   "account_code": "Payroll taxes",
+   "category": "payroll_tax"
+  },
+  {
+   "txn_id": "C06-T0033",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0034",
+   "account_code": "Accountancy and legal",
+   "category": "professional"
+  },
+  {
+   "txn_id": "C06-T0035",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0036",
+   "account_code": "Maintenance",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C06-T0037",
+   "account_code": "Office supplies",
+   "category": "office"
+  },
+  {
+   "txn_id": "C06-T0038",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0039",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0040",
+   "account_code": "Cost of sales",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C06-T0041",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0042",
+   "account_code": "Maintenance",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C06-T0043",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0044",
+   "account_code": "Entertainment",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C06-T0045",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0046",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0047",
+   "account_code": "Maintenance",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C06-T0048",
+   "account_code": "Due to/from group companies",
+   "category": "intercompany"
+  },
+  {
+   "txn_id": "C06-T0049",
+   "account_code": "Wages and salaries",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C06-T0050",
+   "account_code": "Wages and salaries",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C06-T0051",
+   "account_code": "Wages and salaries",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C06-T0052",
+   "account_code": "Wages and salaries",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C06-T0053",
+   "account_code": "Advertising",
+   "category": "marketing"
+  },
+  {
+   "txn_id": "C06-T0054",
+   "account_code": "Fee income",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C06-T0055",
+   "account_code": "Travel",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C06-T0056",
+   "account_code": "Bank fees",
+   "category": "bank_fees"
+  },
+  {
+   "txn_id": "C06-T0057",
+   "account_code": "Travel",
+   "category": "travel"
+  }
+ ],
+ "reconciliation": [
+  {
+   "invoices": [],
+   "case": "unexplained",
+   "expect": "none",
+   "txn_id": "C06-T0046"
+  },
+  {
+   "invoices": [
+    "C06-AP-008"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C06-T0040"
+  },
+  {
+   "invoices": [
+    "C06-AP-006"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C06-T0053"
+  },
+  {
+   "invoices": [
+    "C06-AP-001"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C06-T0018"
+  },
+  {
+   "invoices": [
+    "C06-AP-005"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C06-T0047"
+  },
+  {
+   "invoices": [
+    "C06-AP-003"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C06-T0034"
+  }
+ ],
+ "emails": [
+  {
+   "message_id": "<c06-001@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-001",
+   "fields": {
+    "supplier": "Marlan Print LLC",
+    "invoice_number": "B71696",
+    "issue_date": "2026-09-30",
+    "due_date": "2026-10-30",
+    "currency": "USD",
+    "net": 149.8,
+    "tax": 10.86,
+    "total": 160.66,
+    "bank_account": "US-ACCT-9866284770-RTN-062866185"
+   }
+  },
+  {
+   "message_id": "<c06-002@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-002",
+   "fields": {
+    "supplier": "Fenwick Llp LLC",
+    "invoice_number": "39409",
+    "issue_date": "2026-10-02",
+    "due_date": "2026-10-16",
+    "currency": "USD",
+    "net": 1624.1,
+    "tax": 117.75,
+    "total": 1741.85,
+    "bank_account": "US-ACCT-7036946041-RTN-036568741"
+   }
+  },
+  {
+   "message_id": "<c06-003@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-003",
+   "fields": {
+    "supplier": "Beltessa LLC",
+    "invoice_number": "59384",
+    "issue_date": "2026-10-08",
+    "due_date": "2026-11-07",
+    "currency": "USD",
+    "net": 1709.36,
+    "tax": 123.93,
+    "total": 1833.29,
+    "bank_account": "US-ACCT-7412696424-RTN-060796111"
+   }
+  },
+  {
+   "message_id": "<c06-004@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-004",
+   "fields": {
+    "supplier": "Pelhurst Services LLC",
+    "invoice_number": "79186",
+    "issue_date": "2026-10-06",
+    "due_date": "2026-10-20",
+    "currency": "USD",
+    "net": 2583.61,
+    "tax": 187.31,
+    "total": 2770.92,
+    "bank_account": "US-ACCT-1145405327-RTN-017894455"
+   }
+  },
+  {
+   "message_id": "<c06-005@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-005",
+   "fields": {
+    "supplier": "Belquay Repairs LLC",
+    "invoice_number": "59692",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-10-26",
+    "currency": "USD",
+    "net": 1843.52,
+    "tax": 133.66,
+    "total": 1977.18,
+    "bank_account": "US-ACCT-7139534571-RTN-040453022"
+   }
+  },
+  {
+   "message_id": "<c06-006@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-006",
+   "fields": {
+    "supplier": "Ulbury LLC",
+    "invoice_number": "86888",
+    "issue_date": "2026-09-21",
+    "due_date": "2026-10-05",
+    "currency": "USD",
+    "net": 3085.59,
+    "tax": 223.71,
+    "total": 3309.3,
+    "bank_account": "US-ACCT-5889971544-RTN-082625312"
+   }
+  },
+  {
+   "message_id": "<c06-007@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-007",
+   "fields": {
+    "supplier": "Noldrix Machinery LLC",
+    "invoice_number": "70392",
+    "issue_date": "2026-10-20",
+    "due_date": "2026-11-19",
+    "currency": "USD",
+    "net": 9973.55,
+    "tax": 723.08,
+    "total": 10696.63,
+    "bank_account": "US-ACCT-7226739426-RTN-048555014"
+   }
+  },
+  {
+   "message_id": "<c06-008@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "invoice_id": "C06-AP-008",
+   "fields": {
+    "supplier": "Zalwick Homewares LLC",
+    "invoice_number": "B97762",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-10-26",
+    "currency": "USD",
+    "net": 1564.91,
+    "tax": 113.46,
+    "total": 1678.37,
+    "bank_account": "US-ACCT-5846510520-RTN-044306046"
+   }
+  },
+  {
+   "message_id": "<c06-009@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-009",
+   "fields": {
+    "supplier": "Zalwick Homewares LLC",
+    "invoice_number": "B27121",
+    "issue_date": "2026-10-27",
+    "due_date": "2026-11-26",
+    "currency": "USD",
+    "net": 2154.05,
+    "tax": 156.17,
+    "total": 2310.22,
+    "bank_account": "US-ACCT-6547451406-RTN-042543240"
+   }
+  },
+  {
+   "message_id": "<c06-010@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-010",
+   "fields": {
+    "supplier": "Zalwick Homewares LLC",
+    "invoice_number": "INV29652",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-11-11",
+    "currency": "USD",
+    "net": 1498.8,
+    "tax": 108.66,
+    "total": 1607.46,
+    "bank_account": "US-ACCT-6547451406-RTN-042543240"
+   }
+  },
+  {
+   "message_id": "<c06-011@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-011",
+   "fields": {
+    "supplier": "Jorbrook Homewares LLC",
+    "invoice_number": "98187",
+    "issue_date": "2026-10-07",
+    "due_date": "2026-11-21",
+    "currency": "USD",
+    "net": 2472.74,
+    "tax": 179.27,
+    "total": 2652.01,
+    "bank_account": "US-ACCT-9731953460-RTN-040053700"
+   }
+  },
+  {
+   "message_id": "<c06-012@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C06-AP-012",
+   "fields": {
+    "supplier": "Orvane Packaging LLC",
+    "invoice_number": "INV91737",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-11-27",
+    "currency": "USD",
+    "net": 1918.43,
+    "tax": 139.09,
+    "total": 2057.52,
+    "bank_account": "US-ACCT-6697477441-RTN-071721728"
+   }
+  },
+  {
+   "message_id": "<c06-013@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [
+    "duplicate"
+   ],
+   "invoice_id": "C06-AP-002",
+   "fields": {
+    "supplier": "Fenwick Llp LLC",
+    "invoice_number": "39409",
+    "issue_date": "2026-10-02",
+    "due_date": "2026-10-16",
+    "currency": "USD",
+    "net": 1624.1,
+    "tax": 117.75,
+    "total": 1741.85,
+    "bank_account": "US-ACCT-7036946041-RTN-036568741"
+   }
+  },
+  {
+   "message_id": "<c06-014@mail.example>",
+   "class": "payment_risk",
+   "flags": []
+  },
+  {
+   "message_id": "<c06-015@mail.example>",
+   "class": "payment_risk",
+   "flags": []
+  },
+  {
+   "message_id": "<c06-016@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c06-017@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c06-018@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "address_change"
+  },
+  {
+   "message_id": "<c06-019@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "contract_renewal"
+  },
+  {
+   "message_id": "<c06-020@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "document_request"
+  },
+  {
+   "message_id": "<c06-021@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "meeting_request"
+  },
+  {
+   "message_id": "<c06-022@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "document_request"
+  },
+  {
+   "message_id": "<c06-023@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c06-024@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c06-025@mail.example>",
+   "class": "other",
+   "flags": []
+  }
+ ],
+ "ap_invoices": [
+  {
+   "invoice_id": "C06-AP-001",
+   "number": "B71696",
+   "total": 160.66
+  },
+  {
+   "invoice_id": "C06-AP-002",
+   "number": "39409",
+   "total": 1741.85
+  },
+  {
+   "invoice_id": "C06-AP-003",
+   "number": "59384",
+   "total": 1833.29
+  },
+  {
+   "invoice_id": "C06-AP-004",
+   "number": "79186",
+   "total": 2770.92
+  },
+  {
+   "invoice_id": "C06-AP-005",
+   "number": "59692",
+   "total": 1977.18
+  },
+  {
+   "invoice_id": "C06-AP-006",
+   "number": "86888",
+   "total": 3309.3
+  },
+  {
+   "invoice_id": "C06-AP-007",
+   "number": "70392",
+   "total": 10696.63
+  },
+  {
+   "invoice_id": "C06-AP-008",
+   "number": "B97762",
+   "total": 1678.37
+  },
+  {
+   "invoice_id": "C06-AP-009",
+   "number": "B27121",
+   "total": 2310.22
+  },
+  {
+   "invoice_id": "C06-AP-010",
+   "number": "INV29652",
+   "total": 1607.46
+  },
+  {
+   "invoice_id": "C06-AP-011",
+   "number": "98187",
+   "total": 2652.01
+  },
+  {
+   "invoice_id": "C06-AP-012",
+   "number": "INV91737",
+   "total": 2057.52
+  }
+ ],
+ "ar_invoices": []
+}

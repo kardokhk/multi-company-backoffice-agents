@@ -1,0 +1,78 @@
+admin_request_type_accuracy                   1.000 [1.000, 1.000]  14/14
+cat_auto_error                                0.000 [0.000, 0.000]  0/171
+cat_auto_precision                            1.000 [1.000, 1.000]  129/129
+cat_model_only_accuracy                       0.901 [0.891, 0.922]  154/171
+cat_model_only_accuracy_known_counterparty    0.983 [0.971, 1.000]  119/121
+cat_model_only_accuracy_new_counterparty      0.700 [0.611, 0.824]  35/50
+cat_review_decisions                          0.170 [0.125, 0.255]  29/171
+cat_review_lines                              0.246 [0.214, 0.275]  42/171
+cat_rules_only_accuracy                       0.696 [0.647, 0.732]  119/171
+cat_rules_only_coverage                       0.696 [0.647, 0.732]  119/171
+cat_straight_through                          0.754 [0.725, 0.786]  129/171
+cat_system_accuracy                           0.924 [0.906, 0.941]  158/171
+cat_system_accuracy_known_counterparty        1.000 [1.000, 1.000]  121/121
+cat_system_accuracy_new_counterparty          0.740 [0.667, 0.824]  37/50
+duplicate_false_rate                          0.000 [0.000, 0.000]  0/41
+duplicate_recall                              1.000 [1.000, 1.000]  3/3
+email_class_accuracy                          1.000 [1.000, 1.000]  83/83
+email_recall_admin_request                    1.000 [1.000, 1.000]  14/14
+email_recall_other                            1.000 [1.000, 1.000]  8/8
+email_recall_payment_risk                     1.000 [1.000, 1.000]  5/5
+email_recall_receipt                          1.000 [1.000, 1.000]  10/10
+email_recall_remittance                       1.000 [1.000, 1.000]  2/2
+email_recall_supplier_invoice                 1.000 [1.000, 1.000]  44/44
+false_block_rate                              0.000 [0.000, 0.000]  0/73
+field_bank_account                            1.000 [1.000, 1.000]  44/44
+field_currency                                1.000 [1.000, 1.000]  44/44
+field_due_date                                1.000 [1.000, 1.000]  44/44
+field_invoice_number                          1.000 [1.000, 1.000]  44/44
+field_issue_date                              1.000 [1.000, 1.000]  44/44
+field_net                                     1.000 [1.000, 1.000]  44/44
+field_supplier                                1.000 [1.000, 1.000]  44/44
+field_tax                                     1.000 [1.000, 1.000]  44/44
+field_total                                   1.000 [1.000, 1.000]  44/44
+invoice_all_fields_correct                    1.000 [1.000, 1.000]  44/44
+invoice_silent_error                          0.000 [0.000, 0.000]  0/44
+invoice_straight_through                      0.818 [0.800, 0.857]  36/44
+match_auto_precision                          1.000 [1.000, 1.000]  27/27
+match_case_ambiguous_twins                    1.000 [1.000, 1.000]  1/1
+match_case_amount_only                        1.000 [1.000, 1.000]  5/5
+match_case_combined                           1.000 [1.000, 1.000]  1/1
+match_case_exact_ref                          1.000 [1.000, 1.000]  18/18
+match_case_short_paid_fee                     1.000 [1.000, 1.000]  1/1
+match_case_typo_ref                           1.000 [1.000, 1.000]  2/2
+match_case_unexplained                        1.000 [1.000, 1.000]  3/3
+match_correct_auto                            1.000 [1.000, 1.000]  27/27
+match_flagged_for_review                      1.000 [1.000, 1.000]  4/4
+risk_recall                                   1.000 [1.000, 1.000]  10/10
+risk_recall_bank_details_mismatch             1.000 [1.000, 1.000]  3/3
+risk_recall_payment_request                   1.000 [1.000, 1.000]  5/5
+risk_recall_prompt_injection                  1.000 [1.000, 1.000]  2/2
+system_minus_rules_only_accuracy              +0.228 [+0.196, +0.294]
+system_minus_model_only_accuracy              +0.023 [+0.016, +0.036]
+sweep high+medium|100        auto 5/42  wrong 4
+sweep high+medium|1000       auto 33/42  wrong 13
+sweep high+medium|1e+09      auto 42/42  wrong 13
+sweep high+medium|250        auto 14/42  wrong 6
+sweep high+medium|500        auto 27/42  wrong 11
+sweep high|100               auto 4/42  wrong 3
+sweep high|1000              auto 17/42  wrong 6
+sweep high|1e+09             auto 24/42  wrong 6
+sweep high|250               auto 10/42  wrong 4
+sweep high|500               auto 17/42  wrong 6
+--- categorisation: 13
+    C01 C01-T0010 'POS 05OCT BELARA LTD' -219.26 want=427 got=409 src=model conf=medium status=pending
+    C01 C01-T0026 'SEPA CR TAVDRIX REFUND' +493.68 want=200 got=421 src=model conf=high status=pending
+    C01 C01-T0027 'POS 13OCT BELARA LTD' -470.95 want=427 got=435 src=model conf=medium status=pending
+    C01 C01-T0040 'POS 25OCT BELARA LTD' -443.66 want=427 got=435 src=model conf=medium status=pending
+    C02 C02-T0016 'CARD PAYMENT TO QUINVILLE RAIL ON 12-10-2026' -331.79 want=4335 got=4270 src=model conf=medium status=pending
+    C02 C02-T0048 'CARD PAYMENT TO TAVMORA ON 30-10-2026' -65.74 want=4212 got=4364 src=model conf=medium status=pending
+    C02 C02-T0050 'CARD PAYMENT TO ISTVILLE LTD ON 31-10-2026' -100.90 want=4421 got=4270 src=model conf=high status=pending
+    C03 C03-T0017 'CARD PAYMENT DUNWORTH' -56.84 want=Meals and entertainment got=Office expenses src=model conf=high status=pending
+    C03 C03-T0026 'CARD PAYMENT BRAWORTH ELECTRICAL NAAS' -694.92 want=Maintenance got=Electricity and gas src=model conf=medium status=pending
+    C03 C03-T0038 'CARD PAYMENT BRAWORTH ELECTRICAL NAAS' -405.52 want=Maintenance got=Electricity and gas src=model conf=high status=pending
+    C03 C03-T0041 'CARD PAYMENT BRAWORTH ELECTRICAL NAAS' -869.40 want=Maintenance got=Electricity and gas src=model conf=medium status=pending
+    C03 C03-T0042 'CARD PAYMENT DUNWORTH' -75.30 want=Meals and entertainment got=Office expenses src=model conf=high status=pending
+    C03 C03-T0064 'CARD PAYMENT DUNWORTH' -68.38 want=Meals and entertainment got=Office expenses src=model conf=high status=pending
+{"C01": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C02": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C03": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}}
+{"C01": {"revenue_truth": 42449.53, "revenue_report": 41955.85, "opex_truth": 42615.78, "opex_report": 42122.1, "revenue_abs_pct_error": 1.16, "opex_abs_pct_error": 1.16}, "C02": {"revenue_truth": 46049.21, "revenue_report": 46049.21, "opex_truth": 49448.41, "opex_report": 49448.41, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C03": {"revenue_truth": 70284.03, "revenue_report": 70284.03, "opex_truth": 61378.97, "opex_report": 61378.97, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}}

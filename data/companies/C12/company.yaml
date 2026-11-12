@@ -1,0 +1,16 @@
+id: C12
+name: Ambrin Architecture Practice Ltd
+sector: architecture practice
+country: GB
+currency: GBP
+email_domain: ambrin.co.uk
+stack:
+  bank_format: B2
+  ledger_format: LD
+  chart_style: alnum
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 450
+  match_tolerance: 15.0

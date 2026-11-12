@@ -1,0 +1,724 @@
+{
+ "company": "C10",
+ "split": "test",
+ "transactions": [
+  {
+   "txn_id": "C10-T0001",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0002",
+   "account_code": "419",
+   "category": "insurance"
+  },
+  {
+   "txn_id": "C10-T0003",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0004",
+   "account_code": "400",
+   "category": "rent"
+  },
+  {
+   "txn_id": "C10-T0005",
+   "account_code": "456",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C10-T0006",
+   "account_code": "456",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C10-T0007",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0008",
+   "account_code": "411",
+   "category": "telecoms"
+  },
+  {
+   "txn_id": "C10-T0009",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0010",
+   "account_code": "405",
+   "category": "utilities"
+  },
+  {
+   "txn_id": "C10-T0011",
+   "account_code": "700",
+   "category": "equipment"
+  },
+  {
+   "txn_id": "C10-T0012",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0013",
+   "account_code": "805",
+   "category": "loan"
+  },
+  {
+   "txn_id": "C10-T0014",
+   "account_code": "458",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C10-T0015",
+   "account_code": "458",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C10-T0016",
+   "account_code": "456",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C10-T0017",
+   "account_code": "416",
+   "category": "software"
+  },
+  {
+   "txn_id": "C10-T0018",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0019",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0020",
+   "account_code": "416",
+   "category": "software"
+  },
+  {
+   "txn_id": "C10-T0021",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0022",
+   "account_code": "416",
+   "category": "software"
+  },
+  {
+   "txn_id": "C10-T0023",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0024",
+   "account_code": "800",
+   "category": "payroll_tax"
+  },
+  {
+   "txn_id": "C10-T0025",
+   "account_code": "431",
+   "category": "office"
+  },
+  {
+   "txn_id": "C10-T0026",
+   "account_code": "456",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C10-T0027",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0028",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0029",
+   "account_code": "450",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C10-T0030",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0031",
+   "account_code": "458",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C10-T0032",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0033",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0034",
+   "account_code": "458",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C10-T0035",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0036",
+   "account_code": "431",
+   "category": "office"
+  },
+  {
+   "txn_id": "C10-T0037",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0038",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0039",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0040",
+   "account_code": "702",
+   "category": "intercompany"
+  },
+  {
+   "txn_id": "C10-T0041",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0042",
+   "account_code": "456",
+   "category": "meals"
+  },
+  {
+   "txn_id": "C10-T0043",
+   "account_code": "431",
+   "category": "office"
+  },
+  {
+   "txn_id": "C10-T0044",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0045",
+   "account_code": "437",
+   "category": "professional"
+  },
+  {
+   "txn_id": "C10-T0046",
+   "account_code": "442",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C10-T0047",
+   "account_code": "450",
+   "category": "travel"
+  },
+  {
+   "txn_id": "C10-T0048",
+   "account_code": "442",
+   "category": "repairs"
+  },
+  {
+   "txn_id": "C10-T0049",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0050",
+   "account_code": "458",
+   "category": "cogs"
+  },
+  {
+   "txn_id": "C10-T0051",
+   "account_code": "424",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C10-T0052",
+   "account_code": "424",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C10-T0053",
+   "account_code": "424",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C10-T0054",
+   "account_code": "424",
+   "category": "payroll"
+  },
+  {
+   "txn_id": "C10-T0055",
+   "account_code": "200",
+   "category": "sales"
+  },
+  {
+   "txn_id": "C10-T0056",
+   "account_code": "426",
+   "category": "bank_fees"
+  },
+  {
+   "txn_id": "C10-T0057",
+   "account_code": "431",
+   "category": "office"
+  }
+ ],
+ "reconciliation": [
+  {
+   "invoices": [],
+   "case": "unexplained",
+   "expect": "none",
+   "txn_id": "C10-T0027"
+  },
+  {
+   "invoices": [
+    "C10-AP-007"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C10-T0011"
+  },
+  {
+   "invoices": [
+    "C10-AP-010"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C10-T0014"
+  },
+  {
+   "invoices": [
+    "C10-AP-011"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C10-T0015"
+  },
+  {
+   "invoices": [
+    "C10-AP-002"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C10-T0045"
+  },
+  {
+   "invoices": [
+    "C10-AP-014"
+   ],
+   "case": "exact_ref",
+   "expect": "auto",
+   "txn_id": "C10-T0031"
+  },
+  {
+   "invoices": [
+    "C10-AP-009"
+   ],
+   "case": "typo_ref",
+   "expect": "auto",
+   "txn_id": "C10-T0034"
+  },
+  {
+   "invoices": [
+    "C10-AP-008"
+   ],
+   "case": "amount_only",
+   "expect": "auto",
+   "txn_id": "C10-T0050"
+  }
+ ],
+ "emails": [
+  {
+   "message_id": "<c10-001@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-001",
+   "fields": {
+    "supplier": "Corford LLC",
+    "invoice_number": "14519",
+    "issue_date": "2026-09-25",
+    "due_date": "2026-10-09",
+    "currency": "USD",
+    "net": 404.18,
+    "tax": 29.3,
+    "total": 433.48,
+    "bank_account": "US-ACCT-8100597160-RTN-065575655"
+   }
+  },
+  {
+   "message_id": "<c10-002@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-002",
+   "fields": {
+    "supplier": "Ulville LLC",
+    "invoice_number": "B37724",
+    "issue_date": "2026-10-14",
+    "due_date": "2026-11-13",
+    "currency": "USD",
+    "net": 1308.6,
+    "tax": 94.87,
+    "total": 1403.47,
+    "bank_account": "US-ACCT-1507605389-RTN-015457644"
+   }
+  },
+  {
+   "message_id": "<c10-003@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-003",
+   "fields": {
+    "supplier": "Kelrix LLC",
+    "invoice_number": "SI25487",
+    "issue_date": "2026-10-24",
+    "due_date": "2026-11-23",
+    "currency": "USD",
+    "net": 1325.18,
+    "tax": 96.08,
+    "total": 1421.26,
+    "bank_account": "US-ACCT-9726658974-RTN-048333807"
+   }
+  },
+  {
+   "message_id": "<c10-004@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-004",
+   "fields": {
+    "supplier": "Nolmere LLC",
+    "invoice_number": "66167",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-11-11",
+    "currency": "USD",
+    "net": 2138.15,
+    "tax": 155.02,
+    "total": 2293.17,
+    "bank_account": "US-ACCT-9723017089-RTN-088003037"
+   }
+  },
+  {
+   "message_id": "<c10-005@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-005",
+   "fields": {
+    "supplier": "Ulven Ads LLC",
+    "invoice_number": "B52958",
+    "issue_date": "2026-10-09",
+    "due_date": "2026-10-23",
+    "currency": "USD",
+    "net": 1569.59,
+    "tax": 113.8,
+    "total": 1683.39,
+    "bank_account": "US-ACCT-3733899603-RTN-078697953"
+   }
+  },
+  {
+   "message_id": "<c10-006@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-006",
+   "fields": {
+    "supplier": "Wynford Tech LLC",
+    "invoice_number": "19145",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-11-11",
+    "currency": "USD",
+    "net": 820.64,
+    "tax": 59.5,
+    "total": 880.14,
+    "bank_account": "US-ACCT-7662223318-RTN-064740745"
+   }
+  },
+  {
+   "message_id": "<c10-007@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-007",
+   "fields": {
+    "supplier": "Ormore Systems LLC",
+    "invoice_number": "SI17391",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-07",
+    "currency": "USD",
+    "net": 12292.4,
+    "tax": 891.2,
+    "total": 13183.6,
+    "bank_account": "US-ACCT-2946204929-RTN-084217009"
+   }
+  },
+  {
+   "message_id": "<c10-008@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-008",
+   "fields": {
+    "supplier": "Bravane LLC",
+    "invoice_number": "INV69647",
+    "issue_date": "2026-10-07",
+    "due_date": "2026-11-06",
+    "currency": "USD",
+    "net": 4755.98,
+    "tax": 344.81,
+    "total": 5100.79,
+    "bank_account": "US-ACCT-8917427494-RTN-053561659"
+   }
+  },
+  {
+   "message_id": "<c10-009@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-009",
+   "fields": {
+    "supplier": "Bravane LLC",
+    "invoice_number": "INV52568",
+    "issue_date": "2026-10-18",
+    "due_date": "2026-12-02",
+    "currency": "USD",
+    "net": 6111.14,
+    "tax": 443.06,
+    "total": 6554.2,
+    "bank_account": "US-ACCT-8917427494-RTN-053561659"
+   }
+  },
+  {
+   "message_id": "<c10-010@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-010",
+   "fields": {
+    "supplier": "Cordrix Sportswear LLC",
+    "invoice_number": "88924",
+    "issue_date": "2026-09-29",
+    "due_date": "2026-11-13",
+    "currency": "USD",
+    "net": 6905.91,
+    "tax": 500.68,
+    "total": 7406.59,
+    "bank_account": "US-ACCT-2586580672-RTN-051985973"
+   }
+  },
+  {
+   "message_id": "<c10-011@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "invoice_id": "C10-AP-011",
+   "fields": {
+    "supplier": "Cordrix Sportswear LLC",
+    "invoice_number": "B95793",
+    "issue_date": "2026-10-05",
+    "due_date": "2026-11-04",
+    "currency": "USD",
+    "net": 2838.58,
+    "tax": 205.8,
+    "total": 3044.38,
+    "bank_account": "US-ACCT-2155238698-RTN-098111167"
+   }
+  },
+  {
+   "message_id": "<c10-012@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-012",
+   "fields": {
+    "supplier": "Cordrix Sportswear LLC",
+    "invoice_number": "SI16957",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-12-12",
+    "currency": "USD",
+    "net": 4510.04,
+    "tax": 326.98,
+    "total": 4837.02,
+    "bank_account": "US-ACCT-2586580672-RTN-051985973"
+   }
+  },
+  {
+   "message_id": "<c10-013@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-013",
+   "fields": {
+    "supplier": "Vervane Sportswear LLC",
+    "invoice_number": "SI62908",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-10-26",
+    "currency": "USD",
+    "net": 6722.3,
+    "tax": 487.37,
+    "total": 7209.67,
+    "bank_account": "US-ACCT-6305595559-RTN-042743143"
+   }
+  },
+  {
+   "message_id": "<c10-014@mail.example>",
+   "class": "supplier_invoice",
+   "flags": [],
+   "invoice_id": "C10-AP-014",
+   "fields": {
+    "supplier": "Vervane Sportswear LLC",
+    "invoice_number": "SI22913",
+    "issue_date": "2026-09-30",
+    "due_date": "2026-10-14",
+    "currency": "USD",
+    "net": 2976.81,
+    "tax": 215.82,
+    "total": 3192.63,
+    "bank_account": "US-ACCT-6305595559-RTN-042743143"
+   }
+  },
+  {
+   "message_id": "<c10-015@mail.example>",
+   "class": "payment_risk",
+   "flags": []
+  },
+  {
+   "message_id": "<c10-016@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c10-017@mail.example>",
+   "class": "receipt",
+   "flags": []
+  },
+  {
+   "message_id": "<c10-018@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "address_change"
+  },
+  {
+   "message_id": "<c10-019@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "document_request"
+  },
+  {
+   "message_id": "<c10-020@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "meeting_request"
+  },
+  {
+   "message_id": "<c10-021@mail.example>",
+   "class": "admin_request",
+   "flags": [],
+   "request_type": "payroll_change"
+  },
+  {
+   "message_id": "<c10-022@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c10-023@mail.example>",
+   "class": "other",
+   "flags": []
+  },
+  {
+   "message_id": "<c10-024@mail.example>",
+   "class": "other",
+   "flags": []
+  }
+ ],
+ "ap_invoices": [
+  {
+   "invoice_id": "C10-AP-001",
+   "number": "14519",
+   "total": 433.48
+  },
+  {
+   "invoice_id": "C10-AP-002",
+   "number": "B37724",
+   "total": 1403.47
+  },
+  {
+   "invoice_id": "C10-AP-003",
+   "number": "SI25487",
+   "total": 1421.26
+  },
+  {
+   "invoice_id": "C10-AP-004",
+   "number": "66167",
+   "total": 2293.17
+  },
+  {
+   "invoice_id": "C10-AP-005",
+   "number": "B52958",
+   "total": 1683.39
+  },
+  {
+   "invoice_id": "C10-AP-006",
+   "number": "19145",
+   "total": 880.14
+  },
+  {
+   "invoice_id": "C10-AP-007",
+   "number": "SI17391",
+   "total": 13183.6
+  },
+  {
+   "invoice_id": "C10-AP-008",
+   "number": "INV69647",
+   "total": 5100.79
+  },
+  {
+   "invoice_id": "C10-AP-009",
+   "number": "INV52568",
+   "total": 6554.2
+  },
+  {
+   "invoice_id": "C10-AP-010",
+   "number": "88924",
+   "total": 7406.59
+  },
+  {
+   "invoice_id": "C10-AP-011",
+   "number": "B95793",
+   "total": 3044.38
+  },
+  {
+   "invoice_id": "C10-AP-012",
+   "number": "SI16957",
+   "total": 4837.02
+  },
+  {
+   "invoice_id": "C10-AP-013",
+   "number": "SI62908",
+   "total": 7209.67
+  },
+  {
+   "invoice_id": "C10-AP-014",
+   "number": "SI22913",
+   "total": 3192.63
+  }
+ ],
+ "ar_invoices": []
+}

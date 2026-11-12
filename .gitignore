@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+var/
+runs/*/gpu*.log
+runs/dev_v1/
+runs/dev_v2/
+runs/*/offline_rerun.log

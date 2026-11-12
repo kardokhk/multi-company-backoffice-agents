@@ -1,0 +1,16 @@
+id: C04
+name: Tarrowin IT Consulting Ltd
+sector: IT consultancy
+country: IE
+currency: EUR
+email_domain: tarrowin-it.ie
+stack:
+  bank_format: B2
+  ledger_format: LD
+  chart_style: alnum
+  mailbox: eml-folder
+close_month: 2026-10
+policy:
+  model_auto_confidence: []
+  model_auto_max_amount: 500
+  match_tolerance: 15.0

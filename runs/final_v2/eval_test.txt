@@ -1,0 +1,85 @@
+admin_request_type_accuracy                   1.000 [1.000, 1.000]  36/36
+cat_auto_error                                0.000 [0.000, 0.000]  0/444
+cat_auto_precision                            1.000 [1.000, 1.000]  352/352
+cat_model_only_accuracy                       0.919 [0.886, 0.953]  408/444
+cat_model_only_accuracy_known_counterparty    0.991 [0.983, 1.000]  322/325
+cat_model_only_accuracy_new_counterparty      0.723 [0.600, 0.846]  86/119
+cat_review_decisions                          0.164 [0.136, 0.195]  73/444
+cat_review_lines                              0.207 [0.171, 0.244]  92/444
+cat_rules_only_accuracy                       0.725 [0.682, 0.765]  322/444
+cat_rules_only_coverage                       0.725 [0.682, 0.765]  322/444
+cat_straight_through                          0.793 [0.756, 0.829]  352/444
+cat_system_accuracy                           0.959 [0.940, 0.980]  426/444
+cat_system_accuracy_known_counterparty        1.000 [1.000, 1.000]  325/325
+cat_system_accuracy_new_counterparty          0.849 [0.780, 0.924]  101/119
+duplicate_false_rate                          0.000 [0.000, 0.000]  0/117
+duplicate_recall                              1.000 [1.000, 1.000]  4/4
+email_class_accuracy                          1.000 [1.000, 1.000]  230/230
+email_recall_admin_request                    1.000 [1.000, 1.000]  36/36
+email_recall_other                            1.000 [1.000, 1.000]  24/24
+email_recall_payment_risk                     1.000 [1.000, 1.000]  10/10
+email_recall_receipt                          1.000 [1.000, 1.000]  27/27
+email_recall_remittance                       1.000 [1.000, 1.000]  12/12
+email_recall_supplier_invoice                 1.000 [1.000, 1.000]  121/121
+false_block_rate                              0.005 [0.000, 0.014]  1/210
+field_bank_account                            1.000 [1.000, 1.000]  121/121
+field_currency                                1.000 [1.000, 1.000]  121/121
+field_due_date                                1.000 [1.000, 1.000]  121/121
+field_invoice_number                          1.000 [1.000, 1.000]  121/121
+field_issue_date                              1.000 [1.000, 1.000]  121/121
+field_net                                     1.000 [1.000, 1.000]  121/121
+field_supplier                                1.000 [1.000, 1.000]  121/121
+field_tax                                     1.000 [1.000, 1.000]  121/121
+field_total                                   1.000 [1.000, 1.000]  121/121
+invoice_all_fields_correct                    1.000 [1.000, 1.000]  121/121
+invoice_silent_error                          0.000 [0.000, 0.000]  0/121
+invoice_straight_through                      0.884 [0.860, 0.908]  107/121
+match_auto_precision                          1.000 [1.000, 1.000]  100/100
+match_case_ambiguous_twins                    1.000 [1.000, 1.000]  6/6
+match_case_amount_only                        1.000 [1.000, 1.000]  17/17
+match_case_combined                           1.000 [1.000, 1.000]  1/1
+match_case_exact_ref                          1.000 [1.000, 1.000]  57/57
+match_case_short_paid_fee                     1.000 [1.000, 1.000]  10/10
+match_case_typo_ref                           1.000 [1.000, 1.000]  15/15
+match_case_unexplained                        1.000 [1.000, 1.000]  9/9
+match_correct_auto                            1.000 [1.000, 1.000]  100/100
+match_flagged_for_review                      1.000 [1.000, 1.000]  15/15
+risk_recall                                   1.000 [1.000, 1.000]  20/20
+risk_recall_bank_details_mismatch             1.000 [1.000, 1.000]  6/6
+risk_recall_payment_request                   1.000 [1.000, 1.000]  10/10
+risk_recall_prompt_injection                  1.000 [1.000, 1.000]  4/4
+system_minus_rules_only_accuracy              +0.234 [+0.195, +0.280]
+system_minus_model_only_accuracy              +0.041 [+0.021, +0.060]
+sweep high+medium|100        auto 13/88  wrong 5
+sweep high+medium|1000       auto 73/88  wrong 17
+sweep high+medium|1e+09      auto 88/88  wrong 18
+sweep high+medium|250        auto 43/88  wrong 12
+sweep high+medium|500        auto 63/88  wrong 16
+sweep high|100               auto 3/88  wrong 0
+sweep high|1000              auto 22/88  wrong 0
+sweep high|1e+09             auto 30/88  wrong 0
+sweep high|250               auto 11/88  wrong 0
+sweep high|500               auto 19/88  wrong 0
+--- categorisation: 18
+    C04 C04-T0005 'CARD PAYMENT DALMERE RAIL CORK' -450.83 want=EXP-TRAV8 got=EXP-REPA7 src=model conf=medium status=pending
+    C04 C04-T0013 'CARD PAYMENT PELBROOK LTD DUBLIN' -346.33 want=EXP-TRAV8 got=EXP-REPA7 src=model conf=medium status=pending
+    C04 C04-T0020 'CARD PAYMENT WYNVILLE' -165.95 want=EXP-REPA7 got=EXP-TRAV8 src=model conf=medium status=pending
+    C05 C05-T0013 'DEBIT CARD ORBROOK OFFICE' -159.01 want=432 got=403 src=model conf=medium status=pending
+    C05 C05-T0027 'DEBIT CARD ORBROOK OFFICE' -326.20 want=432 got=436 src=model conf=medium status=pending
+    C05 C05-T0028 'DEBIT CARD ORBROOK OFFICE' -74.98 want=432 got=403 src=model conf=medium status=pending
+    C05 C05-T0041 'DEBIT CARD ELDBROOK RAIL BRI' -455.76 want=440 got=436 src=model conf=medium status=pending
+    C07 C07-T0005 'POS 05OCT FENDOR GALWAY' -114.40 want=4365 got=4334 src=model conf=medium status=pending
+    C07 C07-T0017 'POS 11OCT FENDOR GALWAY' -122.77 want=4365 got=4334 src=model conf=medium status=pending
+    C07 C07-T0031 'POS 21OCT BRADRIX GALWAY' -63.72 want=4423 got=4213 src=model conf=medium status=pending
+    C08 C08-T0017 'DEBIT CARD MARMORA LTD' -75.87 want=EXP-MEAL9 got=EXP-TRAV3 src=model conf=medium status=pending
+    C09 C09-T0029 'CARD PAYMENT TO SELDRIX LTD ON 19-10-2026' -105.13 want=Stationery and printing got=Travel src=model conf=medium status=pending
+    C10 C10-T0005 'POS DEBIT DALWICK AUSTIN TX' -58.60 want=456 got=416 src=model conf=medium status=pending
+    C10 C10-T0016 'POS DEBIT ELDMORE GRILL AUSTIN TX' -211.15 want=456 got=431 src=model conf=medium status=pending
+    C10 C10-T0026 'POS DEBIT LUMWICK KITCHEN AUSTIN TX' -105.07 want=456 got=431 src=model conf=medium status=pending
+    C10 C10-T0042 'POS DEBIT ELDMORE GRILL AUSTIN TX' -19.79 want=456 got=431 src=model conf=medium status=pending
+    C12 C12-T0013 'CARD PAYMENT DUNBURY ELECTRICAL YORK' -1409.64 want=EXP-REPA6 got=EXP-UTIL6 src=model conf=medium status=pending
+    C12 C12-T0031 'SEPA CREDIT TRANSFER FROM GALWICK REF REFUND' +512.12 want=REV-SALE1 got=BS-PAYR4 src=model conf=medium status=pending
+--- false_block: 1
+    C08 <c08-016@mail.example> flags=['duplicate', 'prompt_injection'] 'REMINDER: invoice B29161 outstanding'
+{"C04": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C05": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C06": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C07": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C08": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C09": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C10": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C11": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}, "C12": {"unsupported_first_draft": 0, "retried": false, "sentences_dropped": 0, "unsupported_final": 0}}
+{"C04": {"revenue_truth": 31976.55, "revenue_report": 31976.55, "opex_truth": 50295.86, "opex_report": 50295.86, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C05": {"revenue_truth": 28442.69, "revenue_report": 28442.69, "opex_truth": 44905.75, "opex_report": 44905.75, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C06": {"revenue_truth": 37587.44, "revenue_report": 37587.44, "opex_truth": 35783.82, "opex_report": 35783.82, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C07": {"revenue_truth": 53342.22, "revenue_report": 53342.22, "opex_truth": 56989.95, "opex_report": 56989.95, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C08": {"revenue_truth": 42094.66, "revenue_report": 42094.66, "opex_truth": 63151.11, "opex_report": 63151.11, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C09": {"revenue_truth": 86857.89, "revenue_report": 86857.89, "opex_truth": 48966.43, "opex_report": 48966.43, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C10": {"revenue_truth": 33753.9, "revenue_report": 33753.9, "opex_truth": 50272.55, "opex_report": 50272.55, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C11": {"revenue_truth": 36689.83, "revenue_report": 36689.83, "opex_truth": 38519.39, "opex_report": 38519.39, "revenue_abs_pct_error": 0.0, "opex_abs_pct_error": 0.0}, "C12": {"revenue_truth": 94596.6, "revenue_report": 94084.48, "opex_truth": 36522.99, "opex_report": 36522.99, "revenue_abs_pct_error": 0.54, "opex_abs_pct_error": 0.0}}

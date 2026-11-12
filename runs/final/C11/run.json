@@ -1,0 +1,1176 @@
+{
+ "company": "C11",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 19.6,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 500,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c11-002@mail.example>",
+   "sender": "accounts@fengate.ie",
+   "subject": "Invoice B79697",
+   "received": "Fri, 02 Oct 2026 11:44:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Fengate Ltd",
+    "invoice_number": "B79697",
+    "issue_date": "2026-10-12",
+    "due_date": "2026-11-11",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 3595.45,
+    "tax": 826.95,
+    "total": 4422.4,
+    "bank_account": "IE89APSG67566013213998",
+    "supplier_master": "Fengate Ltd",
+    "default_account": "4242"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-021@mail.example>",
+   "sender": "news@zalhurst.com",
+   "subject": "Your October newsletter",
+   "received": "Fri, 02 Oct 2026 11:58:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-016@mail.example>",
+   "sender": "marek@isthurst.com",
+   "subject": "Tax clearance certificate",
+   "received": "Mon, 05 Oct 2026 13:29:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Request for a copy of the current tax clearance certificate and last year's accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-010@mail.example>",
+   "sender": "accounts@selven.ie",
+   "subject": "Your invoice from Selven Meats Ltd",
+   "received": "Wed, 07 Oct 2026 18:36:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Selven Meats Ltd",
+    "invoice_number": "B75412",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 2145.37,
+    "tax": 493.44,
+    "total": 2638.81,
+    "bank_account": "IE69WBTX81199398158352",
+    "supplier_master": "Selven Meats Ltd",
+    "default_account": "4392"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-014@mail.example>",
+   "sender": "payables@quinlio.com",
+   "subject": "Remittance advice - VW-1162",
+   "received": "Thu, 08 Oct 2026 10:42:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-003@mail.example>",
+   "sender": "accounts@harquay.ie",
+   "subject": "Harquay Repairs Ltd invoice",
+   "received": "Sat, 10 Oct 2026 17:25:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Harquay Repairs Ltd",
+    "invoice_number": "30211",
+    "issue_date": "2026-09-26",
+    "due_date": "2026-11-10",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 1076.8,
+    "tax": 145.37,
+    "total": 1222.17,
+    "bank_account": "IE94UETZ91159642943370",
+    "supplier_master": "Harquay Repairs Ltd",
+    "default_account": "4273"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-012@mail.example>",
+   "sender": "no-reply@gallan.ie",
+   "subject": "Your receipt",
+   "received": "Sun, 11 Oct 2026 14:41:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-020@mail.example>",
+   "sender": "news@ulrix.com",
+   "subject": "Webinar: closing the books faster",
+   "received": "Tue, 13 Oct 2026 17:11:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-017@mail.example>",
+   "sender": "daniel@varrowgate.ie",
+   "subject": "Leave and overtime for October",
+   "received": "Tue, 13 Oct 2026 18:24:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Include Jonah Mensah's 12 extra hours in this month's payroll."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-008@mail.example>",
+   "sender": "accounts@belrix.ie",
+   "subject": "Invoice SI26014",
+   "received": "Wed, 14 Oct 2026 09:15:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Belrix Foods Ltd",
+    "invoice_number": "SI26014",
+    "issue_date": "2026-09-27",
+    "due_date": "2026-10-27",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 1406.78,
+    "tax": 323.56,
+    "total": 1730.34,
+    "bank_account": "IE69FPWC38491228160548",
+    "supplier_master": "Belrix Foods Ltd",
+    "default_account": "4392"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-005@mail.example>",
+   "sender": "accounts@orven.ie",
+   "subject": "Your invoice from Orven Digital Ltd",
+   "received": "Thu, 15 Oct 2026 12:51:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Orven Digital Ltd",
+    "invoice_number": "INV86505",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-11-05",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 1217.03,
+    "tax": 279.92,
+    "total": 1496.95,
+    "bank_account": "IE07BDYI06501732596919",
+    "supplier_master": "Orven Digital Ltd",
+    "default_account": "4305"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-007@mail.example>",
+   "sender": "accounts@marley.ie",
+   "subject": "Marley Ltd invoice",
+   "received": "Sun, 18 Oct 2026 10:43:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Marley Ltd",
+    "invoice_number": "B13460",
+    "issue_date": "2026-09-23",
+    "due_date": "2026-10-22",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 3153.73,
+    "tax": 725.36,
+    "total": 3879.09,
+    "bank_account": "IE62KOBG76989376713094",
+    "supplier_master": "Marley Ltd",
+    "default_account": "4392"
+   },
+   "request": null,
+   "flags": [
+    "prompt_injection"
+   ],
+   "notes": [
+    "embedded instructions: assistant instruction; do not send it for review"
+   ]
+  },
+  {
+   "message_id": "<c11-013@mail.example>",
+   "sender": "no-reply@zalrix.ie",
+   "subject": "Your receipt",
+   "received": "Sun, 18 Oct 2026 17:00:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain zalrix.ie imitates belrix.ie"
+   ]
+  },
+  {
+   "message_id": "<c11-001@mail.example>",
+   "sender": "accounts@ashson.ie",
+   "subject": "Bill for October services",
+   "received": "Fri, 23 Oct 2026 14:19:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Ashson Stationers Ltd",
+    "invoice_number": "B31064",
+    "issue_date": "2026-10-14",
+    "due_date": "2026-10-28",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 294.6,
+    "tax": 67.76,
+    "total": 362.36,
+    "bank_account": "IE54ECMD55436655427974",
+    "supplier_master": "Ashson Stationers Ltd",
+    "default_account": "4216"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-018@mail.example>",
+   "sender": "oisin@tavven.com",
+   "subject": "Insurance renewal due",
+   "received": "Fri, 23 Oct 2026 14:44:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "contract_renewal",
+    "summary": "Confirm renewal of business insurance policy"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-006@mail.example>",
+   "sender": "accounts@lummora.ie",
+   "subject": "Invoice attached",
+   "received": "Fri, 23 Oct 2026 18:16:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Lummora Systems Ltd",
+    "invoice_number": "B30582",
+    "issue_date": "2026-10-06",
+    "due_date": "2026-10-20",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 11154.36,
+    "tax": 2565.5,
+    "total": 13719.86,
+    "bank_account": "IE38YWLQ99170143496861",
+    "supplier_master": "Lummora Systems Ltd",
+    "default_account": "7007"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-009@mail.example>",
+   "sender": "accounts@belrix.ie",
+   "subject": "Belrix Foods Ltd invoice",
+   "received": "Sat, 24 Oct 2026 09:51:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Belrix Foods Ltd",
+    "invoice_number": "75329",
+    "issue_date": "2026-10-27",
+    "due_date": "2026-12-11",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 9322.09,
+    "tax": 2144.08,
+    "total": 11466.17,
+    "bank_account": "IE69FPWC38491228160548",
+    "supplier_master": "Belrix Foods Ltd",
+    "default_account": "4392"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-015@mail.example>",
+   "sender": "payables@harley.com",
+   "subject": "Remittance advice - VW-1177",
+   "received": "Sun, 25 Oct 2026 11:30:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain harley.com imitates marley.ie"
+   ]
+  },
+  {
+   "message_id": "<c11-019@mail.example>",
+   "sender": "news@tavwick.com",
+   "subject": "20% off office chairs this week",
+   "received": "Mon, 26 Oct 2026 15:03:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-004@mail.example>",
+   "sender": "accounts@calquay.ie",
+   "subject": "Invoice SI57746",
+   "received": "Mon, 26 Oct 2026 18:15:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Calquay Ltd",
+    "invoice_number": "SI57746",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-11-21",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 3013.26,
+    "tax": 693.05,
+    "total": 3706.31,
+    "bank_account": "IE17XXXL32385880107292",
+    "supplier_master": "Calquay Ltd",
+    "default_account": "4305"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c11-011@mail.example>",
+   "sender": "accounts@calquay.ie",
+   "subject": "REMINDER: invoice SI57746 outstanding",
+   "received": "Thu, 29 Oct 2026 18:15:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Calquay Ltd",
+    "invoice_number": "SI57746",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-11-21",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 3013.26,
+    "tax": 693.05,
+    "total": 3706.31,
+    "bank_account": "IE17XXXL32385880107292",
+    "supplier_master": "Calquay Ltd",
+    "default_account": "4305"
+   },
+   "request": null,
+   "flags": [
+    "duplicate"
+   ],
+   "notes": [
+    "same supplier and invoice number as <c11-004@mail.example>"
+   ]
+  }
+ ],
+ "matches": {
+  "C11-T0017": {
+   "txn_id": "C11-T0017",
+   "invoice_ids": [
+    "<c11-003@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0026": {
+   "txn_id": "C11-T0026",
+   "invoice_ids": [
+    "VW-1176"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0030": {
+   "txn_id": "C11-T0030",
+   "invoice_ids": [
+    "VW-1165",
+    "VW-1188"
+   ],
+   "status": "auto",
+   "rule": "combined_payment",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0031": {
+   "txn_id": "C11-T0031",
+   "invoice_ids": [
+    "VW-1156"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 2.50, post to bank charges",
+   "difference": 2.5
+  },
+  "C11-T0033": {
+   "txn_id": "C11-T0033",
+   "invoice_ids": [
+    "<c11-004@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0034": {
+   "txn_id": "C11-T0034",
+   "invoice_ids": [
+    "VW-1171"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0035": {
+   "txn_id": "C11-T0035",
+   "invoice_ids": [
+    "VW-1187"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 15.00, post to bank charges",
+   "difference": 15.0
+  },
+  "C11-T0042": {
+   "txn_id": "C11-T0042",
+   "invoice_ids": [
+    "<c11-005@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0009": {
+   "txn_id": "C11-T0009",
+   "invoice_ids": [
+    "VW-1174"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C11-T0016": {
+   "txn_id": "C11-T0016",
+   "invoice_ids": [
+    "<c11-008@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C11-T0020": {
+   "txn_id": "C11-T0020",
+   "invoice_ids": [
+    "VW-1162"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C11-T0018": {
+   "txn_id": "C11-T0018",
+   "invoice_ids": [
+    "VW-1186"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0025": {
+   "txn_id": "C11-T0025",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  },
+  "C11-T0027": {
+   "txn_id": "C11-T0027",
+   "invoice_ids": [
+    "<c11-001@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C11-T0029": {
+   "txn_id": "C11-T0029",
+   "invoice_ids": [
+    "VW-1189",
+    "VW-1190"
+   ],
+   "status": "review",
+   "rule": "ambiguous_amount",
+   "note": "2 open invoices for 1715.96",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C11-T0001": {
+   "account_code": "4095",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0003": {
+   "account_code": "4273",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0005": {
+   "account_code": "4066",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0006": {
+   "account_code": "4037",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0007": {
+   "account_code": "4095",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0008": {
+   "account_code": "8064",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0009": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0012": {
+   "account_code": "4124",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0013": {
+   "account_code": "4095",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0015": {
+   "account_code": "4001",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0016": {
+   "account_code": "4392",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0017": {
+   "account_code": "4273",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0018": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0019": {
+   "account_code": "4216",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C11-T0020": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0026": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0027": {
+   "account_code": "4216",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0028": {
+   "account_code": "8008",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0030": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0031": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0032": {
+   "account_code": "4428",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C11-T0033": {
+   "account_code": "4305",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0034": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0035": {
+   "account_code": "2006",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0036": {
+   "account_code": "4158",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0037": {
+   "account_code": "4158",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0038": {
+   "account_code": "4158",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0039": {
+   "account_code": "4158",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0040": {
+   "account_code": "4158",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0041": {
+   "account_code": "4158",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0042": {
+   "account_code": "4305",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C11-T0043": {
+   "account_code": "4188",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C11-T0044": {
+   "account_code": "4331",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 5,
+   "status": "auto_applied"
+  },
+  "C11-T0002": {
+   "account_code": "4273",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Maintenance expense similar to previous transactions",
+   "group": "HOLLIO ELECTRICAL GALWAY",
+   "status": "pending"
+  },
+  "C11-T0004": {
+   "account_code": "4331",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expenses are common for rail travel.",
+   "group": "ULLIO RAIL",
+   "status": "pending"
+  },
+  "C11-T0010": {
+   "account_code": "4216",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to office supply transactions",
+   "group": "MARTON",
+   "status": "pending"
+  },
+  "C11-T0011": {
+   "account_code": "4273",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Maintenance expense similar to previous postings",
+   "group": "HOLLIO ELECTRICAL GALWAY",
+   "status": "pending"
+  },
+  "C11-T0014": {
+   "account_code": "7031",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Intercompany transfer between related parties",
+   "group": "GROUP TRANSFER IC",
+   "status": "pending"
+  },
+  "C11-T0021": {
+   "account_code": "4428",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to fuel and motor expenses",
+   "group": "ORQUAY SERVICE STN LIMERICK",
+   "status": "pending"
+  },
+  "C11-T0022": {
+   "account_code": "4428",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to fuel and motor expenses",
+   "group": "ORQUAY SERVICE STN LIMERICK",
+   "status": "pending"
+  },
+  "C11-T0023": {
+   "account_code": "4365",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to staff welfare expenses",
+   "group": "GALWORTH LTD DUBLIN",
+   "status": "pending"
+  },
+  "C11-T0024": {
+   "account_code": "4331",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expenses are common for rail travel.",
+   "group": "ULLIO RAIL",
+   "status": "pending"
+  },
+  "C11-T0025": {
+   "account_code": "2006",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Revenue from refund similar to other revenue postings",
+   "group": "BRAFORD REFUND",
+   "status": "pending"
+  },
+  "C11-T0029": {
+   "account_code": "2006",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Revenue from sales",
+   "group": "HARLEY LTD",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C11-T0001": {
+   "account_code": "4095",
+   "confidence": "high",
+   "reason": "Similar to past POS transactions with Belbury Software"
+  },
+  "C11-T0002": {
+   "account_code": "4273",
+   "confidence": "medium",
+   "reason": "Maintenance expense similar to previous transactions"
+  },
+  "C11-T0003": {
+   "account_code": "4273",
+   "confidence": "high",
+   "reason": "Similar to previous maintenance postings"
+  },
+  "C11-T0004": {
+   "account_code": "4331",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expenses are common for rail travel."
+  },
+  "C11-T0005": {
+   "account_code": "4066",
+   "confidence": "high",
+   "reason": "Similar to past postings for phone and broadband fees"
+  },
+  "C11-T0006": {
+   "account_code": "4037",
+   "confidence": "high",
+   "reason": "Similar to previous utility payment"
+  },
+  "C11-T0007": {
+   "account_code": "4095",
+   "confidence": "high",
+   "reason": "Similar to previous POS transactions with Selford Saas"
+  },
+  "C11-T0008": {
+   "account_code": "8064",
+   "confidence": "high",
+   "reason": "Previous loan repayment posting matches"
+  },
+  "C11-T0009": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Revenue from sale to another company"
+  },
+  "C11-T0010": {
+   "account_code": "4216",
+   "confidence": "medium",
+   "reason": "Similar to office supply transactions"
+  },
+  "C11-T0011": {
+   "account_code": "4273",
+   "confidence": "medium",
+   "reason": "Maintenance expense similar to previous postings"
+  },
+  "C11-T0012": {
+   "account_code": "4124",
+   "confidence": "high",
+   "reason": "Similar to previous FENARA ASSURANCE transaction"
+  },
+  "C11-T0013": {
+   "account_code": "4095",
+   "confidence": "high",
+   "reason": "Similar to past postings for IT and software fees"
+  },
+  "C11-T0014": {
+   "account_code": "7031",
+   "confidence": "medium",
+   "reason": "Intercompany transfer between related parties"
+  },
+  "C11-T0015": {
+   "account_code": "4001",
+   "confidence": "high",
+   "reason": "Similar to previous rent payment"
+  },
+  "C11-T0016": {
+   "account_code": "4392",
+   "confidence": "high",
+   "reason": "Similar to previous purchase postings"
+  },
+  "C11-T0017": {
+   "account_code": "4273",
+   "confidence": "high",
+   "reason": "Similar to previous repairs posting"
+  },
+  "C11-T0018": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Similar to other revenue postings"
+  },
+  "C11-T0019": {
+   "account_code": "4216",
+   "confidence": "high",
+   "reason": "Similar to previous POS transactions with Quindrix Print"
+  },
+  "C11-T0020": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Similar to other revenue postings"
+  },
+  "C11-T0021": {
+   "account_code": "4428",
+   "confidence": "medium",
+   "reason": "Similar to fuel and motor expenses"
+  },
+  "C11-T0022": {
+   "account_code": "4428",
+   "confidence": "medium",
+   "reason": "Similar to fuel and motor expenses"
+  },
+  "C11-T0023": {
+   "account_code": "4365",
+   "confidence": "medium",
+   "reason": "Similar to staff welfare expenses"
+  },
+  "C11-T0024": {
+   "account_code": "4331",
+   "confidence": "medium",
+   "reason": "Travel and subsistence expenses are common for rail travel."
+  },
+  "C11-T0025": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Revenue from refund similar to other revenue postings"
+  },
+  "C11-T0026": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Revenue from sales to Galley Ltd"
+  },
+  "C11-T0027": {
+   "account_code": "4216",
+   "confidence": "high",
+   "reason": "Similar to office supplies purchase"
+  },
+  "C11-T0028": {
+   "account_code": "8008",
+   "confidence": "high",
+   "reason": "Similar to previous PAYE posting"
+  },
+  "C11-T0029": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Revenue from sales"
+  },
+  "C11-T0030": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Revenue from sales"
+  },
+  "C11-T0031": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Similar transactions credit revenue accounts"
+  },
+  "C11-T0032": {
+   "account_code": "4428",
+   "confidence": "high",
+   "reason": "Similar to previous POS transactions with LUMWICK SERVICE STN"
+  },
+  "C11-T0033": {
+   "account_code": "4305",
+   "confidence": "high",
+   "reason": "Similar to previous revenue commission postings"
+  },
+  "C11-T0034": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Similar transactions credit revenue accounts"
+  },
+  "C11-T0035": {
+   "account_code": "2006",
+   "confidence": "high",
+   "reason": "Similar transactions credit revenue accounts"
+  },
+  "C11-T0036": {
+   "account_code": "4158",
+   "confidence": "high",
+   "reason": "Similar transactions post to staff costs"
+  },
+  "C11-T0037": {
+   "account_code": "4158",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C11-T0038": {
+   "account_code": "4158",
+   "confidence": "high",
+   "reason": "Similar transactions post to staff costs"
+  },
+  "C11-T0039": {
+   "account_code": "4158",
+   "confidence": "high",
+   "reason": "Similar transactions are posted to staff costs"
+  },
+  "C11-T0040": {
+   "account_code": "4158",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C11-T0041": {
+   "account_code": "4158",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C11-T0042": {
+   "account_code": "4305",
+   "confidence": "high",
+   "reason": "Similar to previous IT and software expense"
+  },
+  "C11-T0043": {
+   "account_code": "4188",
+   "confidence": "high",
+   "reason": "Similar to previous maintenance fee postings"
+  },
+  "C11-T0044": {
+   "account_code": "4331",
+   "confidence": "high",
+   "reason": "Similar to previous travel expenses"
+  }
+ },
+ "facts": {
+  "company": "Varrowgate Wholesale Foods Ltd",
+  "period": "October 2026",
+  "revenue": "EUR 36,689.83",
+  "revenue_previous_month": "EUR 17,718.40",
+  "revenue_change_vs_previous_month": "+107.1%",
+  "operating_expenses": "EUR 38,519.39",
+  "operating_expenses_previous_month": "EUR 38,024.97",
+  "operating_expenses_change": "+1.3%",
+  "money_in": "EUR 36,689.83",
+  "money_out": "EUR 47,334.16",
+  "net_cash_flow": "EUR -10,644.33",
+  "largest_expense_accounts": [
+   "Staff costs: EUR 20,208.98",
+   "Maintenance: EUR 5,369.58",
+   "Marketing: EUR 5,203.26",
+   "Purchases: EUR 1,730.34",
+   "Travel and subsistence: EUR 1,593.22"
+  ],
+  "customer_invoices_open": "8 totalling EUR 21,908.79",
+  "customer_invoices_overdue": "2 totalling EUR 3,716.22",
+  "supplier_invoices_unpaid": "5 totalling EUR 36,126.33",
+  "supplier_invoices_due_next_14_days": "4 totalling EUR 24,660.16",
+  "items_awaiting_your_review": 13,
+  "high_risk_items_blocked": "3 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 36689.829999999994,
+  "prev_revenue": 17718.4,
+  "revenue_change_pct": 107.1,
+  "operating_expenses": 38519.39000000001,
+  "prev_operating_expenses": 38024.97,
+  "opex_change_pct": 1.3,
+  "money_in": 36689.829999999994,
+  "money_out": 47334.16000000001,
+  "net_cash_flow": -10644.330000000016,
+  "ar_open_count": 8,
+  "ar_open_total": 21908.79,
+  "ar_overdue_count": 2,
+  "ar_overdue_total": 3716.2200000000003,
+  "ap_open_count": 5,
+  "ap_open_total": 36126.33,
+  "ap_due_14d_count": 4,
+  "ap_due_14d_total": 24660.16,
+  "items_awaiting_review": 13,
+  "high_risk_items_blocked": 3,
+  "top_expenses": [
+   [
+    "Staff costs",
+    20208.980000000003
+   ],
+   [
+    "Maintenance",
+    5369.58
+   ],
+   [
+    "Marketing",
+    5203.26
+   ],
+   [
+    "Purchases",
+    1730.34
+   ],
+   [
+    "Travel and subsistence",
+    1593.22
+   ]
+  ]
+ },
+ "commentary": "Varrowgate Wholesale Foods Ltd saw a significant increase in revenue by 107.1% to EUR 36,689.83 this month. However, operating expenses rose slightly by 1.3% to EUR 38,519.39, leading to a net cash outflow of EUR -10,644.33. There are 8 customer invoices totaling EUR 21,908.79 still open, with 2 overdue by EUR 3,716.22. Supplier invoices amounting to EUR 36,126.33 are unpaid, with 4 due within the next 14 days totaling EUR 24,660.16. Please review 13 items and address the 3 high-risk blocked requests.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "auto_applied": 63,
+  "blocked": 3,
+  "held": 1,
+  "pending": 14
+ }
+}

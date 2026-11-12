@@ -1,0 +1,1404 @@
+{
+ "company": "C08",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 25.7,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 500,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c08-024@mail.example>",
+   "sender": "payables@galgate.com",
+   "subject": "Remittance advice - NP-3673",
+   "received": "Thu, 01 Oct 2026 15:51:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-025@mail.example>",
+   "sender": "grace@ashford.com",
+   "subject": "Updated billing address",
+   "received": "Thu, 01 Oct 2026 16:04:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "address_change",
+    "summary": "Update billing address on system"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-018@mail.example>",
+   "sender": "lena@nessorys.ie",
+   "subject": "Quick favour",
+   "received": "Fri, 02 Oct 2026 11:46:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain nessorys.ie imitates nessory.ie",
+    "model reported embedded instructions",
+    "Urgent and outside normal process."
+   ]
+  },
+  {
+   "message_id": "<c08-011@mail.example>",
+   "sender": "accounts@grylio.ie",
+   "subject": "Your invoice from Grylio Facilities Ltd",
+   "received": "Fri, 02 Oct 2026 18:58:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Grylio Facilities Ltd",
+    "invoice_number": "SI75288",
+    "issue_date": "2026-10-23",
+    "due_date": "2026-12-07",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 990.4,
+    "tax": 227.79,
+    "total": 1218.19,
+    "bank_account": "IE62SWER37249356761280",
+    "supplier_master": "Grylio Facilities Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-002@mail.example>",
+   "sender": "accounts@harven.ie",
+   "subject": "Invoice attached",
+   "received": "Sat, 03 Oct 2026 14:02:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Harven Solicitors Ltd",
+    "invoice_number": "65375",
+    "issue_date": "2026-09-24",
+    "due_date": "2026-11-07",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 1491.42,
+    "tax": 343.03,
+    "total": 1834.45,
+    "bank_account": "IE84JLKY07633004583185",
+    "supplier_master": "Harven Solicitors Ltd",
+    "default_account": "EXP-PROF6"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-028@mail.example>",
+   "sender": "liam@nessory.ie",
+   "subject": "Month-end review meeting",
+   "received": "Sat, 03 Oct 2026 15:55:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "meeting_request",
+    "summary": "Book 30 minutes next week to go through the October management accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-004@mail.example>",
+   "sender": "accounts@calbury.ie",
+   "subject": "Calbury Repairs Ltd invoice",
+   "received": "Sun, 04 Oct 2026 16:39:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Calbury Repairs Ltd",
+    "invoice_number": "24683",
+    "issue_date": "2026-09-28",
+    "due_date": "2026-10-28",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 1243.75,
+    "tax": 167.91,
+    "total": 1411.66,
+    "bank_account": "IE34JOSN42816789875226",
+    "supplier_master": "Calbury Repairs Ltd",
+    "default_account": "EXP-REPA4"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-021@mail.example>",
+   "sender": "no-reply@jorhurst.ie",
+   "subject": "Your receipt",
+   "received": "Mon, 05 Oct 2026 15:16:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-010@mail.example>",
+   "sender": "accounts@wynbury.ie",
+   "subject": "Invoice attached",
+   "received": "Tue, 06 Oct 2026 11:40:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Wynbury Cleaning Ltd",
+    "invoice_number": "INV19270",
+    "issue_date": "2026-10-20",
+    "due_date": "2026-11-19",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 3433.33,
+    "tax": 789.67,
+    "total": 4223.0,
+    "bank_account": "IE65QRKN74238484647600",
+    "supplier_master": "Wynbury Cleaning Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-015@mail.example>",
+   "sender": "accounts@falquay.ie",
+   "subject": "Falquay Ltd invoice",
+   "received": "Fri, 09 Oct 2026 12:00:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Falquay Ltd",
+    "invoice_number": "B69580",
+    "issue_date": "2026-10-18",
+    "due_date": "2026-11-17",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 204.75,
+    "tax": 47.09,
+    "total": 251.84,
+    "bank_account": "IE72TMYP99626625621105",
+    "supplier_master": "Falquay Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "notes": [
+    "bank account on invoice differs from supplier master record"
+   ]
+  },
+  {
+   "message_id": "<c08-019@mail.example>",
+   "sender": "no-reply@jorson.ie",
+   "subject": "Receipt from Jorson Travel Ltd",
+   "received": "Fri, 09 Oct 2026 12:56:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-023@mail.example>",
+   "sender": "payables@belmora.com",
+   "subject": "Remittance advice - NP-3675",
+   "received": "Sat, 10 Oct 2026 18:10:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-001@mail.example>",
+   "sender": "accounts@marrix.ie",
+   "subject": "Invoice attached",
+   "received": "Sun, 11 Oct 2026 17:38:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Marrix Stationers Ltd",
+    "invoice_number": "INV45042",
+    "issue_date": "2026-10-13",
+    "due_date": "2026-10-27",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 272.77,
+    "tax": 62.74,
+    "total": 335.51,
+    "bank_account": "IE11BMKH47400600986326",
+    "supplier_master": "Marrix Stationers Ltd",
+    "default_account": "EXP-OFFI6"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-005@mail.example>",
+   "sender": "accounts@quinworth.ie",
+   "subject": "Quinworth Ltd invoice",
+   "received": "Sun, 11 Oct 2026 17:39:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Quinworth Ltd",
+    "invoice_number": "B29161",
+    "issue_date": "2026-10-19",
+    "due_date": "2026-11-18",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 132.48,
+    "tax": 30.47,
+    "total": 162.95,
+    "bank_account": "IE07MKWJ36180936403724",
+    "supplier_master": "Quinworth Ltd",
+    "default_account": "EXP-MARK8"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-031@mail.example>",
+   "sender": "news@braara.com",
+   "subject": "20% off office chairs this week",
+   "received": "Mon, 12 Oct 2026 16:58:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-014@mail.example>",
+   "sender": "accounts@falquay.ie",
+   "subject": "Bill for October services",
+   "received": "Wed, 14 Oct 2026 14:10:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Falquay Ltd",
+    "invoice_number": "82787",
+    "issue_date": "2026-10-18",
+    "due_date": "2026-11-17",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 2171.07,
+    "tax": 499.35,
+    "total": 2670.42,
+    "bank_account": "IE83AJOS12808024233697",
+    "supplier_master": "Falquay Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-026@mail.example>",
+   "sender": "niamh@nessory.ie",
+   "subject": "Leave and overtime for October",
+   "received": "Thu, 15 Oct 2026 14:51:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Include Sofia Fallon's 12 extra hours in this month's payroll."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-016@mail.example>",
+   "sender": "accounts@quinworth.ie",
+   "subject": "REMINDER: invoice B29161 outstanding",
+   "received": "Thu, 15 Oct 2026 17:39:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Quinworth Ltd",
+    "invoice_number": "B29161",
+    "issue_date": "2026-10-19",
+    "due_date": "2026-11-18",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 132.48,
+    "tax": 30.47,
+    "total": 162.95,
+    "bank_account": "IE07MKWJ36180936403724",
+    "supplier_master": "Quinworth Ltd",
+    "default_account": "EXP-MARK8"
+   },
+   "request": null,
+   "flags": [
+    "duplicate"
+   ],
+   "notes": [
+    "same supplier and invoice number as <c08-005@mail.example>"
+   ]
+  },
+  {
+   "message_id": "<c08-027@mail.example>",
+   "sender": "ciaran@nessory.ie",
+   "subject": "New starter from 1 November",
+   "received": "Fri, 16 Oct 2026 13:52:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Set up Grace Lindqvist on payroll as a part-time assistant starting from 1 November, 20 hours a week."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-017@mail.example>",
+   "sender": "finance@harven-billing.ie",
+   "subject": "Change of bank details - urgent",
+   "received": "Sun, 18 Oct 2026 11:45:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain harven-billing.ie imitates harven.ie",
+    "model reported embedded instructions",
+    "Urgent request to change bank details for payments."
+   ]
+  },
+  {
+   "message_id": "<c08-022@mail.example>",
+   "sender": "no-reply@wynlyn.ie",
+   "subject": "Thanks for your order",
+   "received": "Sun, 18 Oct 2026 15:03:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-006@mail.example>",
+   "sender": "accounts@ormere.ie",
+   "subject": "Your invoice from Ormere Promotions Ltd",
+   "received": "Mon, 19 Oct 2026 09:43:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Ormere Promotions Ltd",
+    "invoice_number": "87875",
+    "issue_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 2319.1,
+    "tax": 533.39,
+    "total": 2852.49,
+    "bank_account": "IE54OUYR01380854098437",
+    "supplier_master": "Ormere Promotions Ltd",
+    "default_account": "EXP-MARK8"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-013@mail.example>",
+   "sender": "accounts@grylio.ie",
+   "subject": "Invoice attached",
+   "received": "Mon, 19 Oct 2026 10:25:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Grylio Facilities Ltd",
+    "invoice_number": "INV84343",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-11-05",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 3590.58,
+    "tax": 825.83,
+    "total": 4416.41,
+    "bank_account": "IE62SWER37249356761280",
+    "supplier_master": "Grylio Facilities Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-020@mail.example>",
+   "sender": "no-reply@seltessa.ie",
+   "subject": "Your receipt",
+   "received": "Mon, 19 Oct 2026 15:05:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-012@mail.example>",
+   "sender": "accounts@grylio.ie",
+   "subject": "Invoice attached",
+   "received": "Mon, 19 Oct 2026 16:45:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Grylio Facilities Ltd",
+    "invoice_number": "INV51513",
+    "issue_date": "2026-09-24",
+    "due_date": "2026-10-24",
+    "payment_terms_days": 30,
+    "currency": "EUR",
+    "net": 8680.28,
+    "tax": 1996.46,
+    "total": 10676.74,
+    "bank_account": "IE62SWER37249356761280",
+    "supplier_master": "Grylio Facilities Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-007@mail.example>",
+   "sender": "accounts@selvane.ie",
+   "subject": "Selvane Machinery Ltd invoice",
+   "received": "Tue, 20 Oct 2026 16:12:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Selvane Machinery Ltd",
+    "invoice_number": "46512",
+    "issue_date": "2026-09-28",
+    "due_date": "2026-10-28",
+    "payment_terms_days": null,
+    "currency": "EUR",
+    "net": 1684.18,
+    "tax": 387.36,
+    "total": 2071.54,
+    "bank_account": "IE05WCEB78082017397086",
+    "supplier_master": "Selvane Machinery Ltd",
+    "default_account": "BS-EQUI4"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-032@mail.example>",
+   "sender": "news@nolgate.com",
+   "subject": "Webinar: closing the books faster",
+   "received": "Tue, 20 Oct 2026 18:06:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-003@mail.example>",
+   "sender": "accounts@eldson.ie",
+   "subject": "Invoice B66454",
+   "received": "Wed, 21 Oct 2026 14:19:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Eldson Llp Ltd",
+    "invoice_number": "B66454",
+    "issue_date": "2026-09-29",
+    "due_date": "2026-11-13",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 3162.55,
+    "tax": 727.39,
+    "total": 3889.94,
+    "bank_account": "IE39VGIE07014286341615",
+    "supplier_master": "Eldson Llp Ltd",
+    "default_account": "EXP-PROF6"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-029@mail.example>",
+   "sender": "amir@dunworth.com",
+   "subject": "Tax clearance certificate",
+   "received": "Fri, 23 Oct 2026 17:15:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Request for a copy of the current tax clearance certificate and last year's accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-030@mail.example>",
+   "sender": "news@fenquay.com",
+   "subject": "20% off office chairs this week",
+   "received": "Mon, 26 Oct 2026 09:58:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-009@mail.example>",
+   "sender": "accounts@wynbury.ie",
+   "subject": "Invoice attached",
+   "received": "Mon, 26 Oct 2026 17:26:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Wynbury Cleaning Ltd",
+    "invoice_number": "SI80353",
+    "issue_date": "2026-10-14",
+    "due_date": "2026-11-29",
+    "payment_terms_days": 45,
+    "currency": "EUR",
+    "net": 9420.32,
+    "tax": 2166.67,
+    "total": 11586.99,
+    "bank_account": "IE65QRKN74238484647600",
+    "supplier_master": "Wynbury Cleaning Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c08-008@mail.example>",
+   "sender": "accounts@wynbury.ie",
+   "subject": "Invoice B89566",
+   "received": "Mon, 26 Oct 2026 18:05:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Wynbury Cleaning Ltd",
+    "invoice_number": "B89566",
+    "issue_date": "2026-10-19",
+    "due_date": "2026-11-02",
+    "payment_terms_days": 14,
+    "currency": "EUR",
+    "net": 8349.33,
+    "tax": 1920.35,
+    "total": 10269.68,
+    "bank_account": "IE65QRKN74238484647600",
+    "supplier_master": "Wynbury Cleaning Ltd",
+    "default_account": "EXP-COGS7"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "matches": {
+  "C08-T0010": {
+   "txn_id": "C08-T0010",
+   "invoice_ids": [
+    "<c08-004@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0022": {
+   "txn_id": "C08-T0022",
+   "invoice_ids": [
+    "NP-3664"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 12.00, post to bank charges",
+   "difference": 12.0
+  },
+  "C08-T0024": {
+   "txn_id": "C08-T0024",
+   "invoice_ids": [
+    "NP-3669"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0029": {
+   "txn_id": "C08-T0029",
+   "invoice_ids": [
+    "NP-3673"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0030": {
+   "txn_id": "C08-T0030",
+   "invoice_ids": [
+    "<c08-009@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0033": {
+   "txn_id": "C08-T0033",
+   "invoice_ids": [
+    "<c08-003@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0034": {
+   "txn_id": "C08-T0034",
+   "invoice_ids": [
+    "<c08-015@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0036": {
+   "txn_id": "C08-T0036",
+   "invoice_ids": [
+    "<c08-008@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0037": {
+   "txn_id": "C08-T0037",
+   "invoice_ids": [
+    "<c08-010@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0038": {
+   "txn_id": "C08-T0038",
+   "invoice_ids": [
+    "NP-3660"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0027": {
+   "txn_id": "C08-T0027",
+   "invoice_ids": [
+    "NP-3654"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C08-T0035": {
+   "txn_id": "C08-T0035",
+   "invoice_ids": [
+    "<c08-001@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C08-T0021": {
+   "txn_id": "C08-T0021",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  },
+  "C08-T0025": {
+   "txn_id": "C08-T0025",
+   "invoice_ids": [
+    "<c08-002@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0031": {
+   "txn_id": "C08-T0031",
+   "invoice_ids": [
+    "<c08-006@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C08-T0032": {
+   "txn_id": "C08-T0032",
+   "invoice_ids": [
+    "NP-3674",
+    "NP-3675"
+   ],
+   "status": "review",
+   "rule": "ambiguous_amount",
+   "note": "2 open invoices for 1997.99",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C08-T0001": {
+   "account_code": "EXP-TELE9",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0002": {
+   "account_code": "BS-INTE3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0003": {
+   "account_code": "BS-LOAN3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0004": {
+   "account_code": "EXP-SOFT8",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0005": {
+   "account_code": "EXP-OFFI6",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C08-T0007": {
+   "account_code": "EXP-TRAV3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C08-T0008": {
+   "account_code": "EXP-OFFI6",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0009": {
+   "account_code": "EXP-REPA4",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0010": {
+   "account_code": "EXP-REPA4",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0011": {
+   "account_code": "EXP-SOFT8",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0012": {
+   "account_code": "EXP-RENT7",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0013": {
+   "account_code": "EXP-INSU4",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0014": {
+   "account_code": "EXP-UTIL2",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0016": {
+   "account_code": "EXP-SOFT8",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0018": {
+   "account_code": "EXP-REPA4",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0020": {
+   "account_code": "EXP-OFFI6",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C08-T0022": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0023": {
+   "account_code": "EXP-TRAV3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 5,
+   "status": "auto_applied"
+  },
+  "C08-T0024": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0025": {
+   "account_code": "EXP-PROF6",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0026": {
+   "account_code": "BS-PAYR9",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0027": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0028": {
+   "account_code": "EXP-TRAV3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C08-T0029": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0030": {
+   "account_code": "EXP-COGS7",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0031": {
+   "account_code": "EXP-MARK8",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0032": {
+   "account_code": "REV-SALE1",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "pending"
+  },
+  "C08-T0033": {
+   "account_code": "EXP-PROF6",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0034": {
+   "account_code": "EXP-COGS7",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0035": {
+   "account_code": "EXP-OFFI6",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0036": {
+   "account_code": "EXP-COGS7",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0037": {
+   "account_code": "EXP-COGS7",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0038": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C08-T0039": {
+   "account_code": "EXP-PAYR3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0040": {
+   "account_code": "EXP-PAYR3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0041": {
+   "account_code": "EXP-PAYR3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0042": {
+   "account_code": "EXP-PAYR3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0044": {
+   "account_code": "EXP-OFFI6",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0045": {
+   "account_code": "EXP-BANK2",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C08-T0006": {
+   "account_code": "EXP-MEAL9",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to other meal expenses",
+   "group": "MARMORA LTD",
+   "status": "pending"
+  },
+  "C08-T0015": {
+   "account_code": "EXP-OFFI6",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Printing expenses likely fall under office expenses.",
+   "group": "DALDRIX PRINT COR",
+   "status": "pending"
+  },
+  "C08-T0017": {
+   "account_code": "EXP-TRAV3",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to travel expenses",
+   "group": "MARMORA LTD",
+   "status": "pending"
+  },
+  "C08-T0019": {
+   "account_code": "EXP-OFFI6",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Printing expenses similar to supplies",
+   "group": "GRYVILLE PRINT NAA",
+   "status": "pending"
+  },
+  "C08-T0021": {
+   "account_code": "REV-SALE1",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Refund received, similar to sales transactions",
+   "group": "CALVILLE REFUND",
+   "status": "pending"
+  },
+  "C08-T0043": {
+   "account_code": "EXP-OFFI6",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Printing expenses similar to supplies",
+   "group": "GRYVILLE PRINT NAA",
+   "status": "pending"
+  },
+  "C08-T0046": {
+   "account_code": "EXP-TRAV3",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to past travel expenses",
+   "group": "KELGATE TRAVEL GAL",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C08-T0001": {
+   "account_code": "EXP-TELE9",
+   "confidence": "medium",
+   "reason": "Similar to past mobile phone expense"
+  },
+  "C08-T0002": {
+   "account_code": "BS-INTE3",
+   "confidence": "high",
+   "reason": "Similar to previous group transfer posting"
+  },
+  "C08-T0003": {
+   "account_code": "BS-LOAN3",
+   "confidence": "high",
+   "reason": "Same counterparty and transaction type"
+  },
+  "C08-T0004": {
+   "account_code": "EXP-SOFT8",
+   "confidence": "high",
+   "reason": "Similar to past postings for software expenses"
+  },
+  "C08-T0005": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "high",
+   "reason": "Similar to past office expenses"
+  },
+  "C08-T0006": {
+   "account_code": "EXP-MEAL9",
+   "confidence": "medium",
+   "reason": "Similar to other meal expenses"
+  },
+  "C08-T0007": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "high",
+   "reason": "Similar to previous travel expenses"
+  },
+  "C08-T0008": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "high",
+   "reason": "Similar to past office expenses"
+  },
+  "C08-T0009": {
+   "account_code": "EXP-REPA4",
+   "confidence": "high",
+   "reason": "Similar to previous maintenance expenses"
+  },
+  "C08-T0010": {
+   "account_code": "EXP-REPA4",
+   "confidence": "high",
+   "reason": "Similar to past repairs postings"
+  },
+  "C08-T0011": {
+   "account_code": "EXP-SOFT8",
+   "confidence": "high",
+   "reason": "Similar to past postings for software expenses"
+  },
+  "C08-T0012": {
+   "account_code": "EXP-RENT7",
+   "confidence": "high",
+   "reason": "Similar to past rent postings"
+  },
+  "C08-T0013": {
+   "account_code": "EXP-INSU4",
+   "confidence": "high",
+   "reason": "Similar to past postings for insurance"
+  },
+  "C08-T0014": {
+   "account_code": "EXP-UTIL2",
+   "confidence": "high",
+   "reason": "Similar to past gas utility payment"
+  },
+  "C08-T0015": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "medium",
+   "reason": "Printing expenses likely fall under office expenses."
+  },
+  "C08-T0016": {
+   "account_code": "EXP-SOFT8",
+   "confidence": "high",
+   "reason": "Similar to past Daltessa Cloud payment"
+  },
+  "C08-T0017": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "medium",
+   "reason": "Similar to travel expenses"
+  },
+  "C08-T0018": {
+   "account_code": "EXP-REPA4",
+   "confidence": "high",
+   "reason": "Similar to previous maintenance expenses"
+  },
+  "C08-T0019": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "medium",
+   "reason": "Printing expenses similar to supplies"
+  },
+  "C08-T0020": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "high",
+   "reason": "Similar to past office expenses"
+  },
+  "C08-T0021": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Refund received, similar to sales transactions"
+  },
+  "C08-T0022": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credited turnover account"
+  },
+  "C08-T0023": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "high",
+   "reason": "Similar to previous travel expenses"
+  },
+  "C08-T0024": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credited turnover"
+  },
+  "C08-T0025": {
+   "account_code": "EXP-PROF6",
+   "confidence": "high",
+   "reason": "Similar to past postings for solicitors"
+  },
+  "C08-T0026": {
+   "account_code": "BS-PAYR9",
+   "confidence": "high",
+   "reason": "Similar to past PAYE posting"
+  },
+  "C08-T0027": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credited turnover account"
+  },
+  "C08-T0028": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "high",
+   "reason": "Similar to past travel expenses"
+  },
+  "C08-T0029": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credited turnover account"
+  },
+  "C08-T0030": {
+   "account_code": "EXP-COGS7",
+   "confidence": "high",
+   "reason": "Similar to previous cleaning invoice posting"
+  },
+  "C08-T0031": {
+   "account_code": "EXP-MARK8",
+   "confidence": "high",
+   "reason": "Similar to past advertising and marketing payment"
+  },
+  "C08-T0032": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credited sales turnover"
+  },
+  "C08-T0033": {
+   "account_code": "EXP-PROF6",
+   "confidence": "high",
+   "reason": "Similar to past postings for professional services"
+  },
+  "C08-T0034": {
+   "account_code": "EXP-PAYR3",
+   "confidence": "medium",
+   "reason": "Salary payment, similar to past postings"
+  },
+  "C08-T0035": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "high",
+   "reason": "Stationers expenses fall under office expenses"
+  },
+  "C08-T0036": {
+   "account_code": "EXP-COGS7",
+   "confidence": "medium",
+   "reason": "Similar to previous cleaning expense"
+  },
+  "C08-T0037": {
+   "account_code": "EXP-COGS7",
+   "confidence": "high",
+   "reason": "Similar to previous cleaning expense"
+  },
+  "C08-T0038": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credited turnover"
+  },
+  "C08-T0039": {
+   "account_code": "EXP-PAYR3",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C08-T0040": {
+   "account_code": "EXP-PAYR3",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C08-T0041": {
+   "account_code": "EXP-PAYR3",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C08-T0042": {
+   "account_code": "EXP-PAYR3",
+   "confidence": "high",
+   "reason": "Similar to past salary postings"
+  },
+  "C08-T0043": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "medium",
+   "reason": "Printing expenses similar to supplies"
+  },
+  "C08-T0044": {
+   "account_code": "EXP-OFFI6",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payee were classified as office expenses."
+  },
+  "C08-T0045": {
+   "account_code": "EXP-BANK2",
+   "confidence": "high",
+   "reason": "Similar to past commission charges posting"
+  },
+  "C08-T0046": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "medium",
+   "reason": "Similar to past travel expenses"
+  }
+ },
+ "facts": {
+  "company": "Nessory Property Management Ltd",
+  "period": "October 2026",
+  "revenue": "EUR 42,094.66",
+  "revenue_previous_month": "EUR 62,354.01",
+  "revenue_change_vs_previous_month": "-32.5%",
+  "operating_expenses": "EUR 63,151.11",
+  "operating_expenses_previous_month": "EUR 36,646.38",
+  "operating_expenses_change": "+72.3%",
+  "money_in": "EUR 42,094.66",
+  "money_out": "EUR 78,074.60",
+  "net_cash_flow": "EUR -35,979.94",
+  "largest_expense_accounts": [
+   "Direct materials: EUR 26,331.51",
+   "Staff costs: EUR 11,232.33",
+   "Accountancy and legal: EUR 5,724.39",
+   "Premises rent: EUR 4,931.38",
+   "Maintenance: EUR 4,681.71"
+  ],
+  "customer_invoices_open": "7 totalling EUR 32,235.34",
+  "customer_invoices_overdue": "1 totalling EUR 4,096.99",
+  "supplier_invoices_unpaid": "6 totalling EUR 21,216.25",
+  "supplier_invoices_due_next_14_days": "3 totalling EUR 17,164.69",
+  "items_awaiting_your_review": 10,
+  "high_risk_items_blocked": "3 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 42094.659999999996,
+  "prev_revenue": 62354.009999999995,
+  "revenue_change_pct": -32.5,
+  "operating_expenses": 63151.11000000001,
+  "prev_operating_expenses": 36646.380000000005,
+  "opex_change_pct": 72.3,
+  "money_in": 42094.659999999996,
+  "money_out": 78074.6,
+  "net_cash_flow": -35979.94000000001,
+  "ar_open_count": 7,
+  "ar_open_total": 32235.340000000004,
+  "ar_overdue_count": 1,
+  "ar_overdue_total": 4096.99,
+  "ap_open_count": 6,
+  "ap_open_total": 21216.25,
+  "ap_due_14d_count": 3,
+  "ap_due_14d_total": 17164.69,
+  "items_awaiting_review": 10,
+  "high_risk_items_blocked": 3,
+  "top_expenses": [
+   [
+    "Direct materials",
+    26331.510000000002
+   ],
+   [
+    "Staff costs",
+    11232.33
+   ],
+   [
+    "Accountancy and legal",
+    5724.39
+   ],
+   [
+    "Premises rent",
+    4931.38
+   ],
+   [
+    "Maintenance",
+    4681.71
+   ]
+  ]
+ },
+ "commentary": "Nessory Property Management Ltd's October revenue was EUR 42,094.66, down 32.5% from last month. Operating expenses surged to EUR 63,151.11, up 72.3%. Cash flow is negative at EUR -35,979.94. Key expenses include direct materials (EUR 26,331.51) and staff costs (EUR 11,232.33). There are 7 customer invoices open totaling EUR 32,235.34, including one overdue by EUR 4,096.99. Supplier invoices outstanding total EUR 21,216.25, with 3 due within 14 days. You need to review 10 items and be aware of 3 high-risk blocked requests.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "auto_applied": 80,
+  "blocked": 3,
+  "held": 1,
+  "pending": 11
+ }
+}

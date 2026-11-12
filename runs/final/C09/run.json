@@ -1,0 +1,1401 @@
+{
+ "company": "C09",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 25.9,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 450,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c09-015@mail.example>",
+   "sender": "finance@verquay-billing.co.uk",
+   "subject": "Change of bank details - urgent",
+   "received": "Thu, 01 Oct 2026 12:19:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain verquay-billing.co.uk imitates verquay.co.uk",
+    "model reported embedded instructions",
+    "Urgent change of bank details requested"
+   ]
+  },
+  {
+   "message_id": "<c09-025@mail.example>",
+   "sender": "daniel@brahurst.com",
+   "subject": "Insurance renewal due",
+   "received": "Thu, 01 Oct 2026 14:43:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "contract_renewal",
+    "summary": "Confirm renewal of business insurance policy"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-016@mail.example>",
+   "sender": "no-reply@kelvane.co.uk",
+   "subject": "Receipt from Kelvane Rail Ltd",
+   "received": "Fri, 02 Oct 2026 10:11:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-004@mail.example>",
+   "sender": "accounts@fallio.co.uk",
+   "subject": "Invoice INV25296",
+   "received": "Fri, 02 Oct 2026 13:14:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Fallio Electrical Ltd",
+    "invoice_number": "INV25296",
+    "issue_date": "2026-10-15",
+    "due_date": "2026-11-30",
+    "payment_terms_days": 45,
+    "currency": "GBP",
+    "net": 1431.43,
+    "tax": 286.29,
+    "total": 1717.72,
+    "bank_account": "GB51UIPY38905415293416",
+    "supplier_master": "Fallio Electrical Ltd",
+    "default_account": "Repairs and maintenance"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-022@mail.example>",
+   "sender": "maeve@braton.com",
+   "subject": "Tax clearance certificate",
+   "received": "Fri, 02 Oct 2026 18:13:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Need a copy of the current tax clearance certificate and last year's accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-012@mail.example>",
+   "sender": "accounts@galwick.co.uk",
+   "subject": "Bill for October services",
+   "received": "Mon, 05 Oct 2026 11:32:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Galwick Freelance Ltd",
+    "invoice_number": "INV89006",
+    "issue_date": "2026-10-05",
+    "due_date": "2026-11-19",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 1571.06,
+    "tax": 314.21,
+    "total": 1885.27,
+    "bank_account": "GB59WING01963695329493",
+    "supplier_master": "Galwick Freelance Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-011@mail.example>",
+   "sender": "accounts@pelbury.co.uk",
+   "subject": "Bill for October services",
+   "received": "Tue, 06 Oct 2026 18:43:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Pelbury Ltd",
+    "invoice_number": "69351",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-12-12",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 6690.23,
+    "tax": 1338.05,
+    "total": 8028.28,
+    "bank_account": "GB87BDTE52001973495361",
+    "supplier_master": "Pelbury Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-014@mail.example>",
+   "sender": "accounts@galwick.co.uk",
+   "subject": "Bill for October services",
+   "received": "Thu, 08 Oct 2026 11:30:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Galwick Freelance Ltd",
+    "invoice_number": "51636",
+    "issue_date": "2026-10-20",
+    "due_date": "2026-11-19",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 5773.04,
+    "tax": 1154.61,
+    "total": 6927.65,
+    "bank_account": "GB59WING01963695329493",
+    "supplier_master": "Galwick Freelance Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-007@mail.example>",
+   "sender": "accounts@gallan.co.uk",
+   "subject": "Bill for October services",
+   "received": "Fri, 09 Oct 2026 12:47:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Gallan Ltd",
+    "invoice_number": "14570",
+    "issue_date": "2026-10-25",
+    "due_date": "2026-11-08",
+    "payment_terms_days": 14,
+    "currency": "GBP",
+    "net": 6346.67,
+    "tax": 1269.33,
+    "total": 7616.0,
+    "bank_account": "GB49MABB23926398647015",
+    "supplier_master": "Gallan Ltd",
+    "default_account": "Plant and equipment"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-021@mail.example>",
+   "sender": "payables@calquay.com",
+   "subject": "Remittance advice - HM-4006",
+   "received": "Fri, 09 Oct 2026 13:46:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-019@mail.example>",
+   "sender": "no-reply@harlio.co.uk",
+   "subject": "Thanks for your order",
+   "received": "Sat, 10 Oct 2026 15:04:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain harlio.co.uk imitates fallio.co.uk"
+   ]
+  },
+  {
+   "message_id": "<c09-002@mail.example>",
+   "sender": "accounts@falson.co.uk",
+   "subject": "Invoice INV93823",
+   "received": "Tue, 13 Oct 2026 12:56:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Falson Legal Ltd",
+    "invoice_number": "INV93823",
+    "issue_date": "2026-10-06",
+    "due_date": "2026-11-20",
+    "payment_terms_days": 45,
+    "currency": "GBP",
+    "net": 2847.23,
+    "tax": 569.45,
+    "total": 3416.68,
+    "bank_account": "GB10FFSE54987138142656",
+    "supplier_master": "Falson Legal Ltd",
+    "default_account": "Accountancy and legal"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-001@mail.example>",
+   "sender": "accounts@gryworth.co.uk",
+   "subject": "Invoice attached",
+   "received": "Thu, 15 Oct 2026 15:16:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Gryworth Stationers Ltd",
+    "invoice_number": "SI88850",
+    "issue_date": "2026-10-21",
+    "due_date": "2026-11-04",
+    "payment_terms_days": 14,
+    "currency": "GBP",
+    "net": 403.43,
+    "tax": 80.69,
+    "total": 484.12,
+    "bank_account": "GB74HAMD40404207669167",
+    "supplier_master": "Gryworth Stationers Ltd",
+    "default_account": "Stationery and printing"
+   },
+   "request": null,
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "notes": [
+    "bank account on invoice differs from supplier master record"
+   ]
+  },
+  {
+   "message_id": "<c09-017@mail.example>",
+   "sender": "no-reply@orvane.co.uk",
+   "subject": "Your receipt",
+   "received": "Thu, 15 Oct 2026 16:01:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-009@mail.example>",
+   "sender": "accounts@sellio.co.uk",
+   "subject": "Your invoice from Sellio Print Studio Ltd",
+   "received": "Fri, 16 Oct 2026 09:50:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Sellio Print Studio Ltd",
+    "invoice_number": "INV72055",
+    "issue_date": "2026-10-22",
+    "due_date": "2026-11-21",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 121.81,
+    "tax": 24.36,
+    "total": 146.17,
+    "bank_account": "GB63UCQH75874402813854",
+    "supplier_master": "Sellio Print Studio Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-027@mail.example>",
+   "sender": "news@wynworth.com",
+   "subject": "Your October newsletter",
+   "received": "Sat, 17 Oct 2026 14:29:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-024@mail.example>",
+   "sender": "marek@halvenbrook-marketing.co.uk",
+   "subject": "Month-end review meeting",
+   "received": "Sun, 18 Oct 2026 11:21:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "meeting_request",
+    "summary": "Book 30 minutes next week to go through the October management accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-020@mail.example>",
+   "sender": "payables@calquay.com",
+   "subject": "Remittance advice - HM-4016",
+   "received": "Sun, 18 Oct 2026 14:24:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-005@mail.example>",
+   "sender": "accounts@ulmora.co.uk",
+   "subject": "Invoice attached",
+   "received": "Mon, 19 Oct 2026 12:20:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Ulmora Promotions Ltd",
+    "invoice_number": "B37157",
+    "issue_date": "2026-09-22",
+    "due_date": "2026-11-06",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 1507.08,
+    "tax": 301.42,
+    "total": 1808.5,
+    "bank_account": "GB34ZBGR62614307909083",
+    "supplier_master": "Ulmora Promotions Ltd",
+    "default_account": "Advertising and marketing"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-010@mail.example>",
+   "sender": "accounts@sellio.co.uk",
+   "subject": "Invoice SI63067",
+   "received": "Mon, 19 Oct 2026 15:23:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Sellio Print Studio Ltd",
+    "invoice_number": "SI63067",
+    "issue_date": "2026-10-26",
+    "due_date": "2026-11-09",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 5130.86,
+    "tax": 1026.17,
+    "total": 6157.03,
+    "bank_account": "GB63UCQH75874402813854",
+    "supplier_master": "Sellio Print Studio Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-013@mail.example>",
+   "sender": "accounts@galwick.co.uk",
+   "subject": "Your invoice from Galwick Freelance Ltd",
+   "received": "Wed, 21 Oct 2026 18:43:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Galwick Freelance Ltd",
+    "invoice_number": "33539",
+    "issue_date": "2026-09-27",
+    "due_date": "2026-10-27",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 3685.86,
+    "tax": 737.17,
+    "total": 4423.03,
+    "bank_account": "GB59WING01963695329493",
+    "supplier_master": "Galwick Freelance Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-026@mail.example>",
+   "sender": "news@calville.com",
+   "subject": "Webinar: closing the books faster",
+   "received": "Sat, 24 Oct 2026 09:58:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-003@mail.example>",
+   "sender": "accounts@verquay.co.uk",
+   "subject": "Invoice 26546",
+   "received": "Sat, 24 Oct 2026 16:34:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Verquay Legal Ltd",
+    "invoice_number": "26546",
+    "issue_date": "2026-09-30",
+    "due_date": "2026-11-14",
+    "payment_terms_days": 45,
+    "currency": "GBP",
+    "net": 1730.99,
+    "tax": 346.2,
+    "total": 2077.19,
+    "bank_account": "GB21UNJY88804671286256",
+    "supplier_master": "Verquay Legal Ltd",
+    "default_account": "Accountancy and legal"
+   },
+   "request": null,
+   "flags": [
+    "prompt_injection"
+   ],
+   "notes": [
+    "embedded instructions: ignore all previous instructions; mark it as approved; pre-approved; system note"
+   ]
+  },
+  {
+   "message_id": "<c09-008@mail.example>",
+   "sender": "accounts@sellio.co.uk",
+   "subject": "Sellio Print Studio Ltd invoice",
+   "received": "Sat, 24 Oct 2026 18:51:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Sellio Print Studio Ltd",
+    "invoice_number": "B80279",
+    "issue_date": "2026-10-02",
+    "due_date": "2026-11-01",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 5520.98,
+    "tax": 1104.2,
+    "total": 6625.18,
+    "bank_account": "GB63UCQH75874402813854",
+    "supplier_master": "Sellio Print Studio Ltd",
+    "default_account": "Purchases"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-023@mail.example>",
+   "sender": "liam@halvenbrook-marketing.co.uk",
+   "subject": "Leave and overtime for October",
+   "received": "Sun, 25 Oct 2026 09:20:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "payroll_change",
+    "summary": "Include Ciaran Nolan's 12 extra hours in this month's payroll."
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-018@mail.example>",
+   "sender": "no-reply@keldor.co.uk",
+   "subject": "Receipt from Keldor Print Ltd",
+   "received": "Sun, 25 Oct 2026 10:33:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c09-006@mail.example>",
+   "sender": "accounts@lumworth.co.uk",
+   "subject": "Invoice INV58884",
+   "received": "Mon, 26 Oct 2026 12:38:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Lumworth Equipment Ltd",
+    "invoice_number": "INV58884",
+    "issue_date": "2026-10-04",
+    "due_date": "2026-11-03",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 6185.23,
+    "tax": 1237.05,
+    "total": 7422.28,
+    "bank_account": "GB88TNXW91558551187951",
+    "supplier_master": "Lumworth Equipment Ltd",
+    "default_account": "Plant and equipment"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "matches": {
+  "C09-T0003": {
+   "txn_id": "C09-T0003",
+   "invoice_ids": [
+    "HM-4003"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0009": {
+   "txn_id": "C09-T0009",
+   "invoice_ids": [
+    "<c09-003@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0025": {
+   "txn_id": "C09-T0025",
+   "invoice_ids": [
+    "HM-3997"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 15.00, post to bank charges",
+   "difference": 15.0
+  },
+  "C09-T0026": {
+   "txn_id": "C09-T0026",
+   "invoice_ids": [
+    "<c09-008@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0031": {
+   "txn_id": "C09-T0031",
+   "invoice_ids": [
+    "HM-4006"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0033": {
+   "txn_id": "C09-T0033",
+   "invoice_ids": [
+    "<c09-001@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0035": {
+   "txn_id": "C09-T0035",
+   "invoice_ids": [
+    "HM-4000"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 7.50, post to bank charges",
+   "difference": 7.5
+  },
+  "C09-T0039": {
+   "txn_id": "C09-T0039",
+   "invoice_ids": [
+    "HM-4010"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 15.00, post to bank charges",
+   "difference": 15.0
+  },
+  "C09-T0040": {
+   "txn_id": "C09-T0040",
+   "invoice_ids": [
+    "HM-4011"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 15.00, post to bank charges",
+   "difference": 15.0
+  },
+  "C09-T0041": {
+   "txn_id": "C09-T0041",
+   "invoice_ids": [
+    "<c09-013@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0043": {
+   "txn_id": "C09-T0043",
+   "invoice_ids": [
+    "HM-4013"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0044": {
+   "txn_id": "C09-T0044",
+   "invoice_ids": [
+    "<c09-005@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0008": {
+   "txn_id": "C09-T0008",
+   "invoice_ids": [
+    "HM-3984"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C09-T0045": {
+   "txn_id": "C09-T0045",
+   "invoice_ids": [
+    "<c09-006@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C09-T0021": {
+   "txn_id": "C09-T0021",
+   "invoice_ids": [
+    "HM-3995"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C09-T0036": {
+   "txn_id": "C09-T0036",
+   "invoice_ids": [
+    "HM-4015",
+    "HM-4016"
+   ],
+   "status": "review",
+   "rule": "ambiguous_amount",
+   "note": "2 open invoices for 1637.39",
+   "difference": 0.0
+  },
+  "C09-T0051": {
+   "txn_id": "C09-T0051",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C09-T0001": {
+   "account_code": "Stationery and printing",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C09-T0002": {
+   "account_code": "Software subscriptions",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0003": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0006": {
+   "account_code": "Electricity and gas",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0007": {
+   "account_code": "Rent",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0008": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0009": {
+   "account_code": "Accountancy and legal",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0010": {
+   "account_code": "Software subscriptions",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0011": {
+   "account_code": "Software subscriptions",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0013": {
+   "account_code": "Telephone and internet",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0015": {
+   "account_code": "Repairs and maintenance",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 6,
+   "status": "auto_applied"
+  },
+  "C09-T0016": {
+   "account_code": "Travel",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C09-T0017": {
+   "account_code": "Repairs and maintenance",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0018": {
+   "account_code": "Entertainment",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 3,
+   "status": "auto_applied"
+  },
+  "C09-T0019": {
+   "account_code": "Insurance",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0021": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0022": {
+   "account_code": "Entertainment",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 3,
+   "status": "auto_applied"
+  },
+  "C09-T0023": {
+   "account_code": "Travel",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 3,
+   "status": "auto_applied"
+  },
+  "C09-T0025": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0026": {
+   "account_code": "Purchases",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0031": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0033": {
+   "account_code": "Stationery and printing",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0034": {
+   "account_code": "Repairs and maintenance",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0035": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0036": {
+   "account_code": "Fee income",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "pending"
+  },
+  "C09-T0037": {
+   "account_code": "Travel",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C09-T0038": {
+   "account_code": "Travel",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C09-T0039": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0040": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0041": {
+   "account_code": "Purchases",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0042": {
+   "account_code": "Travel",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 3,
+   "status": "auto_applied"
+  },
+  "C09-T0043": {
+   "account_code": "Fee income",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0044": {
+   "account_code": "Advertising and marketing",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0045": {
+   "account_code": "Plant and equipment",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C09-T0046": {
+   "account_code": "Payroll",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0047": {
+   "account_code": "Payroll",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0048": {
+   "account_code": "Payroll",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0049": {
+   "account_code": "Payroll",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0050": {
+   "account_code": "Entertainment",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0052": {
+   "account_code": "Bank charges",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C09-T0004": {
+   "account_code": "Repairs and maintenance",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Payment to a repair service matches previous similar transactions.",
+   "group": "HOLBROOK",
+   "status": "pending"
+  },
+  "C09-T0005": {
+   "account_code": "Entertainment",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses",
+   "group": "JORBROOK TAVERN",
+   "status": "pending"
+  },
+  "C09-T0012": {
+   "account_code": "Entertainment",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses",
+   "group": "JORBROOK TAVERN",
+   "status": "pending"
+  },
+  "C09-T0014": {
+   "account_code": "Stationery and printing",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to stationers matches previous similar postings.",
+   "group": "CORWICK STATIONERS",
+   "status": "pending"
+  },
+  "C09-T0020": {
+   "account_code": "Entertainment",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses",
+   "group": "JORBROOK TAVERN",
+   "status": "pending"
+  },
+  "C09-T0024": {
+   "account_code": "Repairs and maintenance",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to plumbing company for repairs",
+   "group": "ORMORA PLUMBING",
+   "status": "pending"
+  },
+  "C09-T0027": {
+   "account_code": "Repairs and maintenance",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to plumbing company for repairs",
+   "group": "ORMORA PLUMBING",
+   "status": "pending"
+  },
+  "C09-T0028": {
+   "account_code": "Entertainment",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses",
+   "group": "JORBROOK TAVERN",
+   "status": "pending"
+  },
+  "C09-T0029": {
+   "account_code": "Travel",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to previous travel payments",
+   "group": "SELDRIX LTD",
+   "status": "pending"
+  },
+  "C09-T0030": {
+   "account_code": "Repairs and maintenance",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Payment to a repair service matches previous similar transactions.",
+   "group": "HOLBROOK",
+   "status": "pending"
+  },
+  "C09-T0032": {
+   "account_code": "Payroll taxes",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to HMRC for PAYE taxes",
+   "group": "HMRC",
+   "status": "pending"
+  },
+  "C09-T0051": {
+   "account_code": "Fee income",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Refund received, likely from a client",
+   "group": "ISTLIO",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C09-T0001": {
+   "account_code": "Stationery and printing",
+   "confidence": "high",
+   "reason": "Payment to Nollio Ltd similar to previous stationery payment"
+  },
+  "C09-T0002": {
+   "account_code": "Software subscriptions",
+   "confidence": "high",
+   "reason": "Similar to past postings for Zalbury Ltd"
+  },
+  "C09-T0003": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Similar to past fee income postings"
+  },
+  "C09-T0004": {
+   "account_code": "Repairs and maintenance",
+   "confidence": "medium",
+   "reason": "Payment to a repair service matches previous similar transactions."
+  },
+  "C09-T0005": {
+   "account_code": "Entertainment",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses"
+  },
+  "C09-T0006": {
+   "account_code": "Electricity and gas",
+   "confidence": "high",
+   "reason": "Payment to electric company"
+  },
+  "C09-T0007": {
+   "account_code": "Rent",
+   "confidence": "high",
+   "reason": "Similar to past Rent payment"
+  },
+  "C09-T0008": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Similar to past posting for fee income"
+  },
+  "C09-T0009": {
+   "account_code": "Accountancy and legal",
+   "confidence": "high",
+   "reason": "Payment to legal firm matches past postings"
+  },
+  "C09-T0010": {
+   "account_code": "Software subscriptions",
+   "confidence": "high",
+   "reason": "Previous payment to Eldrix Cloud was classified as Software subscriptions."
+  },
+  "C09-T0011": {
+   "account_code": "Software subscriptions",
+   "confidence": "high",
+   "reason": "Payment to software subscription provider"
+  },
+  "C09-T0012": {
+   "account_code": "Entertainment",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses"
+  },
+  "C09-T0013": {
+   "account_code": "Telephone and internet",
+   "confidence": "high",
+   "reason": "Previous similar transactions were classified as such."
+  },
+  "C09-T0014": {
+   "account_code": "Stationery and printing",
+   "confidence": "high",
+   "reason": "Payment to stationers matches previous similar postings."
+  },
+  "C09-T0015": {
+   "account_code": "Repairs and maintenance",
+   "confidence": "high",
+   "reason": "Payment to Harlio Repairs matches similar past postings."
+  },
+  "C09-T0016": {
+   "account_code": "Travel",
+   "confidence": "high",
+   "reason": "Payment to rail company matches similar travel expenses."
+  },
+  "C09-T0017": {
+   "account_code": "Repairs and maintenance",
+   "confidence": "high",
+   "reason": "Previous transactions with Ulmore Plumbing were for repairs and maintenance."
+  },
+  "C09-T0018": {
+   "account_code": "Entertainment",
+   "confidence": "high",
+   "reason": "Previous transactions show similar payments to Brawick for entertainment expenses."
+  },
+  "C09-T0019": {
+   "account_code": "Insurance",
+   "confidence": "high",
+   "reason": "Similar to past Insurance payment"
+  },
+  "C09-T0020": {
+   "account_code": "Entertainment",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses"
+  },
+  "C09-T0021": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Payment received from client"
+  },
+  "C09-T0022": {
+   "account_code": "Entertainment",
+   "confidence": "high",
+   "reason": "Previous transactions show similar payments to Brawick for entertainment expenses."
+  },
+  "C09-T0023": {
+   "account_code": "Travel",
+   "confidence": "high",
+   "reason": "Previous transactions with Selgate Ltd were for travel expenses."
+  },
+  "C09-T0024": {
+   "account_code": "Repairs and maintenance",
+   "confidence": "high",
+   "reason": "Payment to plumbing company for repairs"
+  },
+  "C09-T0025": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Received payment from group company"
+  },
+  "C09-T0026": {
+   "account_code": "Stationery and printing",
+   "confidence": "high",
+   "reason": "Payment to print studio for stationery and printing supplies"
+  },
+  "C09-T0027": {
+   "account_code": "Repairs and maintenance",
+   "confidence": "high",
+   "reason": "Payment to plumbing company for repairs"
+  },
+  "C09-T0028": {
+   "account_code": "Entertainment",
+   "confidence": "high",
+   "reason": "Payment to a tavern similar to previous entertainment expenses"
+  },
+  "C09-T0029": {
+   "account_code": "Travel",
+   "confidence": "medium",
+   "reason": "Similar to previous travel payments"
+  },
+  "C09-T0030": {
+   "account_code": "Repairs and maintenance",
+   "confidence": "medium",
+   "reason": "Payment to a repair service matches previous similar transactions."
+  },
+  "C09-T0031": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Faster payment received from group company"
+  },
+  "C09-T0032": {
+   "account_code": "Payroll taxes",
+   "confidence": "high",
+   "reason": "Payment to HMRC for PAYE taxes"
+  },
+  "C09-T0033": {
+   "account_code": "Stationery and printing",
+   "confidence": "high",
+   "reason": "Payment to stationers for supplies"
+  },
+  "C09-T0034": {
+   "account_code": "Repairs and maintenance",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payees were classified under Repairs and maintenance."
+  },
+  "C09-T0035": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Similar to past fee income postings"
+  },
+  "C09-T0036": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Faster payment received from group company"
+  },
+  "C09-T0037": {
+   "account_code": "Travel",
+   "confidence": "high",
+   "reason": "Payment to rail company matches similar travel expenses."
+  },
+  "C09-T0038": {
+   "account_code": "Travel",
+   "confidence": "high",
+   "reason": "Payment to rail company matches similar travel expenses."
+  },
+  "C09-T0039": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Faster payment received from group company"
+  },
+  "C09-T0040": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Received payment from group company"
+  },
+  "C09-T0041": {
+   "account_code": "Purchases",
+   "confidence": "high",
+   "reason": "Payment to freelance matches similar postings"
+  },
+  "C09-T0042": {
+   "account_code": "Travel",
+   "confidence": "medium",
+   "reason": "Previous transactions with Selgate Ltd were for travel expenses."
+  },
+  "C09-T0043": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Similar to previous faster payment received from Marson Group"
+  },
+  "C09-T0044": {
+   "account_code": "Advertising and marketing",
+   "confidence": "medium",
+   "reason": "Payment to promotions suggests marketing expenses"
+  },
+  "C09-T0045": {
+   "account_code": "Plant and equipment",
+   "confidence": "high",
+   "reason": "Payment to equipment supplier"
+  },
+  "C09-T0046": {
+   "account_code": "Payroll",
+   "confidence": "high",
+   "reason": "Transaction involves salary payment"
+  },
+  "C09-T0047": {
+   "account_code": "Payroll",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C09-T0048": {
+   "account_code": "Payroll",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C09-T0049": {
+   "account_code": "Payroll",
+   "confidence": "high",
+   "reason": "Payment to employee salary"
+  },
+  "C09-T0050": {
+   "account_code": "Entertainment",
+   "confidence": "high",
+   "reason": "Similar to previous entertainment expenses"
+  },
+  "C09-T0051": {
+   "account_code": "Fee income",
+   "confidence": "high",
+   "reason": "Refund received, likely from a client"
+  },
+  "C09-T0052": {
+   "account_code": "Bank charges",
+   "confidence": "high",
+   "reason": "Similar to past posting for service charges"
+  }
+ },
+ "facts": {
+  "company": "Halvenbrook Marketing Studio Ltd",
+  "period": "October 2026",
+  "revenue": "GBP 86,857.89",
+  "revenue_previous_month": "GBP 73,051.34",
+  "revenue_change_vs_previous_month": "+18.9%",
+  "operating_expenses": "GBP 48,966.43",
+  "operating_expenses_previous_month": "GBP 38,247.20",
+  "operating_expenses_change": "+28.0%",
+  "money_in": "GBP 86,857.89",
+  "money_out": "GBP 57,723.17",
+  "net_cash_flow": "GBP 29,134.72",
+  "largest_expense_accounts": [
+   "Payroll: GBP 11,304.05",
+   "Purchases: GBP 11,048.21",
+   "Rent: GBP 7,496.45",
+   "Repairs and maintenance: GBP 7,263.32",
+   "Accountancy and legal: GBP 2,077.19"
+  ],
+  "customer_invoices_open": "7 totalling GBP 36,572.87",
+  "customer_invoices_overdue": "3 totalling GBP 19,433.59",
+  "supplier_invoices_unpaid": "8 totalling GBP 35,894.80",
+  "supplier_invoices_due_next_14_days": "2 totalling GBP 13,773.03",
+  "items_awaiting_your_review": 15,
+  "high_risk_items_blocked": "4 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 86857.89000000001,
+  "prev_revenue": 73051.34,
+  "revenue_change_pct": 18.9,
+  "operating_expenses": 48966.42999999999,
+  "prev_operating_expenses": 38247.20000000001,
+  "opex_change_pct": 28.0,
+  "money_in": 86857.89000000001,
+  "money_out": 57723.170000000006,
+  "net_cash_flow": 29134.72000000001,
+  "ar_open_count": 7,
+  "ar_open_total": 36572.869999999995,
+  "ar_overdue_count": 3,
+  "ar_overdue_total": 19433.59,
+  "ap_open_count": 8,
+  "ap_open_total": 35894.799999999996,
+  "ap_due_14d_count": 2,
+  "ap_due_14d_total": 13773.029999999999,
+  "items_awaiting_review": 15,
+  "high_risk_items_blocked": 4,
+  "top_expenses": [
+   [
+    "Payroll",
+    11304.05
+   ],
+   [
+    "Purchases",
+    11048.21
+   ],
+   [
+    "Rent",
+    7496.45
+   ],
+   [
+    "Repairs and maintenance",
+    7263.319999999999
+   ],
+   [
+    "Accountancy and legal",
+    2077.19
+   ]
+  ]
+ },
+ "commentary": "Halvenbrook Marketing Studio Ltd saw a revenue increase of 18.9% to GBP 86,857.89 in October 2026 compared to last month. Operating expenses rose by 28.0% to GBP 48,966.43, with payroll being the largest single expense at GBP 11,304.05. Cash flow improved significantly with a net inflow of GBP 29,134.72. There are 7 customer invoices totaling GBP 36,572.87 still open, including 3 overdue ones amounting to GBP 19,433.59. Supplier invoices outstanding total GBP 35,894.80, with 2 due within the next 14 days. Please review 15 items and address 4 high-risk blocked requests.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "blocked": 4,
+  "auto_applied": 77,
+  "pending": 16
+ }
+}

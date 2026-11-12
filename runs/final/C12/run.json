@@ -1,0 +1,1317 @@
+{
+ "company": "C12",
+ "model": "models--Qwen--Qwen2.5-7B-Instruct",
+ "seconds": 27.7,
+ "policy": {
+  "model_auto_confidence": [],
+  "model_auto_max_amount": 450,
+  "match_tolerance": 15.0
+ },
+ "emails": [
+  {
+   "message_id": "<c12-012@mail.example>",
+   "sender": "accounts@dalquay.co.uk",
+   "subject": "Dalquay Ltd invoice",
+   "received": "Thu, 01 Oct 2026 17:07:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Dalquay Ltd",
+    "invoice_number": "INV98349",
+    "issue_date": "2026-10-03",
+    "due_date": "2026-11-02",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 681.9,
+    "tax": 136.38,
+    "total": 818.28,
+    "bank_account": "GB34YGPC54474251767986",
+    "supplier_master": "Dalquay Ltd",
+    "default_account": "EXP-COGS9"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-010@mail.example>",
+   "sender": "accounts@calquay.co.uk",
+   "subject": "Invoice attached",
+   "received": "Fri, 02 Oct 2026 18:02:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Calquay Plotting Ltd",
+    "invoice_number": "90106",
+    "issue_date": "2026-09-26",
+    "due_date": "2026-10-10",
+    "payment_terms_days": 14,
+    "currency": "GBP",
+    "net": 4613.28,
+    "tax": 922.66,
+    "total": 5535.94,
+    "bank_account": "GB28VUSF04959157864686",
+    "supplier_master": "Calquay Plotting Ltd",
+    "default_account": "EXP-COGS9"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-018@mail.example>",
+   "sender": "payables@dunmora.com",
+   "subject": "Remittance advice - AA-1714",
+   "received": "Sat, 03 Oct 2026 09:06:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-004@mail.example>",
+   "sender": "accounts@galrix.co.uk",
+   "subject": "Your invoice from Galrix Ltd",
+   "received": "Sat, 03 Oct 2026 14:15:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Galrix Ltd",
+    "invoice_number": "40511",
+    "issue_date": "2026-10-09",
+    "due_date": "2026-11-08",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 1309.11,
+    "tax": 261.82,
+    "total": 1570.93,
+    "bank_account": "GB59WANL98848223179754",
+    "supplier_master": "Galrix Ltd",
+    "default_account": "EXP-REPA6"
+   },
+   "request": null,
+   "flags": [
+    "bank_details_mismatch"
+   ],
+   "notes": [
+    "bank account on invoice differs from supplier master record"
+   ]
+  },
+  {
+   "message_id": "<c12-001@mail.example>",
+   "sender": "accounts@belhurst.co.uk",
+   "subject": "Invoice attached",
+   "received": "Sat, 03 Oct 2026 17:13:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Blehurst Supplies Ltd",
+    "invoice_number": "INV57817",
+    "issue_date": "2026-09-20",
+    "due_date": "2026-10-20",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 276.84,
+    "tax": 55.37,
+    "total": 332.21,
+    "bank_account": "GB54HBMO23411702534076",
+    "supplier_master": "Belhurst Supplies Ltd",
+    "default_account": "EXP-OFFI1"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-025@mail.example>",
+   "sender": "news@kelbrook.com",
+   "subject": "20% off office chairs this week",
+   "received": "Sat, 03 Oct 2026 17:40:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-013@mail.example>",
+   "sender": "accounts@dalquay.co.uk",
+   "subject": "Bill for October services",
+   "received": "Sat, 03 Oct 2026 18:26:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Dalquay Ltd",
+    "invoice_number": "B84198",
+    "issue_date": "2026-10-06",
+    "due_date": "2026-11-20",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 4542.52,
+    "tax": 908.5,
+    "total": 5451.02,
+    "bank_account": "GB34YGPC54474251767986",
+    "supplier_master": "Dalquay Ltd",
+    "default_account": "EXP-COGS9"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-008@mail.example>",
+   "sender": "accounts@tavmore.co.uk",
+   "subject": "Tavmore Ltd invoice",
+   "received": "Mon, 05 Oct 2026 12:06:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Tavmore Ltd",
+    "invoice_number": "63496",
+    "issue_date": "2026-10-08",
+    "due_date": "2026-11-07",
+    "payment_terms_days": null,
+    "currency": "GBP",
+    "net": 1455.95,
+    "tax": 291.19,
+    "total": 1747.14,
+    "bank_account": "GB62EPWD99647729766889",
+    "supplier_master": "Tavmore Ltd",
+    "default_account": "EXP-COGS9"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-009@mail.example>",
+   "sender": "accounts@tavmore.co.uk",
+   "subject": "Tavmore Ltd invoice",
+   "received": "Tue, 06 Oct 2026 17:09:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Tavmore Ltd",
+    "invoice_number": "INV95909",
+    "issue_date": "2026-10-27",
+    "due_date": "2026-12-11",
+    "payment_terms_days": 45,
+    "currency": "GBP",
+    "net": 3992.86,
+    "tax": 798.57,
+    "total": 4791.43,
+    "bank_account": "GB62EPWD99647729766889",
+    "supplier_master": "Tavmore Ltd",
+    "default_account": "EXP-COGS9"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-003@mail.example>",
+   "sender": "accounts@verquay.co.uk",
+   "subject": "Invoice SI67886",
+   "received": "Tue, 06 Oct 2026 18:06:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Verquay Ltd",
+    "invoice_number": "SI67886",
+    "issue_date": "2026-10-05",
+    "due_date": "2026-11-30",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 2363.17,
+    "tax": 472.63,
+    "total": 2835.8,
+    "bank_account": "GB70ASDK89913662221037",
+    "supplier_master": "Verquay Ltd",
+    "default_account": "EXP-PROF1"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-022@mail.example>",
+   "sender": "oisin@lumbury.com",
+   "subject": "Tax clearance certificate",
+   "received": "Tue, 06 Oct 2026 18:30:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Need a copy of the current tax clearance certificate and last year's accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-017@mail.example>",
+   "sender": "no-reply@orhurst.co.uk",
+   "subject": "Thanks for your order",
+   "received": "Wed, 07 Oct 2026 12:05:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-007@mail.example>",
+   "sender": "accounts@grydrix.co.uk",
+   "subject": "Bill for October services",
+   "received": "Wed, 07 Oct 2026 15:08:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Grydrix Tech Ltd",
+    "invoice_number": "SI38377",
+    "issue_date": "2026-10-03",
+    "due_date": "2026-11-02",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 696.44,
+    "tax": 139.29,
+    "total": 835.73,
+    "bank_account": "GB17ECFW68922825787805",
+    "supplier_master": "Grydrix Tech Ltd",
+    "default_account": "BS-EQUI1"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-019@mail.example>",
+   "sender": "payables@orford.com",
+   "subject": "Remittance advice - AA-1704",
+   "received": "Wed, 07 Oct 2026 18:37:00 +0000",
+   "category": "remittance",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-023@mail.example>",
+   "sender": "jonah@pelhurst.com",
+   "subject": "Updated billing address",
+   "received": "Thu, 08 Oct 2026 15:20:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "address_change",
+    "summary": "Update billing address on system"
+   },
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain pelhurst.com imitates belhurst.co.uk"
+   ]
+  },
+  {
+   "message_id": "<c12-006@mail.example>",
+   "sender": "accounts@zalley.co.uk",
+   "subject": "Invoice attached",
+   "received": "Sun, 11 Oct 2026 18:30:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Zalley Equipment Ltd",
+    "invoice_number": "B88998",
+    "issue_date": "2026-10-28",
+    "due_date": "2026-11-27",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 3771.71,
+    "tax": 754.34,
+    "total": 4526.05,
+    "bank_account": "GB79WQMB49075023269342",
+    "supplier_master": "Zalley Equipment Ltd",
+    "default_account": "BS-EQUI1"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-026@mail.example>",
+   "sender": "news@falquay.com",
+   "subject": "Webinar: closing the books faster",
+   "received": "Tue, 13 Oct 2026 11:27:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain falquay.com imitates calquay.co.uk"
+   ]
+  },
+  {
+   "message_id": "<c12-020@mail.example>",
+   "sender": "niamh@tavton.com",
+   "subject": "Copy of statement please",
+   "received": "Tue, 13 Oct 2026 14:24:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "document_request",
+    "summary": "Send a statement of account for the last quarter"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-011@mail.example>",
+   "sender": "accounts@calquay.co.uk",
+   "subject": "Invoice B49237",
+   "received": "Wed, 14 Oct 2026 15:35:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Calquay Plotting Ltd",
+    "invoice_number": "B49237",
+    "issue_date": "2026-09-24",
+    "due_date": "2026-10-08",
+    "payment_terms_days": 14,
+    "currency": "GBP",
+    "net": 9734.12,
+    "tax": 1946.82,
+    "total": 11680.94,
+    "bank_account": "GB28VUSF04959157864686",
+    "supplier_master": "Calquay Plotting Ltd",
+    "default_account": "EXP-COGS9"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-021@mail.example>",
+   "sender": "niamh@ambrin.co.uk",
+   "subject": "Month-end review meeting",
+   "received": "Wed, 14 Oct 2026 16:15:00 +0000",
+   "category": "admin_request",
+   "invoice": null,
+   "request": {
+    "type": "meeting_request",
+    "summary": "Book 30 minutes next week to go through the October management accounts"
+   },
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-016@mail.example>",
+   "sender": "no-reply@rosmore.co.uk",
+   "subject": "Receipt from Rosmore Kitchen Ltd",
+   "received": "Thu, 15 Oct 2026 11:06:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-014@mail.example>",
+   "sender": "finance@galrix-billing.co.uk",
+   "subject": "Change of bank details - urgent",
+   "received": "Sat, 17 Oct 2026 09:58:00 +0000",
+   "category": "payment_risk",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain",
+    "payment_risk",
+    "prompt_injection"
+   ],
+   "notes": [
+    "sender domain galrix-billing.co.uk imitates galrix.co.uk",
+    "model reported embedded instructions",
+    "Urgent request to change bank details for payments."
+   ]
+  },
+  {
+   "message_id": "<c12-005@mail.example>",
+   "sender": "accounts@braville.co.uk",
+   "subject": "Invoice B56978",
+   "received": "Mon, 19 Oct 2026 16:47:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Braville Promotions Ltd",
+    "invoice_number": "B56978",
+    "issue_date": "2026-09-22",
+    "due_date": "2026-10-22",
+    "payment_terms_days": 30,
+    "currency": "GBP",
+    "net": 1418.5,
+    "tax": 283.7,
+    "total": 1702.2,
+    "bank_account": "GB51ZZTU94883430113766",
+    "supplier_master": "Braville Promotions Ltd",
+    "default_account": "EXP-MARK8"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-002@mail.example>",
+   "sender": "accounts@istley.co.uk",
+   "subject": "Invoice attached",
+   "received": "Tue, 20 Oct 2026 12:06:00 +0000",
+   "category": "supplier_invoice",
+   "invoice": {
+    "supplier": "Istley Ltd",
+    "invoice_number": "53224",
+    "issue_date": "2026-09-22",
+    "due_date": "2026-11-06",
+    "payment_terms_days": 45,
+    "currency": "GBP",
+    "net": 4044.34,
+    "tax": 808.87,
+    "total": 4853.21,
+    "bank_account": "GB26LNVD68723110678864",
+    "supplier_master": "Istley Ltd",
+    "default_account": "EXP-PROF1"
+   },
+   "request": null,
+   "flags": [],
+   "notes": []
+  },
+  {
+   "message_id": "<c12-015@mail.example>",
+   "sender": "no-reply@tavmora.co.uk",
+   "subject": "Receipt from Tavmora Maintenance Ltd",
+   "received": "Wed, 21 Oct 2026 11:17:00 +0000",
+   "category": "receipt",
+   "invoice": null,
+   "request": null,
+   "flags": [
+    "lookalike_sender_domain"
+   ],
+   "notes": [
+    "sender domain tavmora.co.uk imitates tavmore.co.uk"
+   ]
+  },
+  {
+   "message_id": "<c12-024@mail.example>",
+   "sender": "news@grytessa.com",
+   "subject": "Your October newsletter",
+   "received": "Sat, 24 Oct 2026 13:16:00 +0000",
+   "category": "other",
+   "invoice": null,
+   "request": null,
+   "flags": [],
+   "notes": []
+  }
+ ],
+ "matches": {
+  "C12-T0007": {
+   "txn_id": "C12-T0007",
+   "invoice_ids": [
+    "AA-1694"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0009": {
+   "txn_id": "C12-T0009",
+   "invoice_ids": [
+    "AA-1691"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0012": {
+   "txn_id": "C12-T0012",
+   "invoice_ids": [
+    "AA-1678"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 15.00, post to bank charges",
+   "difference": 15.0
+  },
+  "C12-T0019": {
+   "txn_id": "C12-T0019",
+   "invoice_ids": [
+    "AA-1701"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0021": {
+   "txn_id": "C12-T0021",
+   "invoice_ids": [
+    "AA-1704"
+   ],
+   "status": "auto",
+   "rule": "reference_short_paid",
+   "note": "short by 2.50, post to bank charges",
+   "difference": 2.5
+  },
+  "C12-T0023": {
+   "txn_id": "C12-T0023",
+   "invoice_ids": [
+    "<c12-010@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0027": {
+   "txn_id": "C12-T0027",
+   "invoice_ids": [
+    "AA-1705"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0036": {
+   "txn_id": "C12-T0036",
+   "invoice_ids": [
+    "<c12-007@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0037": {
+   "txn_id": "C12-T0037",
+   "invoice_ids": [
+    "<c12-002@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0039": {
+   "txn_id": "C12-T0039",
+   "invoice_ids": [
+    "AA-1708"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0044": {
+   "txn_id": "C12-T0044",
+   "invoice_ids": [
+    "AA-1707"
+   ],
+   "status": "auto",
+   "rule": "reference_and_amount",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0010": {
+   "txn_id": "C12-T0010",
+   "invoice_ids": [
+    "AA-1698"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C12-T0015": {
+   "txn_id": "C12-T0015",
+   "invoice_ids": [
+    "AA-1712"
+   ],
+   "status": "auto",
+   "rule": "corrected_reference",
+   "note": "reference differs by one character",
+   "difference": 0.0
+  },
+  "C12-T0024": {
+   "txn_id": "C12-T0024",
+   "invoice_ids": [
+    "<c12-012@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0028": {
+   "txn_id": "C12-T0028",
+   "invoice_ids": [
+    "<c12-001@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0029": {
+   "txn_id": "C12-T0029",
+   "invoice_ids": [
+    "<c12-003@mail.example>"
+   ],
+   "status": "auto",
+   "rule": "amount_and_party",
+   "note": "",
+   "difference": 0.0
+  },
+  "C12-T0030": {
+   "txn_id": "C12-T0030",
+   "invoice_ids": [
+    "AA-1713",
+    "AA-1714"
+   ],
+   "status": "review",
+   "rule": "ambiguous_amount",
+   "note": "2 open invoices for 2611.59",
+   "difference": 0.0
+  },
+  "C12-T0031": {
+   "txn_id": "C12-T0031",
+   "invoice_ids": [],
+   "status": "review",
+   "rule": "unexplained_receipt",
+   "note": "money received with no matching invoice",
+   "difference": 0.0
+  }
+ },
+ "postings": {
+  "C12-T0001": {
+   "account_code": "EXP-SOFT9",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0002": {
+   "account_code": "EXP-SOFT9",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0003": {
+   "account_code": "EXP-SOFT9",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0004": {
+   "account_code": "EXP-TELE7",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0005": {
+   "account_code": "EXP-RENT7",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0006": {
+   "account_code": "EXP-OFFI1",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C12-T0007": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0008": {
+   "account_code": "EXP-UTIL6",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0009": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0010": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0011": {
+   "account_code": "EXP-INSU1",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0012": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0015": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0018": {
+   "account_code": "EXP-TRAV3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "auto_applied"
+  },
+  "C12-T0019": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0020": {
+   "account_code": "EXP-MEAL2",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C12-T0021": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0023": {
+   "account_code": "EXP-COGS9",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0024": {
+   "account_code": "EXP-COGS9",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0026": {
+   "account_code": "EXP-TRAV3",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C12-T0027": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0028": {
+   "account_code": "EXP-OFFI1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0029": {
+   "account_code": "EXP-PROF1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0030": {
+   "account_code": "REV-SALE1",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 1,
+   "status": "pending"
+  },
+  "C12-T0032": {
+   "account_code": "EXP-REPA6",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 6,
+   "status": "auto_applied"
+  },
+  "C12-T0033": {
+   "account_code": "EXP-MEAL2",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C12-T0036": {
+   "account_code": "BS-EQUI1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0037": {
+   "account_code": "EXP-PROF1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0038": {
+   "account_code": "EXP-REPA6",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 4,
+   "status": "auto_applied"
+  },
+  "C12-T0039": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0040": {
+   "account_code": "EXP-PAYR7",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0041": {
+   "account_code": "EXP-PAYR7",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0042": {
+   "account_code": "EXP-PAYR7",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0044": {
+   "account_code": "REV-SALE1",
+   "source": "matched_invoice",
+   "confidence": "high",
+   "status": "auto_applied"
+  },
+  "C12-T0045": {
+   "account_code": "EXP-BANK5",
+   "source": "memory",
+   "confidence": "high",
+   "seen": 2,
+   "status": "auto_applied"
+  },
+  "C12-T0013": {
+   "account_code": "EXP-UTIL6",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to previous electrical payments",
+   "group": "DUNBURY ELECTRICAL YORK",
+   "status": "pending"
+  },
+  "C12-T0014": {
+   "account_code": "EXP-MEAL2",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Meal and entertainment expenses are similar in nature.",
+   "group": "QUINSON GRILL",
+   "status": "pending"
+  },
+  "C12-T0016": {
+   "account_code": "EXP-REPA6",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Maintenance expenses similar to previous postings",
+   "group": "TAVMORA MAINTENANCE LEEDS",
+   "status": "pending"
+  },
+  "C12-T0017": {
+   "account_code": "BS-PAYR4",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to past PAYE postings",
+   "group": "HMRC",
+   "status": "pending"
+  },
+  "C12-T0022": {
+   "account_code": "EXP-MEAL2",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Similar to other meal expenses",
+   "group": "HARLAN KITCHEN LONDON",
+   "status": "pending"
+  },
+  "C12-T0025": {
+   "account_code": "EXP-MEAL2",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Meal and entertainment expenses are similar to grill payments.",
+   "group": "QUINSON GRILL",
+   "status": "pending"
+  },
+  "C12-T0031": {
+   "account_code": "BS-PAYR4",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Refund likely related to payroll taxes",
+   "group": "GALWICK",
+   "status": "pending"
+  },
+  "C12-T0034": {
+   "account_code": "EXP-MEAL2",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Meal and entertainment expenses are similar to Quinson Grill payment",
+   "group": "QUINSON GRILL",
+   "status": "pending"
+  },
+  "C12-T0035": {
+   "account_code": "EXP-OFFI1",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Similar to past office supply payments",
+   "group": "DALDOR SUPPLIES",
+   "status": "pending"
+  },
+  "C12-T0043": {
+   "account_code": "EXP-TRAV3",
+   "source": "model",
+   "confidence": "medium",
+   "reason": "Transaction resembles travel expenses",
+   "group": "MARLYN AIR LONDON",
+   "status": "pending"
+  },
+  "C12-T0046": {
+   "account_code": "EXP-OFFI1",
+   "source": "model",
+   "confidence": "high",
+   "reason": "Payment to office related expenses",
+   "group": "FENTON OFFICE",
+   "status": "pending"
+  }
+ },
+ "llm_all": {
+  "C12-T0001": {
+   "account_code": "EXP-SOFT9",
+   "confidence": "high",
+   "reason": "Similar to past postings for software expenses"
+  },
+  "C12-T0002": {
+   "account_code": "EXP-SOFT9",
+   "confidence": "high",
+   "reason": "Similar to past postings for software expenses"
+  },
+  "C12-T0003": {
+   "account_code": "EXP-SOFT9",
+   "confidence": "high",
+   "reason": "Similar to past postings for software expenses"
+  },
+  "C12-T0004": {
+   "account_code": "EXP-TELE7",
+   "confidence": "high",
+   "reason": "Similar to past telecoms expenses"
+  },
+  "C12-T0005": {
+   "account_code": "EXP-RENT7",
+   "confidence": "high",
+   "reason": "Similar to past rent payment"
+  },
+  "C12-T0006": {
+   "account_code": "EXP-OFFI1",
+   "confidence": "high",
+   "reason": "Similar to past office supply payments"
+  },
+  "C12-T0007": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar to previous fee income transactions"
+  },
+  "C12-T0008": {
+   "account_code": "EXP-UTIL6",
+   "confidence": "medium",
+   "reason": "Similar to previous utility payment"
+  },
+  "C12-T0009": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar to previous credit transfers to Dalford"
+  },
+  "C12-T0010": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar to previous fee income transactions"
+  },
+  "C12-T0011": {
+   "account_code": "EXP-INSU1",
+   "confidence": "high",
+   "reason": "Similar to past postings for insurance"
+  },
+  "C12-T0012": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credit sales income"
+  },
+  "C12-T0013": {
+   "account_code": "EXP-UTIL6",
+   "confidence": "medium",
+   "reason": "Similar to previous electrical payments"
+  },
+  "C12-T0014": {
+   "account_code": "EXP-MEAL2",
+   "confidence": "medium",
+   "reason": "Meal and entertainment expenses are similar in nature."
+  },
+  "C12-T0015": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar to past credit transfers for fee income"
+  },
+  "C12-T0016": {
+   "account_code": "EXP-REPA6",
+   "confidence": "high",
+   "reason": "Maintenance expenses similar to previous postings"
+  },
+  "C12-T0017": {
+   "account_code": "BS-PAYR4",
+   "confidence": "high",
+   "reason": "Similar to past PAYE postings"
+  },
+  "C12-T0018": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "high",
+   "reason": "Similar to previous travel expenses"
+  },
+  "C12-T0019": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar reference and large fee income deposit"
+  },
+  "C12-T0020": {
+   "account_code": "EXP-MEAL2",
+   "confidence": "high",
+   "reason": "Similar to past meal and entertainment expenses"
+  },
+  "C12-T0021": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar to other income postings"
+  },
+  "C12-T0022": {
+   "account_code": "EXP-MEAL2",
+   "confidence": "medium",
+   "reason": "Similar to other meal expenses"
+  },
+  "C12-T0023": {
+   "account_code": "EXP-COGS9",
+   "confidence": "medium",
+   "reason": "Similar to past postings for COGS"
+  },
+  "C12-T0024": {
+   "account_code": "EXP-COGS9",
+   "confidence": "high",
+   "reason": "Similar to past postings for supplier payments."
+  },
+  "C12-T0025": {
+   "account_code": "EXP-MEAL2",
+   "confidence": "medium",
+   "reason": "Meal and entertainment expenses are similar to grill payments."
+  },
+  "C12-T0026": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "high",
+   "reason": "Hotel payments are classified under travel expenses"
+  },
+  "C12-T0027": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credit sales income"
+  },
+  "C12-T0028": {
+   "account_code": "EXP-OFFI1",
+   "confidence": "high",
+   "reason": "Similar to past postings for office supplies"
+  },
+  "C12-T0029": {
+   "account_code": "EXP-PAYR7",
+   "confidence": "medium",
+   "reason": "Similar to salary payments"
+  },
+  "C12-T0030": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar transactions credit sales income"
+  },
+  "C12-T0031": {
+   "account_code": "BS-PAYR4",
+   "confidence": "medium",
+   "reason": "Refund likely related to payroll taxes"
+  },
+  "C12-T0032": {
+   "account_code": "EXP-REPA6",
+   "confidence": "high",
+   "reason": "Similar to previous repair payments"
+  },
+  "C12-T0033": {
+   "account_code": "EXP-MEAL2",
+   "confidence": "high",
+   "reason": "Similar to past meal and entertainment expenses"
+  },
+  "C12-T0034": {
+   "account_code": "EXP-MEAL2",
+   "confidence": "medium",
+   "reason": "Meal and entertainment expenses are similar to Quinson Grill payment"
+  },
+  "C12-T0035": {
+   "account_code": "EXP-OFFI1",
+   "confidence": "high",
+   "reason": "Similar to past office supply payments"
+  },
+  "C12-T0036": {
+   "account_code": "BS-EQUI1",
+   "confidence": "high",
+   "reason": "Payment to supplier for equipment"
+  },
+  "C12-T0037": {
+   "account_code": "EXP-PAYR7",
+   "confidence": "medium",
+   "reason": "Similar to salary payments"
+  },
+  "C12-T0038": {
+   "account_code": "EXP-REPA6",
+   "confidence": "high",
+   "reason": "Previous transactions with similar payee for repairs and maintenance"
+  },
+  "C12-T0039": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar to past credit transfers for fee income"
+  },
+  "C12-T0040": {
+   "account_code": "EXP-PAYR7",
+   "confidence": "high",
+   "reason": "Salary payment to employee"
+  },
+  "C12-T0041": {
+   "account_code": "EXP-PAYR7",
+   "confidence": "high",
+   "reason": "Salary payment to employee"
+  },
+  "C12-T0042": {
+   "account_code": "EXP-PAYR7",
+   "confidence": "high",
+   "reason": "Salary payment to employee"
+  },
+  "C12-T0043": {
+   "account_code": "EXP-TRAV3",
+   "confidence": "medium",
+   "reason": "Transaction resembles travel expenses"
+  },
+  "C12-T0044": {
+   "account_code": "REV-SALE1",
+   "confidence": "high",
+   "reason": "Similar reference and positive amount indicating income"
+  },
+  "C12-T0045": {
+   "account_code": "EXP-BANK5",
+   "confidence": "high",
+   "reason": "Similar to past maintenance charge postings"
+  },
+  "C12-T0046": {
+   "account_code": "EXP-OFFI1",
+   "confidence": "high",
+   "reason": "Payment to office related expenses"
+  }
+ },
+ "facts": {
+  "company": "Ambrin Architecture Practice Ltd",
+  "period": "October 2026",
+  "revenue": "GBP 94,084.48",
+  "revenue_previous_month": "GBP 42,577.84",
+  "revenue_change_vs_previous_month": "+121.0%",
+  "operating_expenses": "GBP 36,522.99",
+  "operating_expenses_previous_month": "GBP 28,031.30",
+  "operating_expenses_change": "+30.3%",
+  "money_in": "GBP 94,596.60",
+  "money_out": "GBP 38,718.13",
+  "net_cash_flow": "GBP 55,878.47",
+  "largest_expense_accounts": [
+   "Wages and salaries: GBP 9,928.82",
+   "Legal and professional: GBP 7,689.01",
+   "Cost of sales: GBP 6,354.22",
+   "Repairs and maintenance: GBP 2,994.81",
+   "Travel: GBP 2,059.00"
+  ],
+  "customer_invoices_open": "7 totalling GBP 51,552.69",
+  "customer_invoices_overdue": "3 totalling GBP 22,072.41",
+  "supplier_invoices_unpaid": "7 totalling GBP 31,469.71",
+  "supplier_invoices_due_next_14_days": "4 totalling GBP 16,701.21",
+  "items_awaiting_your_review": 14,
+  "high_risk_items_blocked": "5 (for example bank-detail change requests or suspicious emails)"
+ },
+ "raw": {
+  "revenue": 94084.48000000001,
+  "prev_revenue": 42577.840000000004,
+  "revenue_change_pct": 121.0,
+  "operating_expenses": 36522.99,
+  "prev_operating_expenses": 28031.300000000003,
+  "opex_change_pct": 30.3,
+  "money_in": 94596.6,
+  "money_out": 38718.13,
+  "net_cash_flow": 55878.47000000001,
+  "ar_open_count": 7,
+  "ar_open_total": 51552.69,
+  "ar_overdue_count": 3,
+  "ar_overdue_total": 22072.41,
+  "ap_open_count": 7,
+  "ap_open_total": 31469.710000000003,
+  "ap_due_14d_count": 4,
+  "ap_due_14d_total": 16701.21,
+  "items_awaiting_review": 14,
+  "high_risk_items_blocked": 5,
+  "top_expenses": [
+   [
+    "Wages and salaries",
+    9928.82
+   ],
+   [
+    "Legal and professional",
+    7689.01
+   ],
+   [
+    "Cost of sales",
+    6354.219999999999
+   ],
+   [
+    "Repairs and maintenance",
+    2994.81
+   ],
+   [
+    "Travel",
+    2059.0
+   ]
+  ]
+ },
+ "commentary": "Ambrin Architecture Practice Ltd saw a significant increase in revenue by 121.0% to GBP 94,084.48 in October 2026 compared to the previous month. Operating expenses rose by 30.3% to GBP 36,522.99, with wages and salaries being the largest single expense at GBP 9,928.82. Cash flow improved with a net inflow of GBP 55,878.47. There are 7 customer invoices totaling GBP 51,552.69 still open, including 3 overdue ones totaling GBP 22,072.41. Supplier invoices outstanding total GBP 31,469.71, with 4 due within the next 14 days. Please review 14 items and address 5 high-risk blocked requests.",
+ "commentary_check": {
+  "unsupported_first_draft": [],
+  "retried": false,
+  "unsupported_after_retry": [],
+  "sentences_dropped": 0,
+  "unsupported_final": []
+ },
+ "status_counts": {
+  "auto_applied": 71,
+  "blocked": 5,
+  "pending": 15
+ }
+}
