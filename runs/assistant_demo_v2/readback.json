@@ -1,0 +1,290 @@
+{
+ "harbourlane": {
+  "provider": "m365",
+  "address": "sam@harbourlane.example",
+  "drafts": [
+   {
+    "id": "AAMkDr1099",
+    "subject": "RE: Meeting re Unit 5 lease dispute",
+    "body": "Hi Rachel,\n\nThank you for your email. I'm not available on Tuesday 17 November at 10:30 am. How about Tuesday 17 November at 11:30 am or Thursday 19 November at 10:00 am?\n\nLooking forward to resolving this.\n\nBest,\nSam\n\nSam Doyle | Director, Harbourlane Property",
+    "to": [
+     "rachel@moorelaw.example"
+    ]
+   },
+   {
+    "id": "AAMkDr1100",
+    "subject": "RE: Unit 4 asking rent",
+    "body": "Hi Leah,\n\nThanks for the update. [Sam: OK with dropping the asking rent to $680 a week?] We want to get it filled before Christmas.\n\nCheers,\nSam\n\nSam Doyle | Director, Harbourlane Property",
+    "to": [
+     "leah@kestrel-leasing.example"
+    ]
+   },
+   {
+    "id": "AAMkDr1101",
+    "subject": "RE: Annual facility review",
+    "body": "Hi Grace,\n\nThursday 19 November at 3:00 pm works for me. I'll bring the latest rent roll.\n\nCheers,\nSam\n\nSam Doyle | Director, Harbourlane Property",
+    "to": [
+     "grace.lim@eastbank.example"
+    ]
+   },
+   {
+    "id": "AAMkDr1103",
+    "subject": "RE: Revised Pyrmont plans",
+    "body": "Hi Tom,\n\nThanks for the update. I've had a look at the revised plans. The lobby layout looks good, but I have a couple of questions about the bin store location. Can we discuss these when you're free?\n\n[Sam: Comments on the plans by Thursday?]\n\nCheers,\nSam\n\nSam Doyle | Director, Harbourlane Property",
+    "to": [
+     "tom@orrarchitects.example"
+    ]
+   },
+   {
+    "id": "AAMkDr1104",
+    "subject": "RE: Completed: Lease Unit 2, 14 Bay St",
+    "body": "Hi SignFlow,\n\nThanks for letting me know. I've reviewed the document and all looks good. [Sam: Approve for signing?]\n\nCheers,\nSam\n\nSam Doyle | Director, Harbourlane Property",
+    "to": [
+     "noreply@signflow.example"
+    ]
+   }
+  ],
+  "events": [
+   {
+    "start": "2026-11-15T22:00:00+00:00",
+    "end": "2026-11-15T23:00:00+00:00",
+    "title": "Leadership stand-up",
+    "location": "Level 4, Harbourlane",
+    "tentative": false,
+    "id": "AAMkEv1030"
+   },
+   {
+    "start": "2026-11-16T23:00:00+00:00",
+    "end": "2026-11-17T00:30:00+00:00",
+    "title": "Site inspection, Pyrmont",
+    "location": "Pyrmont",
+    "tentative": false,
+    "id": "AAMkEv1031"
+   },
+   {
+    "start": "2026-11-18T22:00:00+00:00",
+    "end": "2026-11-18T23:00:00+00:00",
+    "title": "Leasing pipeline review",
+    "location": "Teams",
+    "tentative": false,
+    "id": "AAMkEv1032"
+   },
+   {
+    "start": "2026-11-19T15:00:00+11:00",
+    "end": "2026-11-19T16:00:00+11:00",
+    "title": "Annual facility review",
+    "location": "Martin Place office",
+    "tentative": true,
+    "id": "AAMkEv1102"
+   }
+  ]
+ },
+ "bluegum": {
+  "provider": "google",
+  "address": "sam@bluegumfreight.example",
+  "drafts": [
+   {
+    "id": "r-1106",
+    "subject": "Re: Fleet insurance renewal",
+    "body": "Hi Alan,\n\nThanks for the reminder. I'll get the current vehicle list to you by Friday.\n\n[Sam: Confirm number of vehicles and any changes since last year.]\n\nCheers,\nSam",
+    "to": [
+     "alan@tasmanbrokers.example"
+    ]
+   },
+   {
+    "id": "r-1112",
+    "subject": "Re: While you're in Melbourne",
+    "body": "Hi Pete,\n\nSure thing. Wednesday 18th at 11:00 works for me. Looking forward to seeing the new racking and chatting about the second forklift.\n\nSam",
+    "to": [
+     "pete@bluegumfreight.example"
+    ]
+   },
+   {
+    "id": "r-1116",
+    "subject": "Re: Two MC drivers available",
+    "body": "Hi Nina,\n\nThanks for the update. Both drivers sound good. [Sam: Go ahead with both or just one?] Rate is fine.\n\nCheers,\nSam",
+    "to": [
+     "nina@roadcrew-recruit.example"
+    ]
+   },
+   {
+    "id": "r-1118",
+    "subject": "Re: Scheduled maintenance this weekend",
+    "body": "Hi Workspace Admin,\n\nThanks for the heads up. No action needed from my side.\n\n[Sam: confirm understanding of maintenance window]\n\nCheers,\nSam",
+    "to": [
+     "admin@bluegumfreight.example"
+    ]
+   },
+   {
+    "id": "r-1120",
+    "subject": "Re: Dubbo trial numbers",
+    "body": "Hi Mark,\n\nThanks for the update. The numbers look promising despite the slight increase in fuel. [Sam: Do you want to continue the trial into December?]\n\nCheers,\nSam",
+    "to": [
+     "mark@bluegumfreight.example"
+    ]
+   }
+  ],
+  "events": [
+   {
+    "start": "2026-11-17T14:00:00+11:00",
+    "end": "2026-11-17T15:00:00+11:00",
+    "title": "Fleet review",
+    "location": "Bluegum yard, Wetherill Park",
+    "tentative": false,
+    "id": "ev1065"
+   },
+   {
+    "start": "2026-11-18T06:45:00+11:00",
+    "end": "2026-11-18T08:20:00+11:00",
+    "title": "JL 412 SYD-MEL",
+    "location": "",
+    "tentative": true,
+    "id": "ev1109"
+   },
+   {
+    "start": "2026-11-18T11:00:00+11:00",
+    "end": "2026-11-18T12:00:00+11:00",
+    "title": "Depot walk-through",
+    "location": "depot",
+    "tentative": true,
+    "id": "ev1114"
+   },
+   {
+    "start": "2026-11-18T18:30:00+11:00",
+    "end": "2026-11-18T20:00:00+11:00",
+    "title": "JL 431 MEL-SYD",
+    "location": "",
+    "tentative": true,
+    "id": "ev1110"
+   },
+   {
+    "start": "2026-11-20T08:30:00+11:00",
+    "end": "2026-11-20T09:30:00+11:00",
+    "title": "Safety committee",
+    "location": "Google Meet",
+    "tentative": false,
+    "id": "ev1066"
+   }
+  ]
+ },
+ "saltbush": {
+  "provider": "zoho",
+  "address": "sam@saltbushcafes.example",
+  "drafts": [
+   {
+    "id": "171124",
+    "subject": "Re: Newtown lease: meeting with landlord",
+    "to": [
+     "kate@newtownrealty.example"
+    ],
+    "body": "Hi Kate,\n\nThanks for the heads up. I'm not free at 3:30 pm on Friday 20 November. How about 4 pm on the same day, or 9 am on Tuesday 24 November?\n\nCheers,\nSam"
+   },
+   {
+    "id": "171127",
+    "subject": "Re: Catering order was wrong",
+    "to": [
+     "olivia.grant@gmail.example"
+    ],
+    "body": "Hi Olivia,\n\nI'm sorry to hear about the mix-up with your catering order. Can you confirm the cost of the additional food you had to purchase? [Sam: Once you've provided that, I'll let you know if a refund is possible.]\n\nCheers,\nSam"
+   },
+   {
+    "id": "171128",
+    "subject": "Re: Extra casual for December",
+    "to": [
+     "jo@saltbushcafes.example"
+    ],
+    "body": "Hey Jo,\n\nThanks for the heads up. Newtown is busy. [Sam: approve one more casual for December?] \n\nCheers,  \nSam"
+   }
+  ],
+  "events": [
+   {
+    "start": "2026-11-16T13:00:00+11:00",
+    "end": "2026-11-16T14:00:00+11:00",
+    "title": "Menu tasting",
+    "location": "Saltbush Surry Hills",
+    "tentative": false,
+    "id": "ev1098@zoho.com"
+   },
+   {
+    "start": "2026-11-20T15:00:00+11:00",
+    "end": "2026-11-20T16:00:00+11:00",
+    "title": "Cafe managers catch-up",
+    "location": "Saltbush Newtown",
+    "tentative": false,
+    "id": "ev1097@zoho.com"
+   },
+   {
+    "start": "2026-11-22T20:00:00+00:00",
+    "end": "2026-11-22T20:55:00+00:00",
+    "title": "HOLD: JL 1102 SYD-CBR",
+    "location": "",
+    "tentative": true,
+    "id": "ev1125@zoho.com"
+   },
+   {
+    "start": "2026-11-23T06:30:00+00:00",
+    "end": "2026-11-23T07:25:00+00:00",
+    "title": "HOLD: JL 1127 CBR-SYD",
+    "location": "",
+    "tentative": true,
+    "id": "ev1126@zoho.com"
+   }
+  ]
+ },
+ "doyle": {
+  "provider": "imap",
+  "address": "sam@doylefamily.example",
+  "drafts": [
+   {
+    "id": "Drafts:101",
+    "subject": "Re: Can we move Wednesday lunch?",
+    "body": "Hi Priya,\r\n\r\nSure, Thursday 19 November at 12:30 pm works for me. I'll send the signed SMSF financial statements over when I get a chance.\r\n\r\nCheers,  \r\nSam",
+    "to": [
+     "priya@nairco.example"
+    ]
+   },
+   {
+    "id": "Drafts:102",
+    "subject": "Re: Concessional contribution cap check",
+    "body": "Hi SMSF Admin,\r\n\r\nThanks for the update. No further employer contributions are expected before 30 June [Sam: confirm any personal contributions planned?].\r\n\r\nCheers,  \r\nSam",
+    "to": [
+     "help@smsfadmin.example"
+    ]
+   },
+   {
+    "id": "Drafts:103",
+    "subject": "Re: Mum's 70th",
+    "body": "Hi Chris,\r\n\r\nI'm free on Saturday 28 November at 6:30 pm. Sounds good for Mum's 70th. Let me know if you need my number.\r\n\r\nCheers,  \r\nSam",
+    "to": [
+     "chris.doyle@gmail.example"
+    ]
+   }
+  ],
+  "events": [
+   {
+    "start": "2026-11-18T12:30:00+11:00",
+    "end": "2026-11-18T13:30:00+11:00",
+    "title": "Lunch with Priya (accountant)",
+    "location": "Ester, Chippendale",
+    "tentative": false,
+    "id": "8cd03e13-9f02-4ed7-90d9-eee2f10351b0"
+   },
+   {
+    "start": "2026-11-19T12:30:00+11:00",
+    "end": "2026-11-19T13:30:00+11:00",
+    "title": "Lunch",
+    "location": "",
+    "tentative": true,
+    "id": "242db834-9eff-4df2-9ac9-c253b686881f"
+   },
+   {
+    "start": "2026-11-28T18:30:00+11:00",
+    "end": "2026-11-28T19:30:00+11:00",
+    "title": "Mum's 70th dinner",
+    "location": "Italian place in Leichhardt",
+    "tentative": true,
+    "id": "01c165c9-bf01-41b7-9673-5d96b386e94d"
+   }
+  ]
+ }
+}

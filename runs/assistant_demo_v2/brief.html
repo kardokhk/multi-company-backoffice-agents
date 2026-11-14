@@ -1,0 +1,127 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Morning brief</title><style>
+:root{--ink:#1d2430;--muted:#5b6575;--line:#dde2ea;--bg:#ffffff;--soft:#f5f7fa;--warn:#b42318;--warnbg:#fdf0ef}
+*{box-sizing:border-box}body{margin:0;background:#e9edf2;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--ink);font-size:13px;line-height:1.4}
+.page{width:1600px;margin:0 auto 24px;background:var(--bg);padding:34px 40px;page-break-after:always}
+h1{font-size:26px;margin:0 0 2px}h2{font-size:15px;margin:0 0 10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.sub{color:var(--muted);font-size:14px;margin-bottom:20px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
+.card{border:1px solid var(--line);border-top:5px solid;border-radius:8px;padding:12px 14px}
+.card .p{font-weight:700;font-size:14px}.card .a{color:var(--muted);font-size:12px;margin-bottom:8px}
+.nums{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;text-align:center}.nums b{display:block;font-size:20px}.nums span{font-size:10.5px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:1.15fr 1fr;gap:26px}
+.box{border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:18px}
+.risk{background:var(--warnbg);border-color:#f3c3be}.risk li{margin-bottom:7px}.risk b{color:var(--warn)}
+ul{margin:0;padding-left:18px}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.day{margin-bottom:9px}.day .d{font-weight:700;margin-bottom:3px}
+.ev{display:flex;gap:8px;align-items:baseline;padding:2px 0}.ev .t{width:150px;flex:none;white-space:nowrap;color:var(--muted);font-variant-numeric:tabular-nums}
+.badge{font-size:10.5px;font-weight:700;border-radius:4px;padding:1px 6px;margin-left:6px}
+.new{background:#e7f3ff;color:#0b5394}.clash{background:var(--warnbg);color:var(--warn)}.away{background:#fff4e0;color:#8a5300}
+.draft{display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px solid var(--line);padding-top:10px;margin-top:10px}
+.draft:first-of-type{border-top:0;margin-top:0;padding-top:0}
+.q{background:var(--soft);border-radius:6px;padding:8px 10px;white-space:pre-wrap;font-size:12px}
+.r{border:1px dashed #9db4cc;border-radius:6px;padding:8px 10px;white-space:pre-wrap;font-size:12px}
+.lbl{font-size:11px;color:var(--muted);margin-bottom:3px}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}th{font-size:12px;color:var(--muted)}
+.small{font-size:12px;color:var(--muted)}.foot{margin-top:14px;font-size:11.5px;color:var(--muted)}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}.kpi div{background:var(--soft);border-radius:8px;padding:12px}
+.kpi b{font-size:24px;display:block}
+</style></head><body><div class="page" style="min-height:1560px">
+<h1>Good morning, Sam</h1>
+<div class="sub">Monday 16 November, 7:00 am &middot; 35 new emails across 4 accounts since Friday 5 pm &middot;
+16 replies drafted &middot; 8 calendar holds &middot; 9 items sent to bookkeeping &middot;
+4 held for you to check &middot; nothing was sent</div>
+<div class="cards"><div class="card" style="border-top-color:#0072B2"><div class="p">Harbourlane Property</div><div class="a">Microsoft 365 &middot; sam@harbourlane.example</div><div class="nums"><div><b>9</b><span>new</span></div><div><b>5</b><span>drafts</span></div><div><b>1</b><span>holds</span></div><div><b>2</b><span>to books</span></div><div><b>1</b><span>check first</span></div></div></div><div class="card" style="border-top-color:#009E73"><div class="p">Bluegum Freight</div><div class="a">Google Workspace &middot; sam@bluegumfreight.example</div><div class="nums"><div><b>10</b><span>new</span></div><div><b>5</b><span>drafts</span></div><div><b>3</b><span>holds</span></div><div><b>2</b><span>to books</span></div><div><b>1</b><span>check first</span></div></div></div><div class="card" style="border-top-color:#D55E00"><div class="p">Saltbush Cafes</div><div class="a">Zoho Mail (AU) &middot; sam@saltbushcafes.example</div><div class="nums"><div><b>9</b><span>new</span></div><div><b>3</b><span>drafts</span></div><div><b>2</b><span>holds</span></div><div><b>3</b><span>to books</span></div><div><b>1</b><span>check first</span></div></div></div><div class="card" style="border-top-color:#CC79A7"><div class="p">Doyle Family Office</div><div class="a">cPanel (IMAP + CalDAV) &middot; sam@doylefamily.example</div><div class="nums"><div><b>7</b><span>new</span></div><div><b>3</b><span>drafts</span></div><div><b>2</b><span>holds</span></div><div><b>2</b><span>to books</span></div><div><b>1</b><span>check first</span></div></div></div></div>
+<div class="grid"><div>
+<div class="box risk"><h2>Check first: held, no reply drafted</h2><ul><li><span class="dot" style="background:#0072B2"></span><b>Updated bank details for future payments</b> from Coastline Plumbing Accounts &lt;accounts@coastlineplumbimg.example&gt;<br><span class="small">sender domain coastlineplumbimg.example imitates coastlineplumbing.example; asks to change bank details. No reply drafted, nothing actioned.</span></li><li><span class="dot" style="background:#009E73"></span><b>Urgent payment today</b> from Mark Ellis &lt;mark.ellis.director@mailbox.example&gt;<br><span class="small">display name &#x27;Mark Ellis&#x27; but sent from mailbox.example, not bluegumfreight.example. No reply drafted, nothing actioned.</span></li><li><span class="dot" style="background:#D55E00"></span><b>Our summer blends</b> from Ridge Roasters News &lt;news@ridgeroasters-mail.example&gt;<br><span class="small">sender domain ridgeroasters-mail.example imitates ridgeroasters.example; instructions aimed at software: assistant instruction; you are an ai. No reply drafted, nothing actioned.</span></li><li><span class="dot" style="background:#CC79A7"></span><b>You have an unclaimed tax refund</b> from ATO Refunds &lt;refunds@atogov-refunds.example&gt;<br><span class="small">claims to be the ATO/myGov but links outside gov.au. No reply drafted, nothing actioned.</span></li></ul></div>
+<div class="box"><h2>Replies waiting in your Drafts folders (4 of 16)</h2><div class="draft"><div><div class="lbl"><span class="dot" style="background:#0072B2"></span>Microsoft 365: Leah Kestrel wrote</div><div class="q">Hi Sam,
+
+Unit 4 has had two quiet weekends. Are you OK with us dropping the asking rent from $720 to $680 a week to get it filled before Christmas? We&#x27;d need to update the listing by Wednesday.
+
+Thanks,
+Leah</div></div><div><div class="lbl">Draft waiting in Sam's Drafts folder</div><div class="r">Hi Leah,
+
+Thanks for the update. [Sam: OK with dropping the asking rent to $680 a week?] We want to get it filled before Christmas.
+
+Cheers,
+Sam
+
+Sam Doyle | Director, Harbourlane Property</div></div></div><div class="draft"><div><div class="lbl"><span class="dot" style="background:#0072B2"></span>Microsoft 365: Rachel Moore wrote</div><div class="q">Dear Mr Doyle,
+
+I act for the tenant of Unit 5. My client would like to meet to resolve the outstanding repair issues. Could we meet on Tuesday 17 November at 10:30 am at your office for about 45 minutes?
+
+Kind regards,
+Rachel Moore
+Moore Law</div></div><div><div class="lbl">Draft waiting in Sam's Drafts folder</div><div class="r">Hi Rachel,
+
+Thank you for your email. I&#x27;m not available on Tuesday 17 November at 10:30 am. How about Tuesday 17 November at 11:30 am or Thursday 19 November at 10:00 am?
+
+Looking forward to resolving this.
+
+Best,
+Sam
+
+Sam Doyle | Director, Harbourlane Property</div></div></div><div class="draft"><div><div class="lbl"><span class="dot" style="background:#D55E00"></span>Zoho Mail (AU): Jo Tran wrote</div><div class="q">Hey Sam, Newtown is flat out on weekends. Can I bring on one more casual for December? I&#x27;ve got someone good from the last round.</div></div><div><div class="lbl">Draft waiting in Sam's Drafts folder</div><div class="r">Hey Jo,
+
+Thanks for the heads up. Newtown is busy. [Sam: approve one more casual for December?] 
+
+Cheers,  
+Sam</div></div></div><div class="draft"><div><div class="lbl"><span class="dot" style="background:#D55E00"></span>Zoho Mail (AU): Olivia Grant wrote</div><div class="q">Hi,
+
+We ordered a platter for 20 on Saturday for my daughter&#x27;s party and got a platter for 10. We had to run out and buy more food. I&#x27;d like a refund for the difference please.
+
+Olivia Grant</div></div><div><div class="lbl">Draft waiting in Sam's Drafts folder</div><div class="r">Hi Olivia,
+
+I&#x27;m sorry to hear about the mix-up with your catering order. Can you confirm the cost of the additional food you had to purchase? [Sam: Once you&#x27;ve provided that, I&#x27;ll let you know if a refund is possible.]
+
+Cheers,
+Sam</div></div></div>
+<div class="small" style="margin-top:10px">You read and send every draft. In this run, 3 of the 16 drafts stated an opinion or fact you had not given
+(for example "the lobby layout looks good"), which is why the assistant never sends anything itself.</div></div>
+</div><div>
+<div class="box"><h2>This week: all four calendars</h2><div class="day"><div class="d">Monday 16 November</div><div class="ev"><span class="t">9:00 am to 10:00 am</span><span><span class="dot" style="background:#0072B2"></span>Leadership stand-up</span></div><div class="ev"><span class="t">1:00 pm to 2:00 pm</span><span><span class="dot" style="background:#D55E00"></span>Menu tasting</span></div></div><div class="day"><div class="d">Tuesday 17 November</div><div class="ev"><span class="t">10:00 am to 11:30 am</span><span><span class="dot" style="background:#0072B2"></span>Site inspection, Pyrmont</span></div><div class="ev"><span class="t">10:30 am</span><span><span class="dot" style="background:#0072B2"></span>Rachel Moore asked for this time<span class="badge clash">clash: Site inspection, Pyrmont</span><br><span class="small">Not booked. Reply drafted offering Tue 17 Nov 11:30 am, Thu 19 Nov 10:00 am.</span></span></div><div class="ev"><span class="t">2:00 pm to 3:00 pm</span><span><span class="dot" style="background:#009E73"></span>Fleet review</span></div></div><div class="day"><div class="d">Wednesday 18 November<span class="badge away">away: SYD-MEL return, 18 Nov</span></div><div class="ev"><span class="t">6:45 am to 8:20 am</span><span><span class="dot" style="background:#009E73"></span>JL 412 SYD-MEL<span class="badge new">new hold</span></span></div><div class="ev"><span class="t">11:00 am to 12:00 pm</span><span><span class="dot" style="background:#009E73"></span>Depot walk-through<span class="badge new">new hold</span></span></div><div class="ev"><span class="t">12:30 pm to 1:30 pm</span><span><span class="dot" style="background:#CC79A7"></span>Lunch with Priya (accountant)<span class="badge clash">clashes with trip</span></span></div><div class="ev"><span class="t">6:30 pm to 8:00 pm</span><span><span class="dot" style="background:#009E73"></span>JL 431 MEL-SYD<span class="badge new">new hold</span></span></div></div><div class="day"><div class="d">Thursday 19 November</div><div class="ev"><span class="t">9:00 am to 10:00 am</span><span><span class="dot" style="background:#0072B2"></span>Leasing pipeline review</span></div><div class="ev"><span class="t">12:30 pm to 1:30 pm</span><span><span class="dot" style="background:#CC79A7"></span>Lunch<span class="badge new">new hold</span></span></div><div class="ev"><span class="t">3:00 pm to 4:00 pm</span><span><span class="dot" style="background:#0072B2"></span>Annual facility review<span class="badge new">new hold</span></span></div></div><div class="day"><div class="d">Friday 20 November</div><div class="ev"><span class="t">8:30 am to 9:30 am</span><span><span class="dot" style="background:#009E73"></span>Safety committee</span></div><div class="ev"><span class="t">3:00 pm to 4:00 pm</span><span><span class="dot" style="background:#D55E00"></span>Cafe managers catch-up</span></div><div class="ev"><span class="t">3:30 pm</span><span><span class="dot" style="background:#D55E00"></span>Kate Newtown asked for this time<span class="badge clash">clash: Cafe managers catch-up</span><br><span class="small">Not booked. Reply drafted offering Fri 20 Nov 4:00 pm, Tue 24 Nov 9:00 am.</span></span></div></div></div>
+<div class="box"><h2>Sent to bookkeeping (9)</h2><ul><li><span class="dot" style="background:#0072B2"></span>Invoice INV-4471 Unit 3 hot water <span class="small">(Dan Coastline)</span></li><li><span class="dot" style="background:#0072B2"></span>Levy notice Q3: SP 41927 <span class="small">(Strata Plus Levies)</span></li><li><span class="dot" style="background:#009E73"></span>Remittance advice <span class="small">(Riverina Grain AP)</span></li><li><span class="dot" style="background:#009E73"></span>Your October fuel card statement <span class="small">(FuelCards Australia)</span></li><li><span class="dot" style="background:#D55E00"></span>Invoice RR-20931 <span class="small">(Ridge Roasters)</span></li><li><span class="dot" style="background:#D55E00"></span>October BAS ready for review <span class="small">(Mia at Ledger Lane)</span></li><li><span class="dot" style="background:#D55E00"></span>Payment for catering invoice 1043 <span class="small">(Harbour Events)</span></li><li><span class="dot" style="background:#CC79A7"></span>Rates instalment notice <span class="small">(Inner West Council)</span></li><li><span class="dot" style="background:#CC79A7"></span>Domain auto-renewal: doylefamily.example <span class="small">(HostCentral)</span></li></ul></div>
+<div class="box"><h2>FYI, filed (4)</h2><span class="small">This week: land tax changes and the rental market, Monday briefing: diesel prices ease, Weekly sales summary, December trip list</span></div>
+</div></div></div><div class="page">
+<h1>How it works</h1>
+<div class="sub">One assistant, one set of rules, four different email systems. Each system has its own connector; everything after the connector is shared.</div>
+<div class="kpi">
+<div><b>31/35</b>emails sorted correctly</div>
+<div><b>4/4</b>fraud and manipulation attempts held (0 false alarms)</div>
+<div><b>5/6</b>meeting times read correctly; 6/6 clashes called correctly</div>
+<div><b>16/16</b>drafts found in the right Drafts folder when read back</div>
+</div>
+<div class="grid"><div>
+<div class="box"><h2>How each account is connected</h2><table><tr><th>System</th><th>Connection</th><th>Access</th></tr><tr><td><span class="dot" style="background:#0072B2"></span><b>Microsoft 365</b><br><span class="small">Harbourlane Property</span></td><td>Microsoft Graph API</td><td>App registration limited to Sam&#x27;s mailbox by Exchange RBAC for Applications. Reads mail and calendar; writes drafts, tentative holds and categories.</td></tr><tr><td><span class="dot" style="background:#009E73"></span><b>Google Workspace</b><br><span class="small">Bluegum Freight</span></td><td>Gmail and Calendar APIs</td><td>Internal OAuth app in the company&#x27;s own Workspace, approved by its admin. Reads mail and calendar; writes drafts, tentative holds and labels.</td></tr><tr><td><span class="dot" style="background:#D55E00"></span><b>Zoho Mail (AU)</b><br><span class="small">Saltbush Cafes</span></td><td>Zoho Mail and Calendar APIs</td><td>OAuth on Zoho&#x27;s Australian data centre (zoho.com.au). Reads mail and calendar; writes drafts and holds.</td></tr><tr><td><span class="dot" style="background:#CC79A7"></span><b>cPanel (IMAP + CalDAV)</b><br><span class="small">Doyle Family Office</span></td><td>IMAP + CalDAV (open standards)</td><td>The mailbox&#x27;s own login over TLS (IMAP 993, CalDAV 2080 on cPanel). Reads mail and calendar; writes drafts, tentative holds and keywords.</td></tr></table></div>
+<div class="box"><h2>Ground rules</h2><ul>
+<li>The assistant never sends, accepts or pays anything. Replies wait in the Drafts folder; meetings go in as tentative holds.</li>
+<li>Clashes are checked across all four calendars at once, in code, not by the model.</li>
+<li>Bank details, phone numbers and email addresses are masked before the model sees any text.</li>
+<li>Fraud checks run before the model and do not depend on it: lookalike domains, impersonated colleagues, fake ATO links, bank-detail changes, hidden instructions.</li>
+<li>Your tone comes from examples of your own sent mail, picked fresh for every draft. No model is trained on your email.</li>
+</ul></div>
+</div><div>
+<div class="box"><h2>Tone: same model, with and without Sam's examples</h2><table><tr><th></th><th>Median words</th><th>Range</th><th>Stock phrases*</th><th>Signed like Sam</th></tr><tr><td>Sam's own sent emails</td><td>16.0</td><td>8 to 34</td><td>0 of 24</td><td>24 of 24</td></tr><tr><td><b>Drafts using Sam's sent mail as examples</b></td><td>26.5</td><td>19 to 47</td><td>0 of 16</td><td>16 of 16</td></tr><tr><td>Same model, no examples</td><td>61.5</td><td>9 to 109</td><td>12 of 16</td><td>9 of 16</td></tr></table>
+<div class="small" style="margin:6px 0 12px">Example below: without examples the model also made the rent decision itself. *Stock phrases: "Dear", "Kind regards", "Please don't hesitate", "I hope this email finds you well" and similar. Sam never uses them.</div><div class="draft"><div><div class="lbl">Without examples</div><div class="q">Hi Leah,
+
+Thank you for the update on Unit 4. Given the current market conditions and the approaching holiday season, I think it makes sense to adjust the rent to ensure we can fill the unit before Christmas. I&#x27;m [OK with reducing the asking rent to $680 per week], but please confirm this with the property manager to ensure consistency across all listings.
+
+We&#x27;ll need to update the listing by Wednesday as requested. Let me know if there are any other details I need to be aware of.
+
+Best regards,
+Sam</div></div><div><div class="lbl">With Sam's sent mail as examples</div><div class="r">Hi Leah,
+
+Thanks for the update. [Sam: OK with dropping the asking rent to $680 a week?] We want to get it filled before Christmas.
+
+Cheers,
+Sam
+
+Sam Doyle | Director, Harbourlane Property</div></div></div></div>
+</div></div>
+<div class="foot">Demo on invented data: 4 accounts, 35 inbound emails, 24 sent emails, 8 calendar events; all names and domains are fictional.
+The cPanel account ran on real IMAP and CalDAV servers. The Microsoft 365, Google and Zoho accounts ran the same adapter code against local stand-ins
+that follow each provider's documented API. The model was an open-weight model (Qwen/Qwen2.5-7B-Instruct) on one GPU, so no email left the server.
+This is the second run. The first run sorted 27 of 35 emails correctly and read 3 of 6 meeting times; it showed the model filing anything that
+mentioned money as bookkeeping, inventing a date for "Wednesday", and drafting opinions. The fixes were general rules (dates must appear in the email or are
+worked out in code; tighter category definitions; drafts may not give opinions or claim actions), but they were made after seeing these emails, so read
+these numbers as a demonstration, not a benchmark.</div>
+</div></body></html>

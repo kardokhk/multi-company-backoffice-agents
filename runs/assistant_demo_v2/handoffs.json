@@ -1,0 +1,83 @@
+[
+ {
+  "account": "harbourlane",
+  "business": "Harbourlane Property",
+  "to": "accounts@harbourlane.example",
+  "from": "dan@coastlineplumbing.example",
+  "subject": "Invoice INV-4471 Unit 3 hot water",
+  "summary": "Invoice for hot water system replacement at Unit 3, due 28 Nov 2026.",
+  "message_id": "<demo-harbourlane-000@coastlineplumbing.example>"
+ },
+ {
+  "account": "harbourlane",
+  "business": "Harbourlane Property",
+  "to": "accounts@harbourlane.example",
+  "from": "levies@strataplus.example",
+  "subject": "Levy notice Q3: SP 41927",
+  "summary": "Quarterly levy notice for Lot 12, SP 41927 due by 1 December 2026.",
+  "message_id": "<demo-harbourlane-005@strataplus.example>"
+ },
+ {
+  "account": "bluegum",
+  "business": "Bluegum Freight",
+  "to": "accounts@bluegumfreight.example",
+  "from": "ap@riverinagrain.example",
+  "subject": "Remittance advice",
+  "summary": "Payment of $12,650.00 for invoice INV-2207 confirmed.",
+  "message_id": "<demo-bluegum-002@riverinagrain.example>"
+ },
+ {
+  "account": "bluegum",
+  "business": "Bluegum Freight",
+  "to": "accounts@bluegumfreight.example",
+  "from": "statements@fuelcardsaus.example",
+  "subject": "Your October fuel card statement",
+  "summary": "October fuel card statement with amount due of $18,432.10",
+  "message_id": "<demo-bluegum-001@fuelcardsaus.example>"
+ },
+ {
+  "account": "saltbush",
+  "business": "Saltbush Cafes",
+  "to": "accounts@saltbushcafes.example",
+  "from": "accounts@ridgeroasters.example",
+  "subject": "Invoice RR-20931",
+  "summary": "Invoice RR-20931 for October coffee supply, $2,816.00 incl. GST, 14-day terms.",
+  "message_id": "<demo-saltbush-000@ridgeroasters.example>"
+ },
+ {
+  "account": "saltbush",
+  "business": "Saltbush Cafes",
+  "to": "accounts@saltbushcafes.example",
+  "from": "bas@ledgerlane.example",
+  "subject": "October BAS ready for review",
+  "summary": "October BAS is ready for review and approval.",
+  "message_id": "<demo-saltbush-001@ledgerlane.example>"
+ },
+ {
+  "account": "saltbush",
+  "business": "Saltbush Cafes",
+  "to": "accounts@saltbushcafes.example",
+  "from": "events@harbourevents.example",
+  "subject": "Payment for catering invoice 1043",
+  "summary": "Confirm receipt of $1,350 payment for invoice 1043 and send a receipt.",
+  "message_id": "<demo-saltbush-008@harbourevents.example>"
+ },
+ {
+  "account": "doyle",
+  "business": "Doyle Family Office (cPanel hosting)",
+  "to": "accounts@doylefamily.example",
+  "from": "rates@innerwestcouncil.example",
+  "subject": "Rates instalment notice",
+  "summary": "Notice for second instalment of rates due 30 November.",
+  "message_id": "<demo-doyle-001@innerwestcouncil.example>"
+ },
+ {
+  "account": "doyle",
+  "business": "Doyle Family Office (cPanel hosting)",
+  "to": "accounts@doylefamily.example",
+  "from": "billing@hostcentral.example",
+  "subject": "Domain auto-renewal: doylefamily.example",
+  "summary": "Domain doylefamily.example will auto-renew on 12 December 2026.",
+  "message_id": "<demo-doyle-006@hostcentral.example>"
+ }
+]

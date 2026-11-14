@@ -1,0 +1,95 @@
+{
+ "emails": 35,
+ "category_correct": 31,
+ "model_category_correct": 30,
+ "risk_caught": 4,
+ "risk_total": 4,
+ "risk_caught_by_checks": 4,
+ "false_risk": 0,
+ "risk_drafts": 0,
+ "meetings": 6,
+ "meeting_time_correct": 5,
+ "meeting_clash_correct": 6,
+ "travel": 2,
+ "travel_legs_correct": 2,
+ "drafts_written": 16,
+ "drafts_found_in_accounts": 16,
+ "holds_written": 8,
+ "handoffs": 9,
+ "confusions": [
+  {
+   "account": "harbourlane",
+   "subject": "Completed: Lease Unit 2, 14 Bay St",
+   "expected": "fyi",
+   "got": "reply",
+   "model_category": "reply",
+   "signals": []
+  },
+  {
+   "account": "bluegum",
+   "subject": "Scheduled maintenance this weekend",
+   "expected": "fyi",
+   "got": "reply",
+   "model_category": "reply",
+   "signals": []
+  },
+  {
+   "account": "doyle",
+   "subject": "Domain auto-renewal: doylefamily.example",
+   "expected": "fyi",
+   "got": "accounts",
+   "model_category": "accounts",
+   "signals": []
+  },
+  {
+   "account": "doyle",
+   "subject": "Concessional contribution cap check",
+   "expected": "accounts",
+   "got": "reply",
+   "model_category": "reply",
+   "signals": []
+  }
+ ],
+ "style": {
+  "sam_sent": {
+   "n": 24,
+   "median_words": 16.0,
+   "range_words": [
+    8,
+    34
+   ],
+   "with_generic_phrases": 0,
+   "signed_like_sam": 24
+  },
+  "drafts_with_examples": {
+   "n": 16,
+   "median_words": 26.5,
+   "range_words": [
+    19,
+    47
+   ],
+   "with_generic_phrases": 0,
+   "signed_like_sam": 16
+  },
+  "drafts_without_examples": {
+   "n": 16,
+   "median_words": 61.5,
+   "range_words": [
+    9,
+    109
+   ],
+   "with_generic_phrases": 12,
+   "signed_like_sam": 9
+  }
+ },
+ "llm": {
+  "model": "models--Qwen--Qwen2.5-7B-Instruct",
+  "cache_hits": 0,
+  "cache_misses": 67
+ },
+ "api_calls_to_standins": {
+  "harbourlane": 25,
+  "bluegum": 51,
+  "saltbush": 44
+ }
+}

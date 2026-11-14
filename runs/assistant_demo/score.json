@@ -1,0 +1,127 @@
+{
+ "emails": 35,
+ "category_correct": 27,
+ "model_category_correct": 25,
+ "risk_caught": 4,
+ "risk_total": 4,
+ "risk_caught_by_checks": 4,
+ "false_risk": 0,
+ "risk_drafts": 0,
+ "meetings": 6,
+ "meeting_time_correct": 3,
+ "meeting_clash_correct": 5,
+ "travel": 2,
+ "travel_legs_correct": 2,
+ "drafts_written": 11,
+ "drafts_found_in_accounts": 11,
+ "holds_written": 7,
+ "handoffs": 15,
+ "confusions": [
+  {
+   "account": "harbourlane",
+   "subject": "Unit 4 asking rent",
+   "expected": "reply",
+   "got": "accounts",
+   "model_category": "accounts",
+   "signals": []
+  },
+  {
+   "account": "harbourlane",
+   "subject": "Completed: Lease Unit 2, 14 Bay St",
+   "expected": "fyi",
+   "got": "accounts",
+   "model_category": "accounts",
+   "signals": []
+  },
+  {
+   "account": "bluegum",
+   "subject": "Fleet insurance renewal",
+   "expected": "reply",
+   "got": "accounts",
+   "model_category": "accounts",
+   "signals": []
+  },
+  {
+   "account": "bluegum",
+   "subject": "Scheduled maintenance this weekend",
+   "expected": "fyi",
+   "got": "reply",
+   "model_category": "accounts|fyi",
+   "signals": []
+  },
+  {
+   "account": "saltbush",
+   "subject": "Catering order was wrong",
+   "expected": "reply",
+   "got": "accounts",
+   "model_category": "accounts",
+   "signals": []
+  },
+  {
+   "account": "saltbush",
+   "subject": "Weekly sales summary",
+   "expected": "fyi",
+   "got": "accounts",
+   "model_category": "accounts",
+   "signals": []
+  },
+  {
+   "account": "doyle",
+   "subject": "Domain auto-renewal: doylefamily.example",
+   "expected": "fyi",
+   "got": "accounts",
+   "model_category": "accounts",
+   "signals": []
+  },
+  {
+   "account": "doyle",
+   "subject": "Can we move Wednesday lunch?",
+   "expected": "meeting",
+   "got": "reply",
+   "model_category": "meeting|reply",
+   "signals": []
+  }
+ ],
+ "style": {
+  "sam_sent": {
+   "n": 24,
+   "median_words": 16.5,
+   "range_words": [
+    8,
+    40
+   ],
+   "with_generic_phrases": 0,
+   "signed_like_sam": 11
+  },
+  "drafts_with_examples": {
+   "n": 11,
+   "median_words": 26,
+   "range_words": [
+    20,
+    45
+   ],
+   "with_generic_phrases": 0,
+   "signed_like_sam": 11
+  },
+  "drafts_without_examples": {
+   "n": 11,
+   "median_words": 59,
+   "range_words": [
+    9,
+    109
+   ],
+   "with_generic_phrases": 9,
+   "signed_like_sam": 7
+  }
+ },
+ "llm": {
+  "model": "models--Qwen--Qwen2.5-7B-Instruct",
+  "cache_hits": 0,
+  "cache_misses": 57
+ },
+ "api_calls_to_standins": {
+  "harbourlane": 21,
+  "bluegum": 49,
+  "saltbush": 42
+ }
+}
